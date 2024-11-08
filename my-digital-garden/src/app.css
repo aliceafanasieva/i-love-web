@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #a64d79;
+    background: #ffffff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .intro, .projects, .learning-journal, .web-love {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  h1, h2, h3 {
+    color: #a64d79;
+    font-weight: 400;
+  }
+  .see-more {
+    color: #a64d79;
+    text-decoration: none;
+    font-weight: bold;
+  }
