@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: #a64d79;
+    color: #980065;
     background: #ffffff;
   }
   
@@ -23,11 +23,16 @@ body {
   }
   
   h1, h2, h3 {
-    color: #a64d79;
+    color: #980065;
     font-weight: 400;
   }
+  
   .see-more {
-    color: #a64d79;
+    color: #980065;
     text-decoration: none;
     font-weight: bold;
+  }
+
+  .ascii-art {
+    font-size: 24px;
   }
