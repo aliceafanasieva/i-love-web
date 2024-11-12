@@ -1,38 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    color: #980065;
-    background: #ffffff;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .intro, .projects, .learning-journal, .web-love {
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  .grid {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-  
-  h1, h2, h3 {
-    color: #980065;
-    font-weight: 400;
-  }
-  
-  .see-more {
-    color: #980065;
-    text-decoration: none;
-    font-weight: bold;
-  }
+@font-face {
+  font-family: 'DotGothic';
+  src: url('/fonts/DotGothic16/DotGothic16-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .ascii-art {
-    font-size: 24px;
-  }
+:root {
+      --main-text-color: #980065;
+      --padding: 1rem;
+      --font-main: 'Times New Roman', Times, serif;
+      --font-pixel: 'DotGothic', sans-serif;
+      --ascii-art-size: 24px;
+      --grid-gap: 1rem;
+      --grid-column-width: 150px;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--main-text-color);
+  background: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.intro, .projects, .learning-journal, .web-love {
+  text-align: center;
+  padding: var(--padding);
+}
+
+.grid {
+  display: grid;
+  gap: var(--grid-gap);
+  grid-template-columns: repeat(auto-fit, minmax(var(--grid-column-width), 1fr));
+}
+
+h1, h2, h3 {
+  color: var(--main-text-color);
+}
+
+.see-more {
+  color: var(--main-text-color);
+  text-decoration: underline;
+}
+
+.ascii-art {
+  font-size: var(--ascii-art-size);
+}
