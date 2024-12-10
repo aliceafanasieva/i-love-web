@@ -1,18 +1,19 @@
+
 @font-face {
   font-family: 'DotGothic';
   src: url('/fonts/DotGothic16/DotGothic16-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
 }
 
+/* =======================  */
+/* ======== Root =========  */
+/* =======================  */
+
 :root {
-      --main-text-color: #980065;
-      --padding: 1rem;
-      --font-main: 'Times New Roman', Times, serif;
-      --font-pixel: 'DotGothic', sans-serif;
-      --ascii-art-size: 24px;
-      --grid-gap: 1rem;
-      --grid-column-width: 150px;
+    --main-text-color: #980065;
+    --navigation-text-color: #ffffff;
+    --font-main: 'Times New Roman', Times, serif;
+    --font-pixel: 'DotGothic', sans-serif;
+    --ascii-art-size: 1.5rem;
 }
 
 body {
@@ -23,31 +24,107 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   padding: var(--padding);
 }
 
-.intro, .projects, .learning-journal, .web-love {
+h1, h2, h3, h4 {
+  color: var(--main-text-color);
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+main {
   text-align: center;
-  padding: var(--padding);
+  padding: 5em;
+}
+
+/* =======================  */
+/* ====== Home Page ======  */
+/* =======================  */
+
+.intro {
+  padding: 5rem 0 5rem 0;
+}
+
+.intro-greeting {
+  font-family: var(--font-pixel);
+  letter-spacing: 0.2rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 5rem 0;
 }
 
 .grid {
   display: grid;
-  gap: var(--grid-gap);
-  grid-template-columns: repeat(auto-fit, minmax(var(--grid-column-width), 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
 }
 
-h1, h2, h3 {
-  color: var(--main-text-color);
+.projects {
+  padding-top: 10rem;
 }
 
-.see-more {
+.title_category {
+  text-align: left; 
+  width: 100%; 
+  padding-left: 10rem; 
+  margin-bottom: 1rem; 
+}
+
+.see_more_btn {
+  display: flex;
   color: var(--main-text-color);
   text-decoration: underline;
+  justify-self: center;
 }
 
 .ascii-art {
   font-size: var(--ascii-art-size);
+  letter-spacing: 0.4rem;
 }
+
+/* =======================  */
+/* ==== Media Queries ====  */
+/* =======================  */
+
+@media (min-width: 15em) {
+  .grid{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (min-width: 50em) {
+  .category .grid {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    width: 100%;
+    justify-items: center;
+  }
+
+  .logo {
+    position: absolute;
+    transform: rotate(270deg);
+    top: 9rem;
+    left: -1rem;
+  }
+}
+
+
+/* =======================  */
+/* ====== Keyframes ======  */
+/* =======================  */

@@ -1,0 +1,11 @@
+{
+  "name": "i-love-web",
+  "version": "1.0.0",
+  "description": "Learning journal en digital garden... jouw  persoonlijke i-love-web-site is een verzameling zaken die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een [learning journal](#learning-journal) welke je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de [digital garden](#digital-garden), een site waarbij de vorm compleet vrij staat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

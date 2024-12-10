@@ -14,15 +14,19 @@
     .card {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      text-align: center;
+      text-align: left;
       padding: 1rem;
+      max-width: 180px;
+      row-gap: 0.3rem; 
+    }
+
+    h4, p {
+      margin: 0;
     }
     
     img {
       width: 100%;
       height: auto;
-      max-width: 150px;
-      border-radius: 8px;
+      max-width: 180px;
     }
   </style>

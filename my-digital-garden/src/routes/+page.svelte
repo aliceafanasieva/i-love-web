@@ -7,11 +7,12 @@
     <Hamburger 
         type="squeeze" 
         --color="var(--main-text-color)" 
-        --border-radius="1px"
-        --layer-height="2px"  
-        --layer-spacing="7px"
+        --border-radius="0.063rem"
+        --layer-height="0.125rem"  
+        --layer-spacing="0.438rem"
     />
-    <h1>digital_garden</h1>
+
+    <h1 class="logo">digital_garden</h1>
 </header>
 
 <main>
@@ -20,71 +21,53 @@
             <p class="ascii-art">
                 ˚₊ ˚ ‧₊ .:･˚ *₊ ˚ ‧₊ .:･˚₊ 
             </p>
-            <h2>Welcome to my digital garden ^_^</h2>
+            <h2>Welcome to my digital garden (^_^*) </h2>
             <p class="ascii-art">
                 ˚₊ ˚ ‧₊ .:･˚ *₊ ˚ ‧₊ .:･˚₊ 
             </p>
         </section>
-        <p style="font-style: italic;">This is my blog where I publish my projects, lessons, and more.</p>
+        <p>This is my blog where I publish my projects, lessons, and more.</p>
     </section>
 
-    <section class="projects">
-        <h3>Projects</h3>
+    <section class="category projects">
+        <h3 class="title_category">Projects</h3>
         <div class="grid">
             <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/lotus.png" />
             <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots-2.png" />
             <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots.png" />
             <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-fuchsia.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/lotus.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots-2.png" />
         </div>
-        <a href="/projects" class="see-more">see more</a>
+        <a href="/projects" class="see_more_btn">see more</a>
     </section>
 
-    <section class="learning-journal">
-        <h3>Learning Journal</h3>
+    <section class="category learning-journal">
+        <h3 class="title_category">Learning Journal</h3>
         <div class="grid">
-            <!-- Learning journal entries will go here -->
+            <!-- Learning journal -->
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/lotus.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots-2.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-fuchsia.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/lotus.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots-2.png" />
         </div>
-        <a href="/learning-journal" class="see-more">see more</a>
+        <a href="/learning-journal" class="see_more_btn">see more</a>
     </section>
 
-    <section class="web-love">
-        <h3>We love Web</h3>
+    <section class="category web-love">
+        <h3 class="title_category">We love Web</h3>
         <div class="grid">
-            <!-- Web love entries will go here -->
+            <!-- We love web -->
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/lotus.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots-2.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-fuchsia.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/lotus.png" />
+            <ProjectCard title="naam van project" description="beschrijving van project" image="./flowers/orchid-dots-2.png" />
         </div>
-        <a href="/we-love-web" class="see-more">see more</a>
+        <a href="/we-love-web" class="see_more_btn">see more</a>
     </section>
 </main>
 
-<style>
-    header {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        padding: var(--padding);
-    }
-
-    h1 {
-        color: var(--main-text-color);
-        font-size: 1.5rem;
-    }
-
-    .intro-greeting {
-        font-family: var(--font-pixel);
-    }
-
-    .intro, .projects, .learning-journal, .web-love {
-        text-align: center;
-        padding: var(--padding);
-    }
-
-    .grid {
-        display: grid;
-        gap: var(--grid-gap);
-        grid-template-columns: repeat(auto-fit, minmax(var(--grid-column-width), 1fr));
-    }
-
-    .see-more {
-        color: var(--main-text-color);
-    }
-</style>
