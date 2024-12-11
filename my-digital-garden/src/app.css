@@ -13,21 +13,6 @@
     --navigation-text-color: #ffffff;
     --font-main: 'Times New Roman', Times, serif;
     --font-pixel: 'DotGothic', sans-serif;
-    --ascii-art-size: 1.5rem;
-}
-
-body {
-  font-family: var(--font-main);
-  color: var(--main-text-color);
-  background: #ffffff;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: var(--padding);
 }
 
 h1, h2, h3, h4 {
@@ -36,12 +21,65 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--main-text-color);
+  background: #ffffff;
 }
 
 main {
   text-align: center;
-  padding: 5em;
+  padding: 1em;
+}
+
+/* =======================  */
+/* ======= Header ========  */
+/* =======================  */
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.1rem;
+  position: absolute;
+  left: 50%;
+  top: 1.4rem;
+  transform: translateX(-50%);
+}
+
+.nav-list {
+  display: none;
+}
+
+.nav-list ul {
+  display: flex;
+  gap: 2rem; 
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 1rem;
 }
 
 /* =======================  */
@@ -50,18 +88,39 @@ main {
 
 .intro {
   padding: 5rem 0 5rem 0;
+  container-type: inline-size;
 }
 
 .intro-greeting {
   font-family: var(--font-pixel);
   letter-spacing: 0.2rem;
+  padding-bottom: 6rem;
+}
+
+.intro-greeting h1 {
+  font-size: 1rem;
+}
+
+.ascii-art {
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
+}
+
+@container (min-width: 40rem){
+  .intro-greeting h1 {
+    font-size: 1.45rem;
+  }
+
+  .ascii-art {
+    font-size: 1.7rem;
+  }
 }
 
 .category {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .grid {
@@ -70,6 +129,8 @@ main {
   max-width: 1200px;
   width: 100%;
   justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2rem;
 }
 
 .projects {
@@ -88,25 +149,41 @@ main {
   color: var(--main-text-color);
   text-decoration: underline;
   justify-self: center;
-}
-
-.ascii-art {
-  font-size: var(--ascii-art-size);
-  letter-spacing: 0.4rem;
+  padding-top: 5rem;
 }
 
 /* =======================  */
 /* ==== Media Queries ====  */
 /* =======================  */
 
-@media (min-width: 15em) {
-  .grid{
-    grid-template-columns: 1fr;
+@media (min-width: 50em) {
+  
+  main {
+    padding: 6em;
   }
 
-}
+  header {
+    justify-content: start;
+  }
 
-@media (min-width: 50em) {
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .logo {
+    position: fixed;
+    transform: rotate(270deg);
+    top: 5cap;
+    left: -1rem;
+    font-size: 1.3rem;
+  }
+
+  .hamburger-menu {
+    display: none; 
+  }
+
   .category .grid {
     grid-template-columns: repeat(3, 1fr); 
     gap: 2rem;
@@ -116,11 +193,11 @@ main {
     justify-items: center;
   }
 
-  .logo {
-    position: absolute;
-    transform: rotate(270deg);
-    top: 9rem;
-    left: -1rem;
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 5rem 0;
   }
 }
 
@@ -128,3 +205,34 @@ main {
 /* =======================  */
 /* ====== Keyframes ======  */
 /* =======================  */
+
+.kao_animate {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.kao_animate:before {
+  content: 'Welcome to my digital garden (^_^*)';
+  -webkit-animation-name: kao_animate;
+  -webkit-animation-duration: 3s;
+  animation-name: kao_animate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes kao_animate {
+  0% {
+      content: 'Welcome to my digital garden (^_-*)';
+  }
+  50% {
+      content: 'Welcome to my digital garden ♡ʕ•ᴥ•ʔ';
+  }
+  75% {
+      content: 'Welcome to my digital garden ☆⌒(>。<)';
+  }
+  100% {
+      content: 'Welcome to my digital garden (^_^*)';
+  }
+}
