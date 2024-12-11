@@ -30,12 +30,12 @@
     <section class="intro">
         <section class="intro-greeting">
             <p class="ascii-art">
-                ˚₊ ˚ ‧₊ .:･˚ *₊ ˚ ‧₊ .:･˚₊ 
+                ₊ ˚ ‧₊ . ･˚ *₊ ˚ ‧₊ .･ 
             </p>
             <!-- svelte-ignore a11y_missing_content -->
             <h1 class="kao_animate"> </h1>
             <p class="ascii-art">
-                ˚₊ ˚ ‧₊ .:･˚ *₊ ˚ ‧₊ .:･˚₊ 
+                ₊ ˚ ‧₊ . ･˚ *₊ ˚ ‧₊ .･  
             </p>
         </section>
         <p>This is my blog where I publish my projects, lessons, and more.</p>
