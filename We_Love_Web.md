@@ -1,33 +1,35 @@
-## We ♥ Web 12-09-2025
-### Tolga Doganer, frontend developer bij Funda
+# We ♥ Web 12-09-2025
+## Spreker: Tolga Doğaner, frontend developer bij Funda
 
 <img width="1089" height="599" alt="image" src="https://github.com/user-attachments/assets/e60a1bab-9287-4257-a1e8-0dbb7d06b2bd" />
 
-Ontdekte dat hij visueel gebied van website interessanter vindt. 
-Stage in bots
-Allebelangrijkste vond hij een good quality code schijven dat ook maintainable is. 
-Hij liet vervolgens zijj projecten laten zien.
+### Samenvatting van het hoorcollege
 
-Zijn beste project vindt hij een project over toegankelijkheid. voor voerwegen in Amsterdam. 
-Portfolio was gemaakt in nuxt.js. Hij heeft ook gsap gebruikt en raadt het aan om te gerbuiken voor heel toffe animaties. 
-In jaar 2 focus nog steeds vooral op good quality code schrijven, denken aan internetstandaarden. Gewerkt aan meer team projjcten met klasgenoten. Portfolio projectje gemaakt, voorbereidign voor het vonden van stage. 
-Hij vindt het meeest belangrijk dat je bij zoeken van stage aandacht geeft aan optimisation, toegankelijkheid, optimised code schrijft. Dat je de code schrijft dat jij kan hergebruiken. 
-Na zijn opleiding kon hij nog niet blijven bij funda, omdat ze genoeg frontenders hadden. Na meer dan 40-60 mails bij verschillende bedrijven voor een sollicitatiegesprek, ben ik gana werken bij Limoiengroen. Ging werken op Drupal -wsa niet fan van. En toen kreeg hij een mail van funda, en sinds dien werkt hij bij funda. Nu werkt hij zes maanden bij funda, is verantwoordelijk vvoor verschillende domeinen. werkt aan microanimaties. en heeft gewerkt aan nieuwe MVP. de tools die worden gebruikt : nuxt, vue.js, ts en tailwind.css.
-ze providen en managen ook verschiledne packages binnen funda. 
+Tolga vertelde dat hij vooral het visuele deel van websites interessant vindt. Tijdens zijn studie en stage leerde hij dat het allerbelangrijkste is om kwalitatief goede, onderhoudbare code te schrijven. Hij liet verschillende projecten zien, met als favoriet een toegankelijkheidsproject in Amsterdam. Zijn portfolio bouwde hij met Nuxt.js; voor animaties gebruikte hij GSAP, dat hij van harte aanbeveelt.
 
-Hij wilde echt nuxt leren, omdat vooral nuxt en react worden gevraagd van bedrijven. 
+In jaar 2 lag zijn focus nog steeds op good quality code en internetstandaarden. Hij werkte meer aan teamprojecten met klasgenoten en bouwde een portfolio ter voorbereiding op het vinden van stage.
+
+Na zijn afstuderen kon hij niet direct bij Funda blijven omdat er genoeg frontenders waren. Na het versturen van 40–60 sollicitatiemails kon hij aan de slag bij LimoenGroen. Daar werkte hij met Drupal (waar hij minder fan van was). Vervolgens kreeg hij opnieuw een mail van Funda en werkt hij daar sindsdien.
+
+Bij Funda is hij verantwoordelijk voor verschillende domeinen, werkt hij aan micro-animaties en heeft hij aan een nieuwe MVP gewerkt. De tools die ze gebruiken zijn onder andere Nuxt, Vue.js, TypeScript en Tailwind CSS. Binnen Funda leveren en onderhouden ze ook verschillende packages.
+
+Hij wilde specifiek Nuxt leren, omdat bedrijven vooral Nuxt en React vragen.
 
 ### Tips voor studenten
-- Keep it fun
-- Blijf leren en proebeer neiwue dingen
-- Blijf leren en porbeer nieuwe dingen, er is altijd wel nieuwe ontwikkelingen binen CSS
-- Vergeet je bewijsmateriaal niet voor je toetsing, zo nodig bespreek met je docent
-- Wees niet bang om hulp te vragen aan doncenten en mede klasgenoten
-- Werken met een team ga je blijven doen so better like it
-- gebruik geen AI, dat heb je nu niet nodig.
 
-Jij moet leren werken met AI, maar hij is niet bang dat AI zijn werk gaat overnemen. 
+- Keep it fun.
 
+- Blijf leren en probeer nieuwe dingen. Er zijn altijd nieuwe ontwikkelingen in CSS.
+
+- Denk aan toegankelijkheid, optimalisatie en herbruikbare code.
+
+- Bewijsmateriaal voor je assesments niet vergeten; bespreek dit zo nodig met je docent.
+
+- Wees niet bang om hulp te vragen aan docenten en medestudenten.
+
+- Teamwerk blijf je doen, dus leer er goed mee omgaan.
+
+- Over AI: focus eerst op een stevige basis; leer AI als hulpmiddel in te zetten. Hij is niet bang dat AI zijn werk gaat overnemen.
 
 ### Wat heb ik geleerd
-Tips waren handig, ik vond het ook interessant om van persfectief van net afgestudeerde persoon te horen hoe de route kan uitzien en wat jij moet doen om goed te groeien en uiteindelijk een baan in dit werkveld te krijgen. 
+Ik vond het interessant om vanuit het perspectief van een net-afgestudeerde te horen hoe je route eruit kan zien en wat je kunt doen om te groeien in het vakgebied van frontend, dat kwaliteit van de code, toegankelijkheid, optimalisatie, teamwerk en een sterk portfolio heel belangrijk zijn. Dat geeft een wat duidelijker beeld van wat er nodig is om uiteindelijk een baan in dit vakgebied te vinden. 
