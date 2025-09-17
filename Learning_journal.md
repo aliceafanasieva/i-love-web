@@ -318,30 +318,113 @@ Je ziet de achterkant van object niet als het draait.
 
 Vandaag project klaarzetten voor de oplevering.
 
-## Wrapup lijst
+#### Oplever todo's:
 
-### Projectboard
-- Moscow toegepast
+Wat moet er in de oplevering zitten?
+
+- [`README.md`](#readme)
+- [Alles moet getest zijn](#testen)
+- [Projectboard](#projectboard)
+- Live staan + live link
+- Geen open pull requests
+
+##### Projectboard
+- Moscow is toegepast
 - Issues in juiste fase
-- issues sluiten
-- Backlog met issues die niet opgepakt moeten
+- Issues sluiten
+- Backlog met issues die niet opgepakt worden
 
-### Refactor
+##### Refactor
 - Structuur van je mappen
-- Netjes uitlijken van code
-- Ongebruikte code in verwijderd
+- Netjes uitlijnen van code
+- Ongebruikte code is verwijderd
+- Ongebruikte files zijn verwijderd
 - Comments in code
 - Comments met bronnen
-- Conventies uit CONTRIBUTING.md zij gehandhaald
-- Read me met installatie informatie, tools, gebruikte api's etc. 
-- Onnodige code weg
-- Code conventies checken
-- Live link
-- Testen uitgevoerd - Accessibility, User test, Performance test, HTML Validator.
-- Issues sluiten
+- Conventies uit `CONTRIBUTING.md` zijn gehandhaafd
 
-  ### Readme
-  - Informatie voor installaties
+##### README
+- Informatie voor installatie
+- Omschrijving van het project
+- Ontwerpkeuzes uitleggen
+- Functionaliteiten uitleg
+
+##### Testen
+- Performance
+- A11y, tab, kleur, screenreader
+- User test
+- Responsive + Device test
+- Html validator
+
+Maak issues aan van de onderdelen die je mist en neem ze mee op je projectboard. 
+
+### Opdracht: Code conventies & Git flow
+
+1. Lees de conventies van FDND Agency door op [docs](https://docs.fdnd.nl/)
+2. Vergelijk nu jullie conventies met die van de Agency, schrijf de grootste verschillen op het bord
+3. Teken op het bord jullie Git flow en die van de Agency, wat valt jullie op? 
+4. Overleg met je team waarom jullie denken dat FDND Agency voor deze gitflow heeft gekozen
+
+
+
+
+
+
+#### Extra bronnen
+<!-- Extra links voor documentatie en tutorials -->
+
+- [Code conventies @ sprint 2](https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md)
+- [Refactor & code conventies @ sprint 6](https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/refactoring-code-conventions.md)
+- [Importance of code conventions @ medium](https://medium.com/@ella_choi/setting-up-development-conventions-in-an-early-stage-startup-for-frontend-team-a7a5e8ee9f4b)
+
+
+### 3. Kampvuursessie
+
+Je gaat een kwalitatieve kampvuursessie houden om de samenwerking te evalueren en verbeterpunten te genereren om mee te nemen in je volgende samenwerking. Dit doen we in drie rondes.
+
+#### 1. Teamvragen ronde
+
+Doe een rondje per vraag
+
+1. Hoe ging de samenwerking?
+2. Hebben we de doelen behaald die in ons teamcanvas staat?
+3. Wat zouden we de volgende keer beter willen doen als team?
+4. Welke code conventies hebben we toegepast?
+
+#### 2. Individuele feedback
+
+Geef feedback aan teamleden
+
+1. Hoe heb je mij als teamlid ervaren
+2. Welke tips heb je voor mij
+3. Wat zou ik moeten veranderen om prettiger samen te werken
+4. Waar ben je trots op?
+
+#### 3. Verwerking
+
+Verwerk de ontvangen en gegeven feedback in je `LEARNINGS.md`
+
+#### 4. Voorbereiding retrospect
+
+Voor vrijdag hebben jullie:
+
+1. Squadpage, alle DoD's zijn afgevinkt
+2. Visitekaartje, alle DoD's zijn afgevinkt
+3. Kampvuursessie gedaan en verwerkt
+4. Portflow bewijslast klaar om te mappen op indicatoren
+
+Portflow bewijslast:
+1. S13: Teamafspraken
+2. S13: Projectboard
+3. S13: REST verbinding naar de directus API
+4. S13: Code & Design Review W1 _(optioneel)_
+5. S13: Creative coding & inspiratie
+6. S13: User stories in het project board
+7. S13: Code & Design Review W2
+8. S13: Layout & Components
+9. S13: Kampvuursessie
+
+Heb je deze onderdelen, dan kun je mee doen met de retrospect. 
 
 
 
