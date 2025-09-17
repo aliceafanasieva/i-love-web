@@ -421,8 +421,12 @@ Portflow bewijslast:
 8. S13: Layout & Components
 9. S13: Kampvuursessie
 
+## Leervragen
+Zet de antwoorden in je learning journal.
 
-
+Hoe verschilde jouw conventies met die van de FDND Agency?
+Welke conventies zou je willen toevoegen aan die van de FDND Agency? Schiet ook een issue in s.v.p.
+Wat waren de belangrijkste punten uit de kampvuursessie?
 
 
 
