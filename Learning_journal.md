@@ -312,6 +312,22 @@ Je ziet de achterkant van object niet als het draait.
 
 
 
+# 17-09-2025
+
+## Wrap-up
+
+Vandaag project klaarzetten voor de oplevering.
+
+**To do's:**
+
+- Read me met installatie informatie, tools, gebruikte api's etc. 
+- Onnodige code weg
+- Code conventies checken
+- Live link
+- Testen uitgevoerd - Accessibility, User test, Performance test, Validator.
+
+
+
 
 
 
