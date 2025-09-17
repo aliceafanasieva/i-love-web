@@ -1,4 +1,4 @@
-# 1-09-2025
+<img width="745" height="819" alt="image" src="https://github.com/user-attachments/assets/53da60ab-3cea-4202-b603-e79628f4f0d2" /># 1-09-2025
 
 ## _Opdracht: Formuleer twee of drie leervragen als uitgangspunt voor deze sprint_
 
@@ -365,9 +365,8 @@ Maak issues aan van de onderdelen die je mist en neem ze mee op je projectboard.
 3. Teken op het bord jullie Git flow en die van de Agency, wat valt jullie op? 
 4. Overleg met je team waarom jullie denken dat FDND Agency voor deze gitflow heeft gekozen
 
-
-
-
+<img width="745" height="819" alt="image" src="https://github.com/user-attachments/assets/0ef6c938-177d-47df-bcb7-b86fd8b75e35" />
+_Foto van bord_
 
 
 #### Extra bronnen
@@ -423,10 +422,6 @@ Portflow bewijslast:
 7. S13: Code & Design Review W2
 8. S13: Layout & Components
 9. S13: Kampvuursessie
-
-Heb je deze onderdelen, dan kun je mee doen met de retrospect. 
-
-
 
 
 
