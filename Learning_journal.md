@@ -318,14 +318,30 @@ Je ziet de achterkant van object niet als het draait.
 
 Vandaag project klaarzetten voor de oplevering.
 
-**To do's:**
+## Wrapup lijst
 
+### Projectboard
+- Moscow toegepast
+- Issues in juiste fase
+- issues sluiten
+- Backlog met issues die niet opgepakt moeten
+
+### Refactor
+- Structuur van je mappen
+- Netjes uitlijken van code
+- Ongebruikte code in verwijderd
+- Comments in code
+- Comments met bronnen
+- Conventies uit CONTRIBUTING.md zij gehandhaald
 - Read me met installatie informatie, tools, gebruikte api's etc. 
 - Onnodige code weg
 - Code conventies checken
 - Live link
-- Testen uitgevoerd - Accessibility, User test, Performance test, Validator.
+- Testen uitgevoerd - Accessibility, User test, Performance test, HTML Validator.
 - Issues sluiten
+
+  ### Readme
+  - Informatie voor installaties
 
 
 
