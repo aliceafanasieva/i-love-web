@@ -1,5 +1,3 @@
-<img width="745" height="819" alt="image" src="https://github.com/user-attachments/assets/53da60ab-3cea-4202-b603-e79628f4f0d2" /># 1-09-2025
-
 ## _Opdracht: Formuleer twee of drie leervragen als uitgangspunt voor deze sprint_
 
 ### 1. Kennis uit vorig jaar verfrissen: 
