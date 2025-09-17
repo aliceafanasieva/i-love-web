@@ -325,6 +325,8 @@ Vandaag project klaarzetten voor de oplevering.
 - Code conventies checken
 - Live link
 - Testen uitgevoerd - Accessibility, User test, Performance test, Validator.
+- Issues sluiten
+
 
 
 
