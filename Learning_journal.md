@@ -379,6 +379,7 @@ Maak issues aan van de onderdelen die je mist en neem ze mee op je projectboard.
 4. Overleg met je team waarom jullie denken dat FDND Agency voor deze gitflow heeft gekozen
 
 <img width="745" height="819" alt="image" src="https://github.com/user-attachments/assets/0ef6c938-177d-47df-bcb7-b86fd8b75e35" />
+
 _Foto van bord_
 
 
