@@ -393,29 +393,7 @@ _Foto van bord_
 
 ### 3. Kampvuursessie
 
-Je gaat een kwalitatieve kampvuursessie houden om de samenwerking te evalueren en verbeterpunten te genereren om mee te nemen in je volgende samenwerking. Dit doen we in drie rondes.
-
-#### 1. Teamvragen ronde
-
-Doe een rondje per vraag
-
-1. Hoe ging de samenwerking?
-2. Hebben we de doelen behaald die in ons teamcanvas staat?
-3. Wat zouden we de volgende keer beter willen doen als team?
-4. Welke code conventies hebben we toegepast?
-
-#### 2. Individuele feedback
-
-Geef feedback aan teamleden
-
-1. Hoe heb je mij als teamlid ervaren
-2. Welke tips heb je voor mij
-3. Wat zou ik moeten veranderen om prettiger samen te werken
-4. Waar ben je trots op?
-
-#### 3. Verwerking
-
-Verwerk de ontvangen en gegeven feedback in je `LEARNINGS.md`
+https://github.com/aliceafanasieva/your-tribe-for-life-squad-page/blob/main/LEARNINGS.md#kampvuursessie 
 
 #### 4. Voorbereiding retrospect
 
