@@ -66,24 +66,29 @@ Ik heb ook een design gemaakt voor mijn visitekaartje.
 
 ### Soorten animaties
 
-Loading
+- Loading
 
-View transitions
+- View transitions
 
-Scroll/appear (volgende keer)
+- Scroll/appear (volgende keer besproken)
 
 ### Opdracht: verzamel inspiratie in Figma voor elk soort animatie
+
+Verzamel per animatiesoort inspiratie in Figma:
 
 https://www.figma.com/design/z6f8deknVfTrfKuwcA34z4/Squadpage-FDND?node-id=0-1&t=zaQ0Kz2EGV7GNVW8-1
 
 <img width="665" height="661" alt="Image" src="https://github.com/user-attachments/assets/2d00cc28-801c-4894-aec6-05eb295f5962" />
 
+Opdracht uitgevoerd om inspiratie voor toekomstige animaties te verzamelen. 
+
 ### Keyframes
 
-Met keyframes geef je elementen start styling om ze te verbergen, bijvoorbeeld met transform en opacity.
+Met keyframes geef je een start-toestand om elementen te verbergen (bijv. met transform en opacity) en een eind-toestand om ze in te laten komen.
 
-- Gebruik classes voor animaties doe je wil hergebruiken, zo houd je animatie code DRY. 
-- Gebruik delays (stagger animatie) om je animaties als een waterval af te laten spelen. 
+- Gebruik classes voor herbruikbare animaties (DRY).
+
+- Gebruik delays voor stagger (watervalanimatie).
 
 ### View transitions
 
@@ -92,26 +97,36 @@ Met keyframes geef je elementen start styling om ze te verbergen, bijvoorbeeld m
 - de "root"
 - werken op basis van keyframes
 
-dev tools -> drie punten -> more tools -> animations
+```
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
-::view-transition pseudoelement. 
+.animation-fade-in--up {
+  animation: fade-in-up 300ms ease-out forwards;
+}
 
-Je kan view-transition ook naam geven (view-transitions-name style="--vt: image-1" of dan "image-2")
+.stagger > * { opacity: 0; }
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 80ms; }
+.stagger > *:nth-child(3) { animation-delay: 160ms; }
+/* … */
 
-Javascript:
+```
 
-if (document.startViewTransition) {
-
-*of browser dat ondesteund*
-
-**Voorbeeld van naamgeving:**
-.animation-fade-in--up
+**Voorbeeld van goed naamgeving:**
+```.animation-fade-in--up ```
 
 
 ## Leervragen
 1. Welke keuzes heb jij gemaakt in jouw motion language (shapes, direction, easing, duration)?
+
+Mijn motion language gebruikt gefaseerde binnenkomst (stagger), verticale richting omhoog, fade-in, ease-out easing en langere duur (±500 ms).
+
 2. Hoe zou je animatie kunnen toepassen om de gebruikerservaring van je overzichtspagina te versterken?
 
+Om de overzichtspagina te versterken animeer ik de hero-sectie gefaseerd: onderdelen verschijnen na elkaar met een subtiele delay. Zo ontstaat ritme, focus en een dynamischer eerste indruk.
 
 
 
