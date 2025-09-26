@@ -425,7 +425,11 @@ Welke conventies zou je willen toevoegen aan die van de FDND Agency? Schiet ook 
 Wat waren de belangrijkste punten uit de kampvuursessie?
 
 
+# 24-09-2024
+Vandaag was het eerste afspraak met de opdrachtgever Embassy of the Free Mind, we hebben een debriefing geschreven. 
 
+# 26-09-2024
+Met mijn team een code design review gedaan en review gegeven voor de projectinrichting aan teams AD Connect en Foodguard. 
 
 
 
