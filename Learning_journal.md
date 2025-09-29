@@ -442,4 +442,5 @@ Experimenteren met verschillende color.
 
 <img width="998" height="733" alt="image" src="https://github.com/user-attachments/assets/723ea18a-afb5-4e7f-a50e-031730832805" />
 
+<img width="998" height="733" alt="image" src="https://github.com/user-attachments/assets/463e1fd7-090d-437d-9dc6-fdb6fcba2254" />
 
