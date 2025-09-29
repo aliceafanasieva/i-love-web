@@ -439,6 +439,7 @@ Met mijn team een code design review gedaan en review gegeven voor de projectinr
 ### Opdracht 1
 
 Experimenteren met verschillende color. 
+
 <img width="998" height="733" alt="image" src="https://github.com/user-attachments/assets/723ea18a-afb5-4e7f-a50e-031730832805" />
 
 
