@@ -4,21 +4,60 @@
         <title lang="nl">Goed leesbare teksten</title>
         <meta name="viewport" content="width=device-width">
         <style>
-            body {
-            }
+
             p {
-                /*max-width: 20ch;*/
+                font-size: 16px;
+                @media (min-width: 575px) {
+                    font-size: 18px;
+                }
             }
-            .p1 { font-size: 12px; }
-            .p2 { font-size: 20px; }
-            .p3 { font-size: 160%; }
-            .p4 { font-size: 2vw; }
+
+            .content-text {
+                line-height: 1.5;
+            }
+
+            .content-text {
+                @media (min-width: 620px) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
+                    font-size: 18px;
+                }
+
+                @media (min-width: 990px){
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 2rem;
+                }
+            }
+
+            .p1 { 
+                font-size: 21px;
+                font-weight: 600;
+
+                @media (min-width: 575px){
+                    font-size: 24px; 
+                }
+
+                @media (min-width: 990px){
+                    font-size: 32px; 
+                }
+            }
+
+            body {
+                font-family: sans-serif;
+                font-size: 20px;
+                line-height: 1.4;
+                padding: 3rem;
+            }
+
         </style>
     </head>
     <body>
         <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis scelerisque ipsum sed tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus tincidunt neque at rutrum semper. Morbi molestie, nibh vitae dictum gravida, eros sapien facilisis risus, id fringilla lectus augue a nisi. Duis non vestibulum sapien. Curabitur non congue dui. Pellentesque erat arcu, porta vel finibus non, iaculis non diam. Mauris a nulla ac mi sollicitudin suscipit. Duis tincidunt volutpat sapien ac bibendum. Morbi eu ipsum dolor. Proin accumsan faucibus interdum.</p>
-        <p class="p2">Nulla viverra orci pharetra efficitur ornare. Duis venenatis, justo nec dictum commodo, metus sapien euismod velit, in bibendum elit nibh vitae ipsum. Mauris lacinia nec justo ac bibendum. Sed scelerisque a sapien ac ultricies. Aenean felis ipsum, scelerisque quis urna ac, blandit venenatis odio. Praesent vitae varius odio, quis pellentesque libero. Proin ac justo imperdiet, porttitor elit vitae, gravida arcu. Curabitur nec dolor pharetra, aliquam elit pretium, imperdiet lectus. Pellentesque dictum ante a nisl eleifend semper. Ut pulvinar velit eu turpis mollis rutrum. Vestibulum pharetra mi nec ullamcorper dignissim. Phasellus tempus turpis quis dui venenatis, eget tristique ante sollicitudin. Vestibulum faucibus tortor et varius hendrerit. Suspendisse ut lacinia velit. Donec eu tempus purus, non lacinia purus.</p>
-        <p class="p3">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed id metus est. Mauris nisl velit, volutpat vel semper non, volutpat eget urna. Praesent laoreet diam ut aliquam laoreet. Sed porttitor, dui eget interdum sagittis, enim risus posuere urna, in scelerisque erat urna eget ante. Nullam velit lacus, mollis suscipit euismod sit amet, volutpat eget ex. Nullam rhoncus diam at pellentesque faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lorem lorem, laoreet a metus ac, ornare commodo risus. Sed nulla mi, fringilla lacinia eleifend in, vestibulum ut velit.</p>
-        <p class="p4">Fusce a nulla nec lorem facilisis hendrerit. Duis lacinia ornare aliquet. Proin nec ligula viverra, fermentum libero eget, sodales sapien. In in nunc massa. Sed eget feugiat arcu, vitae gravida tortor. Donec ultrices ligula sit amet hendrerit egestas. Donec sagittis fringilla libero, quis gravida nunc pulvinar vitae. Integer malesuada purus at felis rhoncus, sit amet posuere sapien faucibus. Ut facilisis felis quis elit rutrum, dapibus porttitor elit tempor. Etiam ullamcorper arcu mattis felis pulvinar tempor. Curabitur sit amet massa porttitor, varius orci et, elementum nulla. Etiam viverra ultrices lorem ac viverra. Nunc convallis eget lorem sit amet condimentum. In augue diam, ultricies at lacinia vitae, eleifend id urna. Aenean tempor lacus lectus, ac ultrices nibh efficitur ac.</p>
+        <section class="content-text">
+            <p class="p2">Nulla viverra orci pharetra efficitur ornare. Duis venenatis, justo nec dictum commodo, metus sapien euismod velit, in bibendum elit nibh vitae ipsum. Mauris lacinia nec justo ac bibendum. Sed scelerisque a sapien ac ultricies. Aenean felis ipsum, scelerisque quis urna ac, blandit venenatis odio. Praesent vitae varius odio, quis pellentesque libero. Proin ac justo imperdiet, porttitor elit vitae, gravida arcu. Curabitur nec dolor pharetra, aliquam elit pretium, imperdiet lectus. Pellentesque dictum ante a nisl eleifend semper. Ut pulvinar velit eu turpis mollis rutrum. Vestibulum pharetra mi nec ullamcorper dignissim. Phasellus tempus turpis quis dui venenatis, eget tristique ante sollicitudin. Vestibulum faucibus tortor et varius hendrerit. Suspendisse ut lacinia velit. Donec eu tempus purus, non lacinia purus.</p>
+            <p class="p3">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed id metus est. Mauris nisl velit, volutpat vel semper non, volutpat eget urna. Praesent laoreet diam ut aliquam laoreet. Sed porttitor, dui eget interdum sagittis, enim risus posuere urna, in scelerisque erat urna eget ante. Nullam velit lacus, mollis suscipit euismod sit amet, volutpat eget ex. Nullam rhoncus diam at pellentesque faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lorem lorem, laoreet a metus ac, ornare commodo risus. Sed nulla mi, fringilla lacinia eleifend in, vestibulum ut velit.</p>
+            <p class="p4">Fusce a nulla nec lorem facilisis hendrerit. Duis lacinia ornare aliquet. Proin nec ligula viverra, fermentum libero eget, sodales sapien. In in nunc massa. Sed eget feugiat arcu, vitae gravida tortor. Donec ultrices ligula sit amet hendrerit egestas. Donec sagittis fringilla libero, quis gravida nunc pulvinar vitae. Integer malesuada purus at felis rhoncus, sit amet posuere sapien faucibus. Ut facilisis felis quis elit rutrum, dapibus porttitor elit tempor. Etiam ullamcorper arcu mattis felis pulvinar tempor. Curabitur sit amet massa porttitor, varius orci et, elementum nulla. Etiam viverra ultrices lorem ac viverra. Nunc convallis eget lorem sit amet condimentum. In augue diam, ultricies at lacinia vitae, eleifend id urna. Aenean tempor lacus lectus, ac ultrices nibh efficitur ac.</p>
+        <section>
     </body>
 </html>
