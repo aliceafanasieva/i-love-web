@@ -444,6 +444,12 @@ Experimenteren met verschillende color.
 
 <img width="998" height="733" alt="image" src="https://github.com/user-attachments/assets/463e1fd7-090d-437d-9dc6-fdb6fcba2254" />
 
+## Styleguide gemaakt
+
+Ik heb dit styleguide ontworpen voor de redesign van Embassy of the free mind:
+
+<img width="1621" height="6760" alt="style guide" src="https://github.com/user-attachments/assets/4989f0ca-9a04-4aa8-ac5e-506084629afd" />
+
 
 # 1-10-2025
 
@@ -452,4 +458,74 @@ Experimenteren met verschillende color.
 Ik was vandaag een mentor bij eerstejaars, hoe de les ging is beschreven hieronder:
 
 https://github.com/aliceafanasieva/mentor/blob/main/README.md#1-10-2025
+
+### Werkcollege - Project inrichting
+Over projectmethodiek, standup en de Scrum methode.
+
+Bij elk project rijst dezelfde vraag: hoe organiseer je het werk zodat iedereen weet wat er moet gebeuren, wanneer het klaar moet zijn, en hoe je samen waarde oplevert?
+Daar zijn door de jaren heen verschillende projectmethodieken voor ontwikkeld: van klassieke methodes tot moderne methodes.
+Vandaag onderzoeken wij de verschillende methodieken die er bestaan, daarna zoomen we in op Scrum, omdat we die binnen FDND gebruiken.
+
+#### Projectmethodieken
+
+1. Projectmethodieken
+In de wereld van webdevelopment is Scrum één van de meest gebruikte methodieken. Het is populair omdat het teams helpt wendbaar te blijven, snel waarde te leveren aan opdrachtgevers, en continu te verbeteren. Maar welke zijn er eigenlijk nog meer.
+
+#### 🛠️ Opdracht 1 (30 min)
+
+Doe deze oefening op het whiteboard.
+
+<img width="1011" height="642" alt="image" src="https://github.com/user-attachments/assets/123f3890-7a10-4080-aa60-141be9a91d93" />
+
+
+**Welke verschillende projectmethodieken zijn er voor webprojecten?**
+
+- Agile: vrij universeel methodiek - Backlog, Ready, In Progress, Done.
+- Waterval: goed voor kleine, overzichtelijke projecten. Best wel lang process, je werkt in fases, heel lang per een fase voordat je naar andere gaat. Is wel gevoelig, omdat het moeilijk te itereren is. De afzonderlijke taken worden in afhankelijkheden  opgesplitst. 
+- Prince 2
+- Scrum: meest gebruikte, flexibel. Backlog, Stand-ups, Retrospects, Sprints, Continuous integration. goed voor kleine, overzichtelijke projecten. Sprints duren één tot twee weken per keer en worden georganiseerd met teams van 10 of minder. 
+- Kanban 
+- Six Sigma
+  
+**Wat is de meest gebruikte? **
+
+Agile wordt vaak gebruikt bij software development projecten, dat gebruiken wij vaak in projecten bij FDND.
+
+**Wat denk je dat de 'beste' methodiek is en waarom?**
+Scrum, omdat het een duidelijke projectopzet heeft.
+
+#### 🛠️ Opdracht 2 (30 min)
+
+Doe deze oefening op het whiteboard.
+
+Wat zijn de stappen in de Scrum sprint planning?
+Welke doen jullie al met je team en welke missen?
+Zoek uit welke andere onderdelen van Scrum je al doet.
+🛠️ Opdracht 3 (10 min)
+
+Binnen SCRUM zijn er ook verschillende rollen in het team.
+
+Doe deze oefening op het whiteboard.
+
+Zoek op wat de verschillende rollen zijn in Scrum
+Verdeel de rollen binnen het team
+3. Stand-up
+Een belangrijk onderdeel van samenwerken is elkaar op de hoogte houden. Scrum heeft hier een manier voor bedacht.
+
+🛠️ Opdracht 4 (5 min)
+
+Zoek op hoe een standup werkt. Schrijf de stappen op het whiteboard.
+Doe een standup met je team, waar een docent bij is.
+Extra bronnen
+Projectmethodieken @ Asana
+
+💪 Extra uitdagingen
+Zet nog een extra onderdeel van Scrum in, zoals een refinement
+✒️ Leervragen
+Zet de antwoorden in je learning journal:
+
+Wat zijn de onderdelen van de Scrum methodiek?
+Hoe helpt Scrum jou in projectmanagement?
+Welke andere methodiek zou je willen uitproberen?
+Wat is een sprint 0?
 
