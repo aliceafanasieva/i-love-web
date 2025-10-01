@@ -501,7 +501,8 @@ Doe deze oefening op het whiteboard.
 Wat zijn de stappen in de Scrum sprint planning?
 Welke doen jullie al met je team en welke missen?
 Zoek uit welke andere onderdelen van Scrum je al doet.
-🛠️ Opdracht 3 (10 min)
+
+#### 🛠️ Opdracht 3 (10 min)
 
 Binnen SCRUM zijn er ook verschillende rollen in het team.
 
@@ -512,7 +513,7 @@ Verdeel de rollen binnen het team
 3. Stand-up
 Een belangrijk onderdeel van samenwerken is elkaar op de hoogte houden. Scrum heeft hier een manier voor bedacht.
 
-🛠️ Opdracht 4 (5 min)
+#### 🛠️ Opdracht 4 (5 min)
 
 Zoek op hoe een standup werkt. Schrijf de stappen op het whiteboard.
 Doe een standup met je team, waar een docent bij is.
