@@ -444,3 +444,12 @@ Experimenteren met verschillende color.
 
 <img width="998" height="733" alt="image" src="https://github.com/user-attachments/assets/463e1fd7-090d-437d-9dc6-fdb6fcba2254" />
 
+
+# 1-10-2025
+
+## Mentor
+
+Ik was vandaag een mentor bij eerstejaars, hoe de les ging is beschreven hieronder:
+
+https://github.com/aliceafanasieva/mentor/blob/main/README.md#1-10-2025
+
