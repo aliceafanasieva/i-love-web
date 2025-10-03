@@ -75,5 +75,21 @@ In dit fase wordt wel iets gebouwd. Dus designs, prototypes etc.
 Kickoff & Sprint 0. Koppeling met CMS, API, Frameworks neerzetten.
 Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de opdrachtgever. 
 
+1. Demo
+2. Pre Refinement - stories worden klaargemaakt
+3. Data mapping
+4. Refinement - wordt precies gemaakt wat er wordt verwacht. 
+5. Planning
+
+#### Optimise & Grow 
+
+- Dashboard wordt gemaakt van hoe de product wordt gebruikt;
+- Praten met gebruikers (user tests)
+
+
+
+
+
+
 
 
