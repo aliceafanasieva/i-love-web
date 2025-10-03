@@ -88,8 +88,7 @@ Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de
 
 #### Tip: blijf meedenken met opdrachtgever, blijf praten met gebruikers van dit product, adviseren etc.
 
-
-
+Technische basis eerst klaarzetten, standaard hergebruikbare elementen. Typography.scss, colors.scss voor allemaal :root{ } styling.
 
 
 
