@@ -91,6 +91,12 @@ Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de
 Technische basis eerst klaarzetten, standaard hergebruikbare elementen. Typography.scss, colors.scss voor allemaal :root{ } styling.
 
 
+### Personal playground
+
+Een website maken voor jezelf, voor **experimenten**. 
+
+Link naar website met experimenten van Martijn: [martijnnieuwehuizen.nl/experiments](https://martijnnieuwenhuizen.nl/experiments)
+
 
 
 
