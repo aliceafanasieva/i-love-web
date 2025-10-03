@@ -39,5 +39,41 @@ Ik vond het interessant om vanuit het perspectief van een net-afgestudeerde te h
 # We ♥ Web 3-10-2025
 ## Spreker: Martijn Nieuwenhuizen
 
+Het moet perfect, "Als het niet top is, dan moet het weg".
+
+Martijn was een kok, maar hij ging een CMD opleiding doen, helemaal zonder voorkennis van design. Daarna heeft hij voor verschillende opdrachtgever gewerkt. Hij is een developer binnen projecten van Tech digtal, tech-lead/Technical product owner. Hij is ook een development lead - verantwoordelijk voor de groei van mensen binnen Tech discipline en voor Tech discipline binnen bedrijf zelf. 
+
+### Wat vind ik zo leuk aan mijn werk?
+
+Het juiste product maken - product, die mensen gaan gebruiken. 
+
+### Rare vraag naar opdrachtgever
+
+Opdrachtgever weet meestal niet precies wat hij wil. "Wil jij een video op homepagina of een foto?" - opdrachtgever weet misschien wat hij wil bereiken, eindresultaat dat product moet leveren, maar niet hoe dit door middel van design en conversie moet worden gedaan (meestal) dat moet de designer doen. 
+
+### Hoe pak je een project aan?
+
+1. Discover & Strategise - onderzoek & voorstel
+2. Create & Launch - Maken in iteratie
+3. Optimise & Grow - optimaliseren en uitbouwen
+
+#### Discover & Strategise
+
+Begrijpen van business context, brand, human context, technical context - technisch landschap in kaart brengen. Data indexation/mapping. 
+
+Understand product: Sleutel oplevering: product vision. 
+
+Shape product : sleutel opleveringen: service blueprint, prototype, high level architecture. 
+Service blueprint - Customer journey, data dat betrokken is bij elke stap van gebruiken van dit product.
+
+Define scope, sleutel oplevering: Backlog.
+
+Prototypen, schetsen.
+
+#### Create & Launch
+In dit fase wordt wel iets gebouwd. Dus designs, prototypes etc.
+Kickoff & Sprint 0. Koppeling met CMS, API, Frameworks neerzetten.
+Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de opdrachtgever. 
+
 
 
