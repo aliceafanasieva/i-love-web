@@ -530,3 +530,31 @@ Hoe helpt Scrum jou in projectmanagement?
 Welke andere methodiek zou je willen uitproberen?
 Wat is een sprint 0?
 
+
+# 3-10-2025 Code design review week 2
+
+## Design critique
+Jullie hebben met je team een styleguide opgezet en designs gemaakt of gekregen. Vandaag gaan jullie bij elkaar een Design Critique doen op basis van een aantal principes van Dieter Rams's "Good Design":
+
+#### 4. Good design makes a product understandable
+It clarifies the products structure. Better still, it can make the product talk. At best, it is self-explanatory.
+
+#### 8. Good design is thorough down to the last detail
+Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect towards the user.
+
+#### 10. Good design is as little design as possible
+Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials. Back to purity, back to simplicity.
+
+### Opdracht
+
+Ga met maximaal 6 mensen van verschillende projecten aan een tafel zitten
+Zoek meer informatie over principes 4, 8 en 10 van Good Design van Dieter Ram
+
+Presenteer elk je design (ook al is het van je opdrachtgever), vertel waarom je bepaalde keuzes bewust wel en niet hebt gemaakt
+Als luisteraars geef je tips en tops op basis van principe 4, 8 en 10. Ondervraag ook waar je nog geen argumentatie over hebt gehoord.
+Iemand in de groep maakt een foto van degene die presenteert (heb je nodig voor de checkout)
+💡 ProTip: Neem de tips en tops mee in issues op je projectboard
+
+#### Alisa
+
+
