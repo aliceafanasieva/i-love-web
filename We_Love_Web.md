@@ -33,3 +33,11 @@ Hij wilde specifiek Nuxt leren, omdat bedrijven vooral Nuxt en React vragen.
 
 ### Wat heb ik geleerd
 Ik vond het interessant om vanuit het perspectief van een net-afgestudeerde te horen hoe je route eruit kan zien en wat je kunt doen om te groeien in het vakgebied van frontend, dat kwaliteit van de code, toegankelijkheid, optimalisatie, teamwerk en een sterk portfolio heel belangrijk zijn. Dat geeft een wat duidelijker beeld van wat er nodig is om uiteindelijk een baan in dit vakgebied te vinden. 
+
+
+
+# We ♥ Web 3-10-2025
+## Spreker: Martijn Nieuwenhuizen
+
+
+
