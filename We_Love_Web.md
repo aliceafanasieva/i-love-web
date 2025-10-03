@@ -39,6 +39,8 @@ Ik vond het interessant om vanuit het perspectief van een net-afgestudeerde te h
 # We ♥ Web 3-10-2025
 ## Spreker: Martijn Nieuwenhuizen
 
+#### Don't be boring, don't be lazy!
+
 Het moet perfect, "Als het niet top is, dan moet het weg".
 
 Martijn was een kok, maar hij ging een CMD opleiding doen, helemaal zonder voorkennis van design. Daarna heeft hij voor verschillende opdrachtgever gewerkt. Hij is een developer binnen projecten van Tech digtal, tech-lead/Technical product owner. Hij is ook een development lead - verantwoordelijk voor de groei van mensen binnen Tech discipline en voor Tech discipline binnen bedrijf zelf. 
