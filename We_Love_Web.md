@@ -86,6 +86,10 @@ Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de
 - Dashboard wordt gemaakt van hoe de product wordt gebruikt;
 - Praten met gebruikers (user tests)
 
+#### Tip: blijf meedenken met opdrachtgever, blijf praten met gebruikers van dit product, adviseren etc.
+
+
+
 
 
 
