@@ -583,8 +583,13 @@ https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/svelt
 
 Ik heb twee Github gist's aangemaakt:
 
+<img width="1470" height="807" alt="image" src="https://github.com/user-attachments/assets/29ac1250-52f9-4b61-8e96-526ce43ac72d" />
+
+
 1. SvelteKit layouts: één plek voor gedeelde structuur : https://gist.github.com/aliceafanasieva/20c3a0c2ca140af9a577b5fc732645fe
 2. SvelteKit componenten: herbruikbare stukken code : https://gist.github.com/aliceafanasieva/2986d07e551d92bd54a756413291c4c1
+
+
 
 ### Leervragen
 
