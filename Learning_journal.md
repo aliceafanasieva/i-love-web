@@ -564,13 +564,22 @@ Iemand in de groep maakt een foto van degene die presenteert (heb je nodig voor 
 ## Werkcollege - Sveltekit-principes
 https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/sveltekit-principes.md#sveltekit-principes
 
-### Principes:
+### Opdracht 1
+
+<img width="618" height="486" alt="image" src="https://github.com/user-attachments/assets/d96e7e3a-9387-4af7-a253-cd2e72ec1116" />
+
+
+
+### Opdracht 2
+
+
+#### Principes:
 
 - scoped css: voor betere leesbaarheid van css, sveltekit zorgt ervoor dat het scoped wordt. Heeft direct relatie met frontend van jouw applicatie
 - componenten gebruiken
 - bindable() - properties die je geeft aan childcomponent component een koppeling geven aan andere variabele in andere plek. Reactive.
 
-### Gist 
+#### Gist 
 
 Ik heb twee Github gist's aangemaakt:
 
