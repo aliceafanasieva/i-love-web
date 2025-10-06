@@ -558,3 +558,15 @@ Iemand in de groep maakt een foto van degene die presenteert (heb je nodig voor 
 #### Alisa
 
 
+
+# 6-10-2025 
+
+## Werkcollege - Sveltekit-principes
+https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/sveltekit-principes.md#sveltekit-principes
+
+## Principes:
+
+- scoped css: voor betere leesbaarheid van css, sveltekit zorgt ervoor dat het scoped wordt. Heeft direct relatie met frontend van jouw applicatie
+- componenten
+- bindable() - properties die je geeft aan childcomponent component een koppeling geven aan andere variabele in andere plek. Reactive.
+- 
