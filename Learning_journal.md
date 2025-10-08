@@ -568,12 +568,14 @@ https://github.com/fdnd-task/lose-your-head-the-client-case/blob/main/docs/svelt
 
 <img width="618" height="486" alt="image" src="https://github.com/user-attachments/assets/d96e7e3a-9387-4af7-a253-cd2e72ec1116" />
 
+Wij hebben meerdere routes aangemaakt, deze staat verwerkt in issue #93 in projectboard: https://github.com/fdnd-agency/embassyofthefreemind/issues/93#issuecomment-3371828344.
 
 
 ### Opdracht 2
 
 
 #### Principes:
+
 
 - scoped css: voor betere leesbaarheid van css, sveltekit zorgt ervoor dat het scoped wordt. Heeft direct relatie met frontend van jouw applicatie
 - componenten gebruiken
@@ -593,4 +595,7 @@ Ik heb twee Github gist's aangemaakt:
 
 ### Leervragen
 
+- Welke stappen neem je om een project in SvelteKit op te starten?
+- Hoe kan je AI gebruiken om principes en best-practices van een framework te ontdekken?
+- Welke SvelteKit principes en best-practices heb je geleerd te gebruiken?
 
