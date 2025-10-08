@@ -591,11 +591,37 @@ Ik heb twee Github gist's aangemaakt:
 1. SvelteKit layouts: één plek voor gedeelde structuur : https://gist.github.com/aliceafanasieva/20c3a0c2ca140af9a577b5fc732645fe
 2. SvelteKit componenten: herbruikbare stukken code : https://gist.github.com/aliceafanasieva/2986d07e551d92bd54a756413291c4c1
 
-
-
 ### Leervragen
 
 - Welke stappen neem je om een project in SvelteKit op te starten?
 - Hoe kan je AI gebruiken om principes en best-practices van een framework te ontdekken?
 - Welke SvelteKit principes en best-practices heb je geleerd te gebruiken?
+
+# 8-10-2025
+
+## Wat moet ik vandaag doen? 
+
+### Wrapup voor de sprintreview met de opdrachtgever
+
+#### Checklist:
+- Readme klaarzetten
+- Projectboard klaarzetten
+- Een agenda (plan) maken voor de sprintreviews (met eerstejaars)
+
+
+## Wat heb ik gedaan?
+
+### Mentor
+
+Vandaag ben ik een mentor voor eerstejaars studenten geweest. Ik heb hun geholpen met een goed readMe schrijven, en geoefent met presenteren van hun werk voor de sprintreview met de opdrachtgever.
+
+### Wrapup & Presentatie 
+Ik heb ook zelf tijdens de wrapup van sprint 14 mijn werk (redesign en styleguide) gepresenteerd aan de klas, feedback gegeven (vanuit verschillende rollen als luisteraar) en feedback gekregen. 
+
+### Leervragen
+
+1. Hoe heb jij je voorbereid op de sprint review?
+2. [Voor na de sprint review] Hoe heeft de sprint review voorbereiding geholpen?
+3. Wat zou je de volgende keer anders doen?
+
 
