@@ -664,11 +664,19 @@ Waarom ik dit framework heb gekozen:
 
 - Hoe heb je ervoor gezorgd dat je met je team weet welke stappen jullie vandaag nemen?
 
-## Portfolio workshop met Cyd - week 1
-
-
-
-1. Hoe heb jij je voorbereid op de sprint review?
+- 1. Hoe heb jij je voorbereid op de sprint review?
 2. [Voor na de sprint review] Hoe heeft de sprint review voorbereiding geholpen?
 3. Wat zou je de volgende keer anders doen?
+
+## Portfolio workshop met Cyd - week 1 
+
+Not a designer, behalve voor eigen portfolio. 
+
+### Thema: Inspiratie zoeken
+
+<img width="1008" height="726" alt="image" src="https://github.com/user-attachments/assets/9b22966b-af1a-4bf7-9839-5c2b9d2f0b25" />
+
+Waarmee Cyd begint is inspiratie zoeken: screenshots maken van mooie momenten en trukjes dat zij ziet op sociale media - Instagram, Pinterest etc. 
+
+
 
