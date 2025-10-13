@@ -656,9 +656,12 @@ Waarom ik dit framework heb gekozen:
 
 - Ondersteunt TypeScript, composables, API-routes en integratie met headless CMS’en zonder extra setup.
 
-
-
 ### Leervragen
+
+
+## Portfolio workshop met Cyd - week 1
+
+
 
 1. Hoe heb jij je voorbereid op de sprint review?
 2. [Voor na de sprint review] Hoe heeft de sprint review voorbereiding geholpen?
