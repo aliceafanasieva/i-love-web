@@ -658,6 +658,11 @@ Waarom ik dit framework heb gekozen:
 
 ### Leervragen
 
+- Welke stappen neem je om een nieuw framework uit te proberen?
+
+- Bij wat voor type project zou je kiezen voor 11ty?
+
+- Hoe heb je ervoor gezorgd dat je met je team weet welke stappen jullie vandaag nemen?
 
 ## Portfolio workshop met Cyd - week 1
 
