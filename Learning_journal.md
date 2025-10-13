@@ -684,4 +684,11 @@ Waarmee Cyd begint is inspiratie zoeken: screenshots maken van mooie momenten en
 
 #### Gegroepeerde moodboard
 
+<img width="1446" height="415" alt="image" src="https://github.com/user-attachments/assets/c8c1144b-c64d-4718-868d-8ff977ec304c" />
+
+
+#### Eerste concept
+
+<img width="599" height="425" alt="image" src="https://github.com/user-attachments/assets/67dfa3c1-1ed0-4c51-950a-50a675cc65fe" />
+
 
