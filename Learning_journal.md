@@ -678,5 +678,10 @@ Not a designer, behalve voor eigen portfolio.
 
 Waarmee Cyd begint is inspiratie zoeken: screenshots maken van mooie momenten en trukjes dat zij ziet op sociale media - Instagram, Pinterest etc. 
 
+#### Algemene moodboard
+
+<img width="1119" height="724" alt="image" src="https://github.com/user-attachments/assets/05aff641-36f2-4bef-83d0-2875732e8753" />
+
+#### Gegroepeerde moodboard
 
 
