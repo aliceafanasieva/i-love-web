@@ -642,6 +642,19 @@ Het opdracht was om een planning voor aankomende sprint op het whiteboard te tek
 
 Ik moet een headless CMS en een framework kiezen. Verder wordt dit opdracht beschreven in deeltaak "Justify your Tech Stack": https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/justify-your-techstack.md#justify-your-techstack. 
 
+#### Gekozen framework: Nuxt.js
+
+Waarom ik dit framework heb gekozen:
+
+- Nuxt is het Vue-framework voor fullstack en JAMstack-ontwikkeling.
+
+- Het combineert server-side rendering (SSR), static site generation (SSG) en client-side rendering (CSR) in één framework.
+
+- Steeds meer bedrijven gebruiken Nuxt in productie, waardoor kennis ervan goed aansluit bij de arbeidsmarkt voor frontenders (wat mij kan helpen bij stage zoeken).
+
+- Het is een framework dat developer experience centraal stelt (auto-imports, directory-based routing, composables, hybrid rendering, enz.).
+
+- Ondersteunt TypeScript, composables, API-routes en integratie met headless CMS’en zonder extra setup.
 
 
 
