@@ -625,3 +625,29 @@ Ik heb ook zelf tijdens de wrapup van sprint 14 mijn werk (redesign en styleguid
 3. Wat zou je de volgende keer anders doen?
 
 
+# 13-10-2025
+
+## Wat moet ik vandaag doen? 
+
+### Sprintplanning Choices, choices
+Link naar document: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/sprint-planning.md#sprint-planning
+
+#### Sprintplanning opdracht
+
+Het opdracht was om een planning voor aankomende sprint op het whiteboard te tekenen:
+
+<img width="1008" height="726" alt="image" src="https://github.com/user-attachments/assets/a270f83b-0765-4233-bf3a-e37f1f0856a0" />
+
+### Kiezen van techstack
+
+Ik moet een headless CMS en een framework kiezen. Verder wordt dit opdracht beschreven in deeltaak "Justify your Tech Stack": https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/justify-your-techstack.md#justify-your-techstack. 
+
+
+
+
+### Leervragen
+
+1. Hoe heb jij je voorbereid op de sprint review?
+2. [Voor na de sprint review] Hoe heeft de sprint review voorbereiding geholpen?
+3. Wat zou je de volgende keer anders doen?
+
