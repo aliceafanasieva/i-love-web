@@ -627,9 +627,7 @@ Ik heb ook zelf tijdens de wrapup van sprint 14 mijn werk (redesign en styleguid
 
 # 13-10-2025
 
-## Wat moet ik vandaag doen? 
-
-### Sprintplanning Choices, choices
+## Sprintplanning Choices, choices
 Link naar document: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/sprint-planning.md#sprint-planning
 
 #### Sprintplanning opdracht
@@ -656,6 +654,11 @@ Waarom ik dit framework heb gekozen:
 
 - Ondersteunt TypeScript, composables, API-routes en integratie met headless CMS’en zonder extra setup.
 
+## 11ty project opdracht 
+
+Ik heb een git repository aangemaakt om 11ty framework uit te proberen: https://github.com/aliceafanasieva/Made-with-eleventy-blog. Ik ga een tutorial volgen en op dit manier framework onderzoeken voor deeltaak "Justify your tech stack": https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/justify-your-techstack.md#aanpak. 
+
+
 ### Leervragen
 
 - Welke stappen neem je om een nieuw framework uit te proberen?
@@ -663,10 +666,6 @@ Waarom ik dit framework heb gekozen:
 - Bij wat voor type project zou je kiezen voor 11ty?
 
 - Hoe heb je ervoor gezorgd dat je met je team weet welke stappen jullie vandaag nemen?
-
-- 1. Hoe heb jij je voorbereid op de sprint review?
-2. [Voor na de sprint review] Hoe heeft de sprint review voorbereiding geholpen?
-3. Wat zou je de volgende keer anders doen?
 
 ## Portfolio workshop met Cyd - week 1 
 
@@ -686,9 +685,21 @@ Waarmee Cyd begint is inspiratie zoeken: screenshots maken van mooie momenten en
 
 <img width="1446" height="415" alt="image" src="https://github.com/user-attachments/assets/c8c1144b-c64d-4718-868d-8ff977ec304c" />
 
-
 #### Eerste concept
 
 <img width="599" height="425" alt="image" src="https://github.com/user-attachments/assets/67dfa3c1-1ed0-4c51-950a-50a675cc65fe" />
+
+
+# 14-10-2025
+
+## Wat heb ik vandaag gedaan?
+
+### Doorwerken aan 11ty tutorial
+
+#### Vandaag deze commits gemaakt:
+- be70172 https://github.com/aliceafanasieva/Made-with-eleventy-blog/commit/be70172e81b4ec3276f1e737f68934ae6dc3ba82
+
+### Component "menu navigation bar" gemaakt - opdrachtgever website
+
 
 
