@@ -705,3 +705,23 @@ Waarmee Cyd begint is inspiratie zoeken: screenshots maken van mooie momenten en
 - 167a4e2 https://github.com/fdnd-agency/embassyofthefreemind/commit/167a4e2ea9c6e9a2c5e30af6506bcbdafd33fe40
 - 53e8797 https://github.com/fdnd-agency/embassyofthefreemind/commit/53e87971546a6f54093554df2c62f358ad2edea1
 
+# 15-10-2025
+
+### Mentor 
+Ik was vandaag en mentor voor eerstejaars studenten, verder beschreven hier: https://github.com/aliceafanasieva/mentor/blob/main/README.md#15-10-2025
+
+### Projectinrichting: over reviews, refinement en scrummen
+
+### Opdracht mentorschap
+Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/mentor.md#mentorschap
+
+#### 1. Doe Retromat #121 op je mentor skills
+
+
+#### 2. Praat over de uitkomsten met de mensen aan je tafel
+
+#### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken,
+
+#### 4. Verwerk dit in je learning journal.
+
+
