@@ -725,7 +725,7 @@ Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/
 
 #### 2. Praat over de uitkomsten met de mensen aan je tafel
 
-#### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken,
+#### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken
 
 
 #### Hoe gaat reflecteren op je mentor rol je helpen met het verbeteren van je skills?
