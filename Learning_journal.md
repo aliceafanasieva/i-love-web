@@ -726,7 +726,8 @@ Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/
 #### 2. Praat over de uitkomsten met de mensen aan je tafel
 
 #### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken
-
+- Meer issues schrijven en ook controleren dat die issues worden verwerkt (followup);
+- Leerlingen meer te motiveren om les te volgen. 
 
 #### Hoe gaat reflecteren op je mentor rol je helpen met het verbeteren van je skills?
 
