@@ -717,11 +717,21 @@ Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/
 
 #### 1. Doe Retromat #121 op je mentor skills
 
+**'The Good':** documenteren van les, meedoen met de opdrachten die eerstejaars doen, uitleggen van dingen die worden gevraagd, actief en behulpzaam zijn, vragen stellen of ze alles begrijpen.
+
+**'The Bad':** soms willen ze niet zelf de leertaak lezen en stellen vragen die wel opgeschreven zijn in het beschrijving van het opdracht; op vragen als "Heb je hulp nodig?" of "Waar ben jij nu mee bezig?" geven een eenzijdig antwoord en willen niet coopereren; Ik moet zelf meer issues schrijven aan eerstejaars, ik heb zover weinig issues geschreven.
+
+**'The Ugly'**: Het is moeilijk als studenten geen motivatie hebben om opdrachten te doen, dan voel ik dat ik zelf bezig ben met hun opdracht in plaats van ze. 
 
 #### 2. Praat over de uitkomsten met de mensen aan je tafel
 
 #### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken,
 
-#### 4. Verwerk dit in je learning journal.
+
+#### Hoe gaat reflecteren op je mentor rol je helpen met het verbeteren van je skills?
+
+#### Wat maakt een goede mentor?
+
+#### Hoe zie jij je in de toekomst developers opleiden?
 
 
