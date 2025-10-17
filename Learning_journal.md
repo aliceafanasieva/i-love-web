@@ -753,50 +753,9 @@ Ik heb ook voor de pull request van mijn teamgenoot een review geschreven: https
 
 We gaan code revieuwen van twee andere teams.
 
-### Aanpak
-Noteer op het whiteboard welke teams/opdrachtgevers jullie gaan reviewen, zodat elk team feedback krijgt.
+De reviews heb ik gesschreven als issues en gezet in de projectboard van andere teams:
 
-Binnen mijn huidige team:
-
-Kies twee andere teams die je gaat reviewen.
-Schrijf de namen van de gekozen teams/opdrachtgevers op het whiteboard.
-Loop het project door aan de hand van onderstaande criteria.
-Schiet issues in bij het team dat je reviewt. Zorg dat deze duidelijk zijn en constructieve feedback bevatten.
-Code review criteria
-
-#### Projectinrichting
-Is er een actief projectboard?
-Is het duidelijk waar het team momenteel aan werkt en hoe de voortgang wordt bijgehouden?
-Is er een live site beschikbaar of zijn er duidelijke installatie-instructies om het project lokaal te draaien?
-
-#### Verschillende routes
-Is er een sitemap aanwezig?
-Hoeveel pagina’s bevat de website, en welke zijn al aangemaakt en vindbaar via de routes?
-
-#### Dynamische data
-Wordt er verbinding gemaakt met een database?
-Zijn er detailpagina’s met dynamische slugs (bijv. /product/[id])?
-Wordt dynamische data correct opgehaald en gerenderd op de juiste plekken?
-
-#### Structuur componenten
-- Hoe is de opbouw van de componenten georganiseerd?
-- Zijn componenten herbruikbaar en goed leesbaar?
-- Is er sprake van een duidelijke mappenstructuur en consistente naamgeving?
-
-#### Zelf bedachte criteria
-- Bedenk als team drie punten waarop jullie graag feedback ontvangen.
-- Noteer deze criteria op het whiteboard.
-
-**1. Consistentie tussen design en code**
-Komt het eindresultaat overeen met het ontwerp (bijvoorbeeld Figma of styleguide)? Denk aan kleurgebruik, typografie, spacing en interacties. Is er aandacht besteed aan het behouden van de visuele identiteit in de code?
-
-**2. Gebruiksvriendelijkheid en responsiveness**
-Werkt de website goed op verschillende schermgroottes (mobile, tablet, desktop)? Is de navigatie duidelijk en zijn interacties intuïtief voor de gebruiker?
-
-**3. Codekwaliteit en leesbaarheid**
-Is de code goed gestructureerd en makkelijk te begrijpen voor andere ontwikkelaars? Worden duidelijke namen gebruikt voor bestanden, functies en variabelen? En is er genoeg commentaar of documentatie om snel te zien wat elk deel doet?
-
-Laat het team dat jullie reviewt deze criteria meenemen in hun beoordeling.e review.
-
+- Designing for Recognition: https://github.com/fdnd-agency/designingforrecognition/issues/70
+- Nebula: 
 
 
