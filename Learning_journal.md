@@ -737,4 +737,16 @@ Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/
 
 #### Hoe zie jij je in de toekomst developers opleiden?
 
+*** later toevoegen!!!! ***
+
+
+
+### Pull requests
+Ik heb een pull request gemaakt voor NavBar component. Link naar mijn pullrequest: https://github.com/fdnd-agency/embassyofthefreemind/pull/134
+
+Ik heb ook voor de pull request van mijn teamgenoot een review geschreven: https://github.com/fdnd-agency/embassyofthefreemind/pull/133#issuecomment-3413017954
+
+
+# 17-10-2025
+
 
