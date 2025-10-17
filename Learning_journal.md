@@ -756,6 +756,8 @@ We gaan code revieuwen van twee andere teams.
 De reviews heb ik gesschreven als issues en gezet in de projectboard van andere teams:
 
 - Designing for Recognition: https://github.com/fdnd-agency/designingforrecognition/issues/70
-- Nebula: 
+- Nebula: https://github.com/fdnd-agency/nebulaxplorer/issues/79#issue-3526200424
+
+
 
 
