@@ -758,6 +758,25 @@ De reviews heb ik gesschreven als issues en gezet in de projectboard van andere 
 - Designing for Recognition: https://github.com/fdnd-agency/designingforrecognition/issues/70
 - Nebula: https://github.com/fdnd-agency/nebulaxplorer/issues/79#issue-3526200424
 
+# 25-10-2025
 
+## Doelen voor vandaag:
+
+### Squadpage
+- [ ] Werk drie verschillende concepten uit voor je gehele homepagina
+- [ ] Dupliceer elk uitgewerkt concept en probeer een andere kleuren samenstelling (tenminste 6 artboards dus)
+- [ ] Noteer voor jezelf welke "vibes" je krijgt van je verschillende concepten, past dat bij wat je wil uitstralen aan bedrijven?
+
+### Redesign navmenu
+
+- [ ] Editen van navmenu bar, na de feedback van opdrachtgever.
+
+### Hero component
+
+- [ ] Toevoegen van hero component
+
+### 11ty bestuderen 
+
+- [ ] De tutorial van 11ty afmaken en de bevindignen documenteren (hoe ziet DX, UX etc eruit? Is het makkelijk in gebruik?)
 
 
