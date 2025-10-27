@@ -780,3 +780,26 @@ De reviews heb ik gesschreven als issues en gezet in de projectboard van andere 
 - [ ] De tutorial van 11ty afmaken en de bevindignen documenteren (hoe ziet DX, UX etc eruit? Is het makkelijk in gebruik?)
 
 
+# 27-10-2025
+
+## Workshop Next.js en Vue door Chanel
+
+Next.js is een sframework om React heen. 
+
+#### Waarom React wordt gebruikt?
+Heel wijd gebruikt, kennis van React wordt vaak gevraagd op de arbeidsmarkt. Je gebruikt ts (Typescript) zodat je in de editor correcties kan krijgen voor onjuiste code. 
+
+React, Vite, Typescript, Router gebruik je dus samen. 
+
+#### Waarom Next.js?
+- Battle tested: veel kenniserover, wijd gebruikt
+- Grote community: forums gebruiken als je vragen hebt over framework, veel tutorials
+- Meer features dan in bijv Sveltekit 
+
+In Next.js splits je de code in twee delen: UI en Core.
+Dus de herbruikbare componenten en UI en dan de servers etc in Core. 
+
+Voor documentatie: https://nextjs.org/docs.
+
+
+
