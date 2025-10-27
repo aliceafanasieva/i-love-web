@@ -763,9 +763,19 @@ De reviews heb ik gesschreven als issues en gezet in de projectboard van andere 
 ## Doelen voor vandaag:
 
 ### Squadpage
-- [ ] Werk drie verschillende concepten uit voor je gehele homepagina
-- [ ] Dupliceer elk uitgewerkt concept en probeer een andere kleuren samenstelling (tenminste 6 artboards dus)
-- [ ] Noteer voor jezelf welke "vibes" je krijgt van je verschillende concepten, past dat bij wat je wil uitstralen aan bedrijven?
+- [x] Werk drie verschillende concepten uit voor je gehele homepagina
+- [x] Dupliceer elk uitgewerkt concept en probeer een andere kleuren samenstelling (tenminste 6 artboards dus)
+- [x] Noteer voor jezelf welke "vibes" je krijgt van je verschillende concepten, past dat bij wat je wil uitstralen aan bedrijven?
+
+Link: https://www.figma.com/design/lmaw4cYMmmLSvoNZB63Qvo/Portfolio-FDND--Community-?node-id=1-2&t=JwHoULdqRAKB77B5-1
+
+#### Drie concepten
+
+<img width="947" height="683" alt="image" src="https://github.com/user-attachments/assets/214f698c-10bc-49d2-9b51-a00c2f987c1b" />
+
+#### Drie verschillende kleuren samenstelling voor elk:
+
+<img width="1429" height="426" alt="image" src="https://github.com/user-attachments/assets/e879e495-6247-4339-8de7-3898018d1f7e" />
 
 ### Redesign navmenu
 
