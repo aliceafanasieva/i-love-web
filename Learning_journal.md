@@ -811,5 +811,54 @@ Dus de herbruikbare componenten en UI en dan de servers etc in Core.
 
 Voor documentatie: https://nextjs.org/docs.
 
+### Next.js installatie
+
+Nu ga ik een Next.js installeren in aparte repository blog, zoals ik het heb gedaan bij 11ty tutorial vorige keer. 
+Link naar repository: https://github.com/aliceafanasieva/Made-with-nextjs-blog
+
+```
+
+npx create-next-app@latest my-app --yes
+cd my-app
+npm run dev
+
+alisa@MacBook-Air-Alisa my-app % npx create-next-app@latest
+✔ What is your project named? … my-app
+✔ Would you like to use the recommended Next.js defaults? › No, customize settings
+✔ Would you like to use TypeScript? … No / Yes
+✔ Which linter would you like to use? › ESLint
+✔ Would you like to use React Compiler? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like your code inside a `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to use Turbopack? (recommended) … No / Yes
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes
+Creating a new Next.js app in /Users/alisa/Documents/GitHub/Made-with-nextjs-blog/my-app/my-app.
+
+```
+
+## Portfolio sessies met Cyd 2/4
+
+Grids: gebruik consistentie in margins en andere groottes (12px, 16px, 18px etc) of rem (16px = 1rem)
+Letter spacing: font afhankelijk, maakt je font beter of beter leesbaar. 
+
+#### Huiswerk
+
+1. Werk je home- en detailspagina uit:
+   - alles netjes uitlijnt.
+   - je een grid gebruikt.
+   - je je font groottes & kleuren defineert.
+
+2. Begin met het schrijven van de content van je website:
+   - Voor wie maak je een portfolio? Voor stagebedrijven, andere developers, om te experimenteren?
+   - Kies hierbij een duidelijke tone of voice, en wees consistent.
+   - De web wereld is niet formeel, ik raad het gebruik van u en te nette taal af
+   - Bepaal welke projecten "portfolio waardig" zijn volgens jou
+   - Dingen die bedrijven graag zien op portfolio:
+    * Projecten van buiten de opleiding ("passie" projecten of freelance werk)
+    * Experimenten met code (Codepens of repos bijvoorbeeld)
+    * Persoonlijk tintje (leuke hobby's bijv. foto van jezelf ofz)
+   - Dol
+
 
 
