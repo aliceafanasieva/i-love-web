@@ -858,7 +858,13 @@ Letter spacing: font afhankelijk, maakt je font beter of beter leesbaar.
     * Projecten van buiten de opleiding ("passie" projecten of freelance werk)
     * Experimenten met code (Codepens of repos bijvoorbeeld)
     * Persoonlijk tintje (leuke hobby's bijv. foto van jezelf ofz)
-   - Dol
+  
+# 29-10-2025
+
+## Mentor
+Vandaag ben ik een mentor voor eerstejaars studenten. 
+
+
 
 
 
