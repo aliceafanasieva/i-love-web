@@ -865,6 +865,38 @@ Letter spacing: font afhankelijk, maakt je font beter of beter leesbaar.
 Vandaag ben ik een mentor voor eerstejaars studenten. 
 
 
+# 30-10-2025
+
+### Sprint review met de opdrachtgever
+
+Wij hebben feedback gekregen van opdrachtgever (Chiara) uit Embassy of the Free mind. 
+
+#### Belangrijkste punten voor volgende sprint:
+
+- Fix components when adjusting website
+
+- Remove logo from menu bar
+
+- Make the height of the menu bar less
+
+- Design elements (Recep took notes!)
+
+- Add Hamburger menu 
+
+- Add Partners
+
+- Think about the slideshow content
+
+# 31-10-2025
+
+## Retrospect sprint 15
+
+Projectboard klaar, portflow is vol, alles klaarzetten voor assesments.
+
+## Presentatie techstack
+
+
+
 
 
 
