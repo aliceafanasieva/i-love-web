@@ -705,3 +705,198 @@ Waarmee Cyd begint is inspiratie zoeken: screenshots maken van mooie momenten en
 - 167a4e2 https://github.com/fdnd-agency/embassyofthefreemind/commit/167a4e2ea9c6e9a2c5e30af6506bcbdafd33fe40
 - 53e8797 https://github.com/fdnd-agency/embassyofthefreemind/commit/53e87971546a6f54093554df2c62f358ad2edea1
 
+# 15-10-2025
+
+### Mentor 
+Ik was vandaag en mentor voor eerstejaars studenten, verder beschreven hier: https://github.com/aliceafanasieva/mentor/blob/main/README.md#15-10-2025
+
+### Projectinrichting: over reviews, refinement en scrummen
+
+### Opdracht mentorschap
+Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/mentor.md#mentorschap
+
+#### 1. Doe Retromat #121 op je mentor skills
+
+**'The Good':** documenteren van les, meedoen met de opdrachten die eerstejaars doen, uitleggen van dingen die worden gevraagd, actief en behulpzaam zijn, vragen stellen of ze alles begrijpen.
+
+**'The Bad':** soms willen ze niet zelf de leertaak lezen en stellen vragen die wel opgeschreven zijn in het beschrijving van het opdracht; op vragen als "Heb je hulp nodig?" of "Waar ben jij nu mee bezig?" geven een eenzijdig antwoord en willen niet coopereren; Ik moet zelf meer issues schrijven aan eerstejaars, ik heb zover weinig issues geschreven. Soms weet ik geen antwoord op vragen (gebeurdt vrij weinig), maar dan zoek ik het samen met dat leerling op.
+
+**'The Ugly'**: Het is moeilijk als studenten geen motivatie hebben om opdrachten te doen, dan voel ik dat ik zelf bezig ben met hun opdracht in plaats van ze. 
+
+#### 2. Praat over de uitkomsten met de mensen aan je tafel
+
+#### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken
+- Meer issues schrijven en ook controleren dat die issues worden verwerkt (followup);
+- Leerlingen meer te motiveren om les te volgen.
+
+#### Hoe gaat reflecteren op je mentor rol je helpen met het verbeteren van je skills?
+
+#### Wat maakt een goede mentor?
+
+#### Hoe zie jij je in de toekomst developers opleiden?
+
+*** later toevoegen!!!! ***
+
+
+<img width="1098" height="815" alt="image" src="https://github.com/user-attachments/assets/1799d0f9-ac09-4385-9d92-47bac4494b6d" />
+
+
+### Pull requests
+Ik heb een pull request gemaakt voor NavBar component. Link naar mijn pullrequest: https://github.com/fdnd-agency/embassyofthefreemind/pull/134
+
+Ik heb ook voor de pull request van mijn teamgenoot een review geschreven: https://github.com/fdnd-agency/embassyofthefreemind/pull/133#issuecomment-3413017954
+
+
+# 17-10-2025
+
+### Code/Design-review week 1
+
+We gaan code revieuwen van twee andere teams.
+
+De reviews heb ik gesschreven als issues en gezet in de projectboard van andere teams:
+
+- Designing for Recognition: https://github.com/fdnd-agency/designingforrecognition/issues/70
+- Nebula: https://github.com/fdnd-agency/nebulaxplorer/issues/79#issue-3526200424
+
+# 25-10-2025
+
+## Doelen voor vandaag:
+
+### Squadpage
+- [x] Werk drie verschillende concepten uit voor je gehele homepagina
+- [x] Dupliceer elk uitgewerkt concept en probeer een andere kleuren samenstelling (tenminste 6 artboards dus)
+- [x] Noteer voor jezelf welke "vibes" je krijgt van je verschillende concepten, past dat bij wat je wil uitstralen aan bedrijven?
+
+Link: https://www.figma.com/design/lmaw4cYMmmLSvoNZB63Qvo/Portfolio-FDND--Community-?node-id=1-2&t=JwHoULdqRAKB77B5-1
+
+#### Drie concepten
+
+<img width="947" height="683" alt="image" src="https://github.com/user-attachments/assets/214f698c-10bc-49d2-9b51-a00c2f987c1b" />
+
+#### Drie verschillende kleuren samenstelling voor elk:
+
+<img width="1429" height="426" alt="image" src="https://github.com/user-attachments/assets/e879e495-6247-4339-8de7-3898018d1f7e" />
+
+### Redesign navmenu
+
+- [ ] Editen van navmenu bar, na de feedback van opdrachtgever.
+
+### Hero component
+
+- [ ] Toevoegen van hero component
+
+### 11ty bestuderen 
+
+- [ ] De tutorial van 11ty afmaken en de bevindignen documenteren (hoe ziet DX, UX etc eruit? Is het makkelijk in gebruik?)
+
+
+# 27-10-2025
+
+## Workshop Next.js en Vue door Chanel
+
+Next.js is een sframework om React heen. 
+
+#### Waarom React wordt gebruikt?
+Heel wijd gebruikt, kennis van React wordt vaak gevraagd op de arbeidsmarkt. Je gebruikt ts (Typescript) zodat je in de editor correcties kan krijgen voor onjuiste code. 
+
+React, Vite, Typescript, Router gebruik je dus samen. 
+
+#### Waarom Next.js?
+- Battle tested: veel kenniserover, wijd gebruikt
+- Grote community: forums gebruiken als je vragen hebt over framework, veel tutorials
+- Meer features dan in bijv Sveltekit 
+
+In Next.js splits je de code in twee delen: UI en Core.
+Dus de herbruikbare componenten en UI en dan de servers etc in Core. 
+
+Voor documentatie: https://nextjs.org/docs.
+
+### Next.js installatie
+
+Nu ga ik een Next.js installeren in aparte repository blog, zoals ik het heb gedaan bij 11ty tutorial vorige keer. 
+Link naar repository: https://github.com/aliceafanasieva/Made-with-nextjs-blog
+
+```
+
+npx create-next-app@latest my-app --yes
+cd my-app
+npm run dev
+
+alisa@MacBook-Air-Alisa my-app % npx create-next-app@latest
+✔ What is your project named? … my-app
+✔ Would you like to use the recommended Next.js defaults? › No, customize settings
+✔ Would you like to use TypeScript? … No / Yes
+✔ Which linter would you like to use? › ESLint
+✔ Would you like to use React Compiler? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like your code inside a `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to use Turbopack? (recommended) … No / Yes
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes
+Creating a new Next.js app in /Users/alisa/Documents/GitHub/Made-with-nextjs-blog/my-app/my-app.
+
+```
+
+## Portfolio sessies met Cyd 2/4
+
+Grids: gebruik consistentie in margins en andere groottes (12px, 16px, 18px etc) of rem (16px = 1rem)
+Letter spacing: font afhankelijk, maakt je font beter of beter leesbaar. 
+
+#### Huiswerk
+
+1. Werk je home- en detailspagina uit:
+   - alles netjes uitlijnt.
+   - je een grid gebruikt.
+   - je je font groottes & kleuren defineert.
+
+2. Begin met het schrijven van de content van je website:
+   - Voor wie maak je een portfolio? Voor stagebedrijven, andere developers, om te experimenteren?
+   - Kies hierbij een duidelijke tone of voice, en wees consistent.
+   - De web wereld is niet formeel, ik raad het gebruik van u en te nette taal af
+   - Bepaal welke projecten "portfolio waardig" zijn volgens jou
+   - Dingen die bedrijven graag zien op portfolio:
+    * Projecten van buiten de opleiding ("passie" projecten of freelance werk)
+    * Experimenten met code (Codepens of repos bijvoorbeeld)
+    * Persoonlijk tintje (leuke hobby's bijv. foto van jezelf ofz)
+  
+# 29-10-2025
+
+## Mentor
+Vandaag ben ik een mentor voor eerstejaars studenten. 
+
+
+# 30-10-2025
+
+### Sprint review met de opdrachtgever
+
+Wij hebben feedback gekregen van opdrachtgever (Chiara) uit Embassy of the Free mind. 
+
+#### Belangrijkste punten voor volgende sprint:
+
+- Fix components when adjusting website
+
+- Remove logo from menu bar
+
+- Make the height of the menu bar less
+
+- Design elements (Recep took notes!)
+
+- Add Hamburger menu 
+
+- Add Partners
+
+- Think about the slideshow content
+
+# 31-10-2025
+
+## Retrospect sprint 15
+
+Projectboard klaar, portflow is vol, alles klaarzetten voor assesments.
+
+## Presentatie techstack
+
+
+
+
+
+
