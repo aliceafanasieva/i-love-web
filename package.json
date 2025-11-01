@@ -1,11 +1,19 @@
 {
-  "name": "i-love-web",
-  "version": "1.0.0",
-  "description": "Learning journal en digital garden... jouw  persoonlijke i-love-web-site is een verzameling zaken die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een [learning journal](#learning-journal) welke je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de [digital garden](#digital-garden), een site waarbij de vorm compleet vrij staat.",
-  "main": "index.js",
+  "name": "temp-nuxt",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@nuxt/content": "^3.8.0",
+    "better-sqlite3": "^12.4.1",
+    "nuxt": "^4.2.0",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  }
 }

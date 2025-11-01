@@ -1,4 +1,11 @@
+---
+title: We Love Web
+date: 2025-09-12
+description: Gastcollege over frontend bij Funda
+---
+
 # We ♥ Web 12-09-2025
+
 ## Spreker: Tolga Doğaner, frontend developer bij Funda
 
 <img width="1089" height="599" alt="image" src="https://github.com/user-attachments/assets/e60a1bab-9287-4257-a1e8-0dbb7d06b2bd" />
@@ -32,26 +39,34 @@ Hij wilde specifiek Nuxt leren, omdat bedrijven vooral Nuxt en React vragen.
 - Over AI: focus eerst op een stevige basis; leer AI als hulpmiddel in te zetten. Hij is niet bang dat AI zijn werk gaat overnemen.
 
 ### Wat heb ik geleerd
-Ik vond het interessant om vanuit het perspectief van een net-afgestudeerde te horen hoe je route eruit kan zien en wat je kunt doen om te groeien in het vakgebied van frontend, dat kwaliteit van de code, toegankelijkheid, optimalisatie, teamwerk en een sterk portfolio heel belangrijk zijn. Dat geeft een wat duidelijker beeld van wat er nodig is om uiteindelijk een baan in dit vakgebied te vinden. 
 
+Ik vond het interessant om vanuit het perspectief van een net-afgestudeerde te horen hoe je route eruit kan zien en wat je kunt doen om te groeien in het vakgebied van frontend, dat kwaliteit van de code, toegankelijkheid, optimalisatie, teamwerk en een sterk portfolio heel belangrijk zijn. Dat geeft een wat duidelijker beeld van wat er nodig is om uiteindelijk een baan in dit vakgebied te vinden.
 
+---
+
+title: We Love Web
+date: 2025-10-3
+description: Gastcollege over frontend bij Funda
+
+---
 
 # We ♥ Web 3-10-2025
+
 ## Spreker: Martijn Nieuwenhuizen
 
 #### Don't be boring, don't be lazy!
 
 Het moet perfect, "Als het niet top is, dan moet het weg".
 
-Martijn was een kok, maar hij ging een CMD opleiding doen, helemaal zonder voorkennis van design. Daarna heeft hij voor verschillende opdrachtgever gewerkt. Hij is een developer binnen projecten van Tech digtal, tech-lead/Technical product owner. Hij is ook een development lead - verantwoordelijk voor de groei van mensen binnen Tech discipline en voor Tech discipline binnen bedrijf zelf. 
+Martijn was een kok, maar hij ging een CMD opleiding doen, helemaal zonder voorkennis van design. Daarna heeft hij voor verschillende opdrachtgever gewerkt. Hij is een developer binnen projecten van Tech digtal, tech-lead/Technical product owner. Hij is ook een development lead - verantwoordelijk voor de groei van mensen binnen Tech discipline en voor Tech discipline binnen bedrijf zelf.
 
 ### Wat vind ik zo leuk aan mijn werk?
 
-Het juiste product maken - product, die mensen gaan gebruiken. 
+Het juiste product maken - product, die mensen gaan gebruiken.
 
 ### Rare vraag naar opdrachtgever
 
-Opdrachtgever weet meestal niet precies wat hij wil. "Wil jij een video op homepagina of een foto?" - opdrachtgever weet misschien wat hij wil bereiken, eindresultaat dat product moet leveren, maar niet hoe dit door middel van design en conversie moet worden gedaan (meestal) dat moet de designer doen. 
+Opdrachtgever weet meestal niet precies wat hij wil. "Wil jij een video op homepagina of een foto?" - opdrachtgever weet misschien wat hij wil bereiken, eindresultaat dat product moet leveren, maar niet hoe dit door middel van design en conversie moet worden gedaan (meestal) dat moet de designer doen.
 
 ### Hoe pak je een project aan?
 
@@ -61,11 +76,11 @@ Opdrachtgever weet meestal niet precies wat hij wil. "Wil jij een video op homep
 
 #### Discover & Strategise
 
-Begrijpen van business context, brand, human context, technical context - technisch landschap in kaart brengen. Data indexation/mapping. 
+Begrijpen van business context, brand, human context, technical context - technisch landschap in kaart brengen. Data indexation/mapping.
 
-Understand product: Sleutel oplevering: product vision. 
+Understand product: Sleutel oplevering: product vision.
 
-Shape product : sleutel opleveringen: service blueprint, prototype, high level architecture. 
+Shape product : sleutel opleveringen: service blueprint, prototype, high level architecture.
 Service blueprint - Customer journey, data dat betrokken is bij elke stap van gebruiken van dit product.
 
 Define scope, sleutel oplevering: Backlog.
@@ -73,17 +88,18 @@ Define scope, sleutel oplevering: Backlog.
 Prototypen, schetsen.
 
 #### Create & Launch
+
 In dit fase wordt wel iets gebouwd. Dus designs, prototypes etc.
 Kickoff & Sprint 0. Koppeling met CMS, API, Frameworks neerzetten.
-Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de opdrachtgever. 
+Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de opdrachtgever.
 
 1. Demo
 2. Pre Refinement - stories worden klaargemaakt
 3. Data mapping
-4. Refinement - wordt precies gemaakt wat er wordt verwacht. 
+4. Refinement - wordt precies gemaakt wat er wordt verwacht.
 5. Planning
 
-#### Optimise & Grow 
+#### Optimise & Grow
 
 - Dashboard wordt gemaakt van hoe de product wordt gebruikt;
 - Praten met gebruikers (user tests)
@@ -92,22 +108,14 @@ Je werkt iteratief, SCRUM-methode. De tempo en grote van sprints hangt af van de
 
 Technische basis eerst klaarzetten, standaard hergebruikbare elementen. Typography.scss, colors.scss voor allemaal :root{ } styling.
 
-
 ### Personal playground
 
-Een website maken voor jezelf, voor **experimenten**. 
+Een website maken voor jezelf, voor **experimenten**.
 
 Link naar website met experimenten van Martijn: [martijnnieuwehuizen.nl/experiments](https://martijnnieuwenhuizen.nl/experiments)
 
 ### Carousels
 
-The hardest working font in Manhattan - een artikel met onzerzoek hoe vaak dit gegeven font wordt gebruikt. 
-Jij moet als ontwerper meedenken hoe jij een beter oplossing doet. 
+The hardest working font in Manhattan - een artikel met onzerzoek hoe vaak dit gegeven font wordt gebruikt.
+Jij moet als ontwerper meedenken hoe jij een beter oplossing doet.
 Image grid dat een knop naar meet plaatjes, geen carousel. Omdat als een gebruiker wil je misschien niet klikken op carousel - daarom maken we een link naar meer plaatjes ipv. heel moeilijk een carousel bouwen.
-
-
-
-
-
-
-
