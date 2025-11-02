@@ -1,3 +1,18 @@
+<script setup>
+  useHead({
+    link: [
+      {
+        rel: 'preload',
+        href: '/fonts/Stezhok.otf',
+        as: 'font',
+        type: 'font/otf',
+        crossorigin: 'anonymous'
+      }
+    ]
+  })
+</script>
+
+
 <template>
   <div class="container">
     <header>
@@ -27,12 +42,6 @@
 </template>
 
 <style>
-
-  body {
-    background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
-  }
 
   .container {
     font-family: var(--font-body), sans-serif;
