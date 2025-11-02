@@ -988,5 +988,21 @@ npm install @sanity/client
 
 ```
 
+maak een lib/sanity.js aan en zet erin: 
+
+```
+
+import { createClient } from '@sanity/client'
+
+export const client = createClient({
+  projectId: 'n6bndiyp', 
+  dataset: 'production',
+  apiVersion: '2025-01-01', 
+  useCdn: true, 
+})
+
+```
+
+
 
 
