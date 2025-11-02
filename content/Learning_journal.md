@@ -896,6 +896,60 @@ Projectboard klaar, portflow is vol, alles klaarzetten voor assesments.
 ## Presentatie techstack
 
 
+# 1-11-2025
+
+## Nuxt leren
+
+### Nuxt fundamentals
+
+#### Set up Nuxt
+
+commando:
+
+```
+npx create-nuxt-app <projectname>
+
+Which package manager would you like to use?
+npm
+
+npm install
+
+npm install @nuxt/content      ### voor markdown bestanden inlezen
+
+```
+
+Markdown bestanden moeten in de content folder zijn. 
+
+#### Layout
+
+Voor inzetten van header en footer (of andere universele dingen die op elk pagina moeten komen) gebruik je default.vue bestand. Ik maak een folder "layouts". 
+
+Code zet je binnen <template> tag.
+
+Wat heel interessant aan Nuxt is, dat de html tags erg overzichtelijk en logisch eruitzien:
+
+<img width="602" height="192" alt="image" src="https://github.com/user-attachments/assets/9bf2dd74-26f6-4276-8a20-d886cf8a433f" />
+
+NuxtLink is een speciaal component van Nuxt (en Vue Router) dat je gebruikt voor navigatie tussen pagina’s binnen je app, zonder dat de hele pagina opnieuw geladen wordt - **dat zorgt voor veel sneller en beter UX.**
+
+### Universal CSS
+
+Je kan universele CSS bestand met global styles, dat je wilt gebruiken voor de hele website, zetten in twee plekken - Assets of Static. Er zijn wel verschillen tussen.
+
+#### CSS in Assets
+
+1. Maak een css bestand aan in assets
+2. Declare dit in nuxt.config.js:
+   ```css: ['@/assets/css/main.css']```
+
+#### @nuxt/fonts package
+
+Een package van nuxt voor jouw eigen fonts inladen.
+In terminal:
+```npx nuxi@latest module add @nuxt/fonts```
+
+In nuxt.config.js komt dit staan in modules:
+```modules: ['@nuxt/content', '@nuxt/fonts']```
 
 
 
