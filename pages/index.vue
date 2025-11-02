@@ -1,5 +1,6 @@
 <template>
   <section class="intro-container">
+    <img src="/cross-background.png" alt="" class="cross-bg" />
     <div class="intro">
       <h1>
       <span class="decorative">А</span>LISA 
@@ -21,14 +22,7 @@
     <div class="photo-box">my picture</div>
   </section>
 
-  <section class="projects-container">
-    <h1>My Projects</h1>
-    <section class="projects">
-      <div class="project"><h2>Frontend Development</h2></div>
-      <div class="project"><h2>Graphic Design</h2></div>
-      <div class="project"><h2>Motion Design</h2></div>
-    </section>
-  </section>
+  <ProjectsSection />
 
   <section class="contact">
     <h1>Contact</h1>
@@ -59,16 +53,30 @@
     font-size: var(--font-size-sm);
     line-height: 2rem;
   }
+  
   .intro-container {
+    position: relative;
     display: flex;
     min-height: 90vh;
+    overflow: hidden;
+  }
+
+  .cross-bg {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    z-index: 0;
+    pointer-events: none;
   }
 
   .intro {
+    position: relative;
+    z-index: 1; 
     flex: 1;
     text-align: center;
     padding: 20vh 2rem;
-    background-color: #fff;
   }
 
   .intro h1 {
@@ -108,36 +116,6 @@
     align-self: center;
     justify-content: center;
     align-items: center;
-  }
-
-  .projects-container {
-    text-align: left;
-    min-height: 90vh;
-  }
-
-  .projects-container h1{
-    padding-left: 4rem;
-  }
-
-  .projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-
-  .projects :nth-child(1),
-  .projects :nth-child(2) {
-    border-bottom: none;
-  }
-
-  .project {
-    padding-left: 4rem;
-    display: flex;
-    flex: 1;
-    border: 1px solid #000000;
-    text-transform: uppercase;
-    align-items: left;
   }
 
   .contact h1 {
