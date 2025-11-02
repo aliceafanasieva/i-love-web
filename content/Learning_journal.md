@@ -869,15 +869,55 @@ Letter spacing: font afhankelijk, maakt je font beter of beter leesbaar.
 
 # 29-10-2025
 
-## Mentor
+### Opdracht: Mentor feedback 
 
-Vandaag ben ik een mentor voor eerstejaars studenten.
+#### 1. Je bent één keer per week aanwezig op het afgesproken moment
+**Mijn positie:** Ik ben er altijd op woensdag, ik was alleen 1 keer ziek.
+**Feedback van mentees:** Ze ervaren mij als “actief”, dus ze merken mijn aanwezigheid op.
+**Gewenste positie:** behouden zoals nu, aanwezig (en niet ziek zijn).
+**Verbeterpunt:** aanwezig blijven en meer feedback krijgen volgende keer.
+
+#### 2. Je stapt actief op eerstejaars studenten af om ze te helpen
+**Mijn positie:** ik stel regelmatig studenten vragen of ze de leertaak begrijpen, om te checken of ze hulp nodig hebben.
+**Feedback van mentees:** ze vinden me "actief", dus ik een goed betrokkenheid bij les.
+**Gewenste positie:** ik kan nog steeds meer actief zijn - misschien ook naar andere tafels komen dan waar ik zit, of meer aanleidende vragen te stellen.
+**Verbeterpunt:** minder snel zelf opdracht maken voor eerstejaars, eerst observeren en vragen stellen (“Hoe denk jij dat je dit kan oplossen?”) voor hun ook om zelfstandig bezig te zijn.
+
+#### 3. Je luistert, vat samen en vraagt door bij het helpen van studenten
+**Mijn positie:** ik probeer goed te luisteren en samen met studenten naar oplossingen te zoeken als ze tegen een probleem komen. Soms weet ik zelf niet meteen het antwoord, maar dan ga ik mee zoeken. 
+**Feedback van mentees:** ze benoemen dat ik uitleg geef en actief ben, dus het is ook denk ik goed. 
+**Gewenste positie:** iets meer doorvragen zodat studenten zelf tot inzicht komen.
+**Verbeterpunt:** vaker samenvatten wat de student zegt.
+
+#### 4. Je bereidt de workshops voor en helpt de studenten bij de opdracht die ze krijgen
+**Mijn positie:** ik probeer altijd voor te bereiden voor de lessen en opdrachten de dag daarvoor door te lezen, en doe altijd zelf mee aan de opdrachten.
+**Feedback van mentees:** ze leren wel aantal dingen van mij over kleuren en Figma.
+**Gewenste positie:** nog beter voorbereiden om hun ook meer te leren over dingen die goed aan de in het les besproken thema aansluit, maar nog niet was behandeld. En natuurlijk goed aansluit op hun nieau.
+**Verbeterpunt:** nadenken over bronnen die ik kan delen met eerstejaars, dat hun kan helpen met de stof dat ze doorlopen. Voorbereiden wat van extra dingen ik nog bij kan leren aan tijdens de les behandelde stof. 
+
+#### 5. Je beantwoordt vragen over HTML, CSS en JS
+**Mijn positie:** ik help wel bij de codevragen, en als ik iets niet weet, zoek ik het samen met de student op.
+**Feedback van mentees:** niemand gaf er kritiek op, maar ze schreven daar ook niet over.
+**Gewenste positie:** eventueel meer proberen te kijken naar hun code. 
+**Verbeterpunt:** meer kijken naar code van studenten en bronnen zoeken die hun met HTML CSS en Javascript kunnen helpen.
+
+#### 6. Je doet code/design reviews op leertaken
+**Mijn positie:** ik geef wel feedback aan code en design, maar ik heb geen code/design review gedaan omdat die meestal op vrijdag is. Ik heb wel voorbereiding op de sprintreview met opdrachtgever gedaan met eerstejaars, waarbij ze mij hun eerste werkende website en designs lieten zien, en toen heb ik ook feedback gegeven over wat ze nog evetueel kunnen verbeteren voor de sprint review.
+**Feedback van mentees:** ze hebben gezegd over kleuren en design review.
+**Gewenste positie:** meer richting regelmatige korte feedbackmomenten en code design reviews.
+**Verbeterpunt:** structureel issues aanmaken met specifieke feedback met code/design kritiek.
+
+#### 7. Je geeft feedback in issues van eerstejaars
+**Mijn positie:** ik heb wel feedback gegeven aan eerstejaars in issues. 
+**Feedback van mentees:** geen directe opmerkingen hierover.
+**Gewenste positie:** actiever worden en meer feedback gestructureerd geven in issues.
+**Verbeterpunt:** meer issues gaan schrijven en volgende les checken of studenten de feedback opvolgen.
 
 # 30-10-2025
 
 ### Sprint review met de opdrachtgever
 
-Wij hebben feedback gekregen van opdrachtgever (Chiara) uit Embassy of the Free mind.
+Wij hebben feedback gekregen van de opdrachtgever (Chiara) uit Embassy of the Free mind.
 
 #### Belangrijkste punten voor volgende sprint:
 
