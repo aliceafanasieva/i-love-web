@@ -2,7 +2,7 @@
   <div class="container">
     <header>
       <nav>
-        <NuxtLink to="/" class="logo">Alisa Afanasieva</NuxtLink>
+        <NuxtLink to="/" class="logo"></NuxtLink>
         <ul class="nav-links">
           <li><NuxtLink to="/">Portfolio</NuxtLink></li>
           <li><NuxtLink to="/blog">Blog</NuxtLink></li>
@@ -12,16 +12,27 @@
     </header>
 
     <main>
-      <slot />
+      <slot /> 
     </main>
 
     <footer>
-      <p>© 2025 Alisa Afanasieva</p>
+      
     </footer>
   </div>
 </template>
 
-<style scoped>
+<style >
+
+  :root {
+    --font-body: "Inter", sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+
+  :global(body) {
+    margin: 0;
+    padding: 0;
+  }
+
 .container {
   font-family: 'Helvetica Neue', sans-serif;
   color: #111;
@@ -52,11 +63,4 @@ header {
   color: #ff5da2;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #f6f6f6;
-  margin-top: 4rem;
-  font-size: 0.9rem;
-}
 </style>
