@@ -953,6 +953,12 @@ In nuxt.config.js komt dit staan in modules:
 
 ### Headless CMS - Sanity
 
+#### Account aanmaken en een project starten 
+
+<img width="1470" height="832" alt="image" src="https://github.com/user-attachments/assets/413fd2a2-8056-46cf-9f36-e3023ed352c6" />
+
+Dan in VSCode terminal:
+
 ```
 mkdir sanity
 
