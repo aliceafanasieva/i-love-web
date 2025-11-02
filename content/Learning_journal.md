@@ -557,7 +557,10 @@ Als luisteraars geef je tips en tops op basis van principe 4, 8 en 10. Ondervraa
 Iemand in de groep maakt een foto van degene die presenteert (heb je nodig voor de checkout)
 💡 ProTip: Neem de tips en tops mee in issues op je projectboard
 
-#### Alisa
+#### Foto van presentatie
+
+![IMG_1647 2](https://github.com/user-attachments/assets/7c9d1771-1106-4024-b7e9-d37aca8167dd)
+
 
 # 6-10-2025
 
