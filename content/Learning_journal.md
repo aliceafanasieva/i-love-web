@@ -761,7 +761,7 @@ De reviews heb ik gesschreven als issues en gezet in de projectboard van andere 
 
 ## Doelen voor vandaag:
 
-### Squadpage
+### Portfolio design 
 
 - [x] Werk drie verschillende concepten uit voor je gehele homepagina
 - [x] Dupliceer elk uitgewerkt concept en probeer een andere kleuren samenstelling (tenminste 6 artboards dus)
