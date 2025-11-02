@@ -951,6 +951,42 @@ In terminal:
 In nuxt.config.js komt dit staan in modules:
 ```modules: ['@nuxt/content', '@nuxt/fonts']```
 
+### Headless CMS - Sanity
+
+```
+mkdir sanity
+
+npm create sanity@latest
+
+Please log in or create a new account GitHub
+
+Opening browser at https://api.sanity.io/v1/auth/login/github?type=token&label=MacBook-Air-Alisa+%2F+MacOS&origin=http%3A%2F%2Flocalhost%3A4321%2Fcallback
+
+✓ Login successful
+✓ Fetching existing projects
+
+? Create a new project or select an existing one I-love-web (n6bndiyp)
+? Select dataset to use production
+? Project output path: /Users/alisa/Documents/GitHub/i-love-web/sanity
+? Select project template Clean project with no predefined schema types
+? Do you want to use TypeScript? No
+✓ Bootstrapping files from template
+✓ Resolving latest module versions
+✓ Creating default project files
+? Package manager to use for installing dependencies? npm
+⠦ Running npm install --legacy-peer-deps
+
+```
+
+<img width="1165" height="702" alt="image" src="https://github.com/user-attachments/assets/654c6244-a150-4968-912d-1986ebd5f4df" />
+
+
+Om in te lezen: 
+
+```
+npm install @sanity/client
+
+```
 
 
 
