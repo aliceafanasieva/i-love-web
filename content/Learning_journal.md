@@ -714,32 +714,36 @@ Ik was vandaag en mentor voor eerstejaars studenten, verder beschreven hier: htt
 
 ### Projectinrichting: over reviews, refinement en scrummen
 
-### Opdracht mentorschap
+### Opdracht Mentorschap
 
 Link naar .md: https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/mentor.md#mentorschap
 
 #### 1. Doe Retromat #121 op je mentor skills
 
-**'The Good':** documenteren van les, meedoen met de opdrachten die eerstejaars doen, uitleggen van dingen die worden gevraagd, actief en behulpzaam zijn, vragen stellen of ze alles begrijpen.
+**'The Good':** 
+Ik documenteer de lessen, en doe actief mee met de opdrachten die de eerstejaars uitvoeren. Ik leg dingen uit wanneer ze vragen hebben, stel altijd vragen om te checken of ze alles begrijpen, en probeer zo open mogelijk te zijn.
 
-**'The Bad':** soms willen ze niet zelf de leertaak lezen en stellen vragen die wel opgeschreven zijn in het beschrijving van het opdracht; op vragen als "Heb je hulp nodig?" of "Waar ben jij nu mee bezig?" geven een eenzijdig antwoord en willen niet coopereren; Ik moet zelf meer issues schrijven aan eerstejaars, ik heb zover weinig issues geschreven. Soms weet ik geen antwoord op vragen (gebeurdt vrij weinig), maar dan zoek ik het samen met dat leerling op.
+**'The Bad':** 
+Ik heb ook een stuk social anxiety, wat het begeleiden en praten moeilijk maakt soms - ik moet mezelf altijd erg overwinnen om heel actief en vriendelijk te zijn, dat kost veel energie, maar ik doe echt altjid mebest. Soms merk ik dat studenten niet zelf de leertaak lezen en daardoor vragen stellen die al in de opdracht staan. Wanneer ik vraag “Heb je hulp nodig?” of “Waar ben je mee bezig?”, krijg ik vaak korte antwoorden en weinig samenwerking terug. Daarnaast schrijf ik nog te weinig issues voor de eerstejaars. Soms weet ik het antwoord op een vraag niet direct (komt niet vaak voor), maar dan zoek ik het samen met de student op — dat werkt meestal goed.
 
-**'The Ugly'**: Het is moeilijk als studenten geen motivatie hebben om opdrachten te doen, dan voel ik dat ik zelf bezig ben met hun opdracht in plaats van ze.
+**'The Ugly'**: 
+Het is lastig als studenten geen motivatie tonen. Soms voelt het alsof ik hun werk probeer over te nemen, in plaats van dat ze zelf verantwoordelijkheid nemen. Dit maakt het moeilijk om de juiste balans te vinden tussen helpen en laten leren.
 
 #### 2. Praat over de uitkomsten met de mensen aan je tafel
+Tijdens het gesprek met mijn tafelgenoten kwamen we tot de conclusie dat veel mentoren tegen hetzelfde probleem aanlopen.
 
 #### 3. Schrijf twee verbeterpunten op het white board die je aankomende twee weken op gaat pakken
-
 - Meer issues schrijven en ook controleren dat die issues worden verwerkt (followup);
-- Leerlingen meer te motiveren om les te volgen.
+- Studenten meer te motiveren om les te volgen;
 
 #### Hoe gaat reflecteren op je mentor rol je helpen met het verbeteren van je skills?
+Door te reflecteren op mijn mentorrol zie ik beter waar mijn sterke en zwakke punten liggen, wat ik nog misschien moeilijk vind om te doen eigenlijk. Reflectie helpt me om beter te begrijpen wat eigenlijk beter kan en wat ik ermee kan doen. 
 
 #### Wat maakt een goede mentor?
+Een goede mentor is iemand die goed betrokken is bij de les, luistert, geduldig is en motiveert tot zelf nadenken. Niet iemand die alleen alle antwoorden geeft, maar iemand die de juiste vragen stelt en studenten motiveert om het zelf het achter te halen. 
 
 #### Hoe zie jij je in de toekomst developers opleiden?
-
-**_ later toevoegen!!!! _**
+Ik ga mebest doen om een waardevolle begeleider te worden voor toekomst developers en mijn ervaring deling, hopelijk ben ik goed op weg. 
 
 <img width="1098" height="815" alt="image" src="https://github.com/user-attachments/assets/1799d0f9-ac09-4385-9d92-47bac4494b6d" />
 
