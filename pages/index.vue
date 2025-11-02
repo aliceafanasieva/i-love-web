@@ -1,33 +1,35 @@
 <template>
-  <section class="intro">
-    <h1>Alisa Afanasieva</h1>
-    <p>Web designer, Frontend developer, Graphic designer & Motion designer based in the Netherlands.</p>
+  <section class="intro-container">
+    <div class="intro">
+      <h1>Alisa Afanasieva</h1>
+      <p>Web designer, Frontend developer, Graphic designer & Motion designer based in the Netherlands.</p>
+    </div>
   </section>
 
-  <section class="about">
-    <h2>About Me</h2>
+  <section class="about-container">
     <div class="about-content">
+      <h1>About Me</h1>
       <p>
-        Hi! My name is Alisa, I am a graphic designer and UX/UI designer currently studying
+        Hi! My name is Alisa<br><br></br>I am a graphic designer and UX/UI designer currently studying
         Frontend Development and Web Design at the University of Applied Sciences in Amsterdam.
-        I’m a perfectionist who loves aesthetically pleasing design and great user experience.
+        I'm a perfectionist who loves aesthetically pleasing design and great user experience.
       </p>
-      <div class="photo-box">my picture</div>
     </div>
+    <div class="photo-box">my picture</div>
   </section>
 
-  <section class="projects">
-    <h2>My Projects</h2>
-    <div class="project-grid">
-      <div class="project">Frontend Development</div>
-      <div class="project">Graphic Design</div>
-      <div class="project">Motion Design</div>
-    </div>
+  <section class="projects-container">
+    <h1>My Projects</h1>
+    <section class="projects">
+      <div class="project"><h2>Frontend Development</h2></div>
+      <div class="project"><h2>Graphic Design</h2></div>
+      <div class="project"><h2>Motion Design</h2></div>
+    </section>
   </section>
 
   <section class="contact">
-    <h2>Contact</h2>
-    <p>Interested in working with me? Let’s get in touch!</p>
+    <h1>Contact</h1>
+    <p>Interested in working with me? <br><br></br> Let’s get in touch!</p>
     <ul>
       <li><strong>Mail:</strong> alice.afanasieva@gmail.com</li>
       <li><strong>Whatsapp:</strong> +31 6 01 02 03 04</li>
@@ -36,76 +38,135 @@
   </section>
 </template>
 
-<style scoped>
-.intro {
-  text-align: center;
-  padding: 5rem 2rem;
-  background-color: #fff;
-}
+<style>
 
-.intro h1 {
-  font-size: 3rem;
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-}
+:root {
+    /* Fonts */
+    --font-body: "Inter", sans-serif;
+    /* Colors */
+    --accent-color: hsl(335 92 72 100%);
+    --dark-background-color: #212121;
+    --light-background-color: hsl(0 0 100 100%);
+    --light-pink-background: hsl(335 100 88 100%);
+    --dark-pink-background: hsl(335 92 72 100%);
+    --light-text-color: hsl(0 0 100 100%);
+    --dark-text-color: #000000;
+    /* Font sizes */
+    --font-size-sm: 1.125rem;
+    --font-size-md: 2rem;
+    --font-size-lg: 3.5rem;
+    --font-size-xl: 5.6rem;
+  }
 
-.about {
-  background-color: #ffcbe0;
-  padding: 4rem 2rem;
-}
+  h1, h2, h3{
+    font-weight: 400;
+  }
 
-.about-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem;
-  max-width: 900px;
-  margin: 0 auto;
-}
+  h1 {
+    font-size: var(--font-size-xl);
+  }
 
-.photo-box {
-  width: 200px;
-  height: 200px;
-  background: white;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  h2 {
+    font-size: var(--font-size-lg);
+  }
 
-.projects {
-  padding: 4rem 2rem;
-  background-color: #fff;
-  text-align: center;
-}
+  p {
+    font-size: var(--font-size-sm);
+    line-height: 2rem;
+  }
+  .intro-container {
+    display: flex;
+    min-height: 90vh;
+  }
 
-.project-grid {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
-}
+  .intro {
+    flex: 1;
+    text-align: center;
+    padding: 20vh 2rem;
+    background-color: #fff;
+  }
 
-.project {
-  width: 200px;
-  height: 150px;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f9f9f9;
-}
+  .intro h1 {
+    text-transform: uppercase;
+  }
 
-.contact {
-  background-color: #111;
-  color: white;
-  padding: 3rem 2rem;
-  text-align: center;
-}
+  .about-container {
+    display: flex;
+    position: relative;
+    background-color: #ffcbe0;
+    min-height: 85vh;
+    gap: 10rem;
+    padding: 5rem 4rem;
+    align-items: flex-start;
+  }
 
-.contact ul {
-  list-style: none;
-  margin-top: 1rem;
-  padding: 0;
-}
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .photo-box {
+    min-width: 400px;
+    min-height: 400px;
+    background: white;
+    border: 1px solid #ccc;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-container {
+    text-align: left;
+    min-height: 90vh;
+  }
+
+  .projects-container h1{
+    padding-left: 4rem;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  .projects :nth-child(1),
+  .projects :nth-child(2) {
+    border-bottom: none;
+  }
+
+  .project {
+    padding-left: 4rem;
+    display: flex;
+    flex: 1;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+    align-items: left;
+  }
+
+  .contact h1 {
+    margin-top: 0; 
+    margin-bottom: 3rem;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 60vh;
+    background-color: #212121;
+    color: white;
+    padding: 5rem;
+  }
+
+  .contact ul {
+    list-style: none;
+    margin-top: 1rem;
+    padding: 0;
+    line-height: 3rem;
+  }
 </style>
