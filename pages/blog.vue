@@ -11,12 +11,7 @@
   </div>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped>
-
 
 .blog-page {
   max-width: 800px;
