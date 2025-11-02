@@ -1,12 +1,17 @@
 <template>
   <div class="container">
     <header>
+      <div class="logo">
+        <NuxtLink to="/">
+          <img src="/cross.svg" alt="Logo" class="logo-img" />
+        </NuxtLink>
+      </div>
       <nav>
         <NuxtLink to="/" class="logo"></NuxtLink>
         <ul class="nav-links">
-          <li><NuxtLink to="/">Portfolio</NuxtLink></li>
-          <li><NuxtLink to="/blog">Blog</NuxtLink></li>
-          <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+          <li><NuxtLink to="/">portfolio</NuxtLink></li>
+          <li><NuxtLink to="/blog">blog</NuxtLink></li>
+          <li><NuxtLink to="/contact">contact</NuxtLink></li>
         </ul>
       </nav>
     </header>
@@ -21,46 +26,52 @@
   </div>
 </template>
 
-<style >
+<style>
 
-  :root {
-    --font-body: "Inter", sans-serif;
-    background-color: rgb(255, 255, 255);
-  }
-
-  :global(body) {
+  body {
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
   }
 
-.container {
-  font-family: 'Helvetica Neue', sans-serif;
-  color: #111;
-  background-color: #fff;
-}
+  .container {
+    font-family: var(--font-body), sans-serif;
+    color: var(--dark-text-color);
+    background-color: var(--background-color);
+  }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
-  border-bottom: 1px solid #eee;
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #000000;
+  }
 
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-}
+  .logo-img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
 
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-}
+  .logo-img:hover {
+    transform: rotate(90deg);
+  }
 
-.nav-links a:hover {
-  color: #ff5da2;
-}
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--dark-text-color);
+  }
+
+  .nav-links a:hover {
+    color: #ff5da2;
+  }
 
 </style>
