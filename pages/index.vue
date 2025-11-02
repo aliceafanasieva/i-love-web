@@ -1,7 +1,10 @@
 <template>
   <section class="intro-container">
     <div class="intro">
-      <h1>Alisa Afanasieva</h1>
+      <h1>
+      <span class="decorative">А</span>LISA 
+      <span class="decorative">А</span>FANASIEVA
+      </h1>
       <p>Web designer, Frontend developer, Graphic designer & Motion designer based in the Netherlands.</p>
     </div>
   </section>
@@ -40,24 +43,6 @@
 
 <style>
 
-:root {
-    /* Fonts */
-    --font-body: "Inter", sans-serif;
-    /* Colors */
-    --accent-color: hsl(335 92 72 100%);
-    --dark-background-color: #212121;
-    --light-background-color: hsl(0 0 100 100%);
-    --light-pink-background: hsl(335 100 88 100%);
-    --dark-pink-background: hsl(335 92 72 100%);
-    --light-text-color: hsl(0 0 100 100%);
-    --dark-text-color: #000000;
-    /* Font sizes */
-    --font-size-sm: 1.125rem;
-    --font-size-md: 2rem;
-    --font-size-lg: 3.5rem;
-    --font-size-xl: 5.6rem;
-  }
-
   h1, h2, h3{
     font-weight: 400;
   }
@@ -88,6 +73,13 @@
 
   .intro h1 {
     text-transform: uppercase;
+  }
+
+  .decorative {
+    font-family: "Stezhok", serif;
+    font-size: var(--font-size-xxl); 
+    margin: 0;
+    line-height: 1rem;
   }
 
   .about-container {

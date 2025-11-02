@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Stezhok';
+  src: url('/fonts/Stezhok.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+:root {
+  /* Fonts */
+  --font-body: "Inter", sans-serif;
+  /* Colors */
+  --accent-color: hsl(335 92 72 100%);
+  --dark-background-color: #212121;
+  --light-background-color: hsl(0 0 100 100%);
+  --light-pink-background: hsl(335 100 88 100%);
+  --dark-pink-background: hsl(335 92 72 100%);
+  --light-text-color: hsl(0 0 100 100%);
+  --dark-text-color: #000000;
+  /* Font sizes */
+  --font-size-sm: 1.125rem;
+  --font-size-md: 2rem;
+  --font-size-lg: 3.5rem;
+  --font-size-xl: 5.6rem;
+  --font-size-xxl: 12rem;
+}
+
+
+h1, h2, h3{
+  font-weight: 400;
+
+}
+
+h1 {
+  font-size: var(--font-size-xl);
+}
+
+h2 {
+  font-size: var(--font-size-lg);
+}
+
+p {
+  font-size: var(--font-size-sm);
+  line-height: 2rem;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
