@@ -1054,3 +1054,39 @@ export const client = createClient({
 })
 
 ```
+
+
+
+# 10-11-2025
+
+## Vandaag op agenda
+
+### Sprintplanning
+
+In de sprint Don't Repeat Yourself ligt de focus op het hergebruik van code en ontwerpelementen door middel van een component library. Je leert hoe je herbruikbare stukken code op een systematische manier ontsluit zodat jij en jouw mede frontenders ze kunnen gebruiken in andere projecten.
+
+### Component library
+
+
+
+### Portfolio sessies met Cyd 3/4
+
+Feedback: niet uitlijnen op gap van grid, verder goed bezig en mooi ontwerp gemaakt. 
+
+#### Prototyping
+
+Kan op code pen, bijvoorbeeld een element uit design prototypen veilig - iets met 3d bijvoorbeeld of scroll driven animatie. 
+
+Codepens van Cyd: https://codepen.io/Sidstumple en van Jhey Thompkins https://codepen.io/jh3y.
+
+#### Waarom prototypen?
+
+* testen of je idee mogelijk is voordat je all in gaat bouwen
+
+#### Waar ga je je website in bouwen?
+Niet alleen de content op je website maar ook het framework/de code die je gebruikt is op zichzelf ook een uihangbord voor je capaciteiten. Dus als jouw stagebedrijf graag Nuxt wilt zien, dan kan jij een Nuxt framework gebruiken om jouw website te maken.
+GSAP/Framer motion, een plek hebt waar je jouw experimenten kan laten zien. 
+
+
+
+
