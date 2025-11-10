@@ -1088,5 +1088,21 @@ Niet alleen de content op je website maar ook het framework/de code die je gebru
 GSAP/Framer motion, een plek hebt waar je jouw experimenten kan laten zien. 
 
 
+#### Voor de volgende sessie:
+
+#### 1. Bedenk waar je je website in gaat bouwen
+- Kies een framework waar je op gaat werken
+- Kies hoe je je data gaat inladen
+
+#### 2. Maak prototypes
+
+#### 3. Deel prototypes
+- Deel je content
+- Binnen de squad, op Linkedn, op Instagram etc.
+- Handig om in het Engels te schrijven:
+  - Video/screenshot van je werk
+  - Een artikel dat je hebt geschreven (docenten lezen met liefde je artikel voordat je het deelt)
+ 
+  
 
 
