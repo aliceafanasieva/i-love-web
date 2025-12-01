@@ -1139,13 +1139,14 @@ en de volgende stappen nemen:
 
 Mijn nummer 1:
 
-<img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/f8f7c1b5-f1d9-492c-8b04-87fd9d19e247" />
+<img width="1144" height="206" alt="image" src="https://github.com/user-attachments/assets/2ebc534a-074c-412f-8fbf-5ad2147a5605" />
 
-<img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/b086411f-c46a-4412-bdb6-03470adf0957" />
+Ik ga mijn coding sprike in volgende issue (en bijbehorende subissues uitwerken:
 
+https://github.com/orgs/fdnd-agency/projects/76/views/9?layout=board&pane=issue&itemId=142351247&issue=fdnd-agency%7Cembassyofthefreemind%7C188
+
+Mijn nummer 2 (?):
 <img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/c62d5607-3633-4e38-8850-6d90f5ea0846" />
-
-
 
 
 
