@@ -1102,7 +1102,51 @@ GSAP/Framer motion, een plek hebt waar je jouw experimenten kan laten zien.
 - Handig om in het Engels te schrijven:
   - Video/screenshot van je werk
   - Een artikel dat je hebt geschreven (docenten lezen met liefde je artikel voordat je het deelt)
- 
-  
+
+
+# 1-12-2025
+
+## User needs - Creative coding
+Deze sprint 3 keer in vorm van coding spike verschillende dingen uitproberen met GSAP en trelte om gebruiker te verrassen met bijzondere interacties. 
+
+### To do list:
+- [ ] Bepalen wat je aankomende sprint gaat leren
+- [ ] Bepalen wat dit sprint moet gebeuren
+- [ ] Wat ga je leren in GSAP?
+- [ ] Een branch maken voor creative coding sprike
+
+Leren GSAP zo ver je kan:
+
+https://gsap.com/
+
+Met conceptroulette een concept kiezen:
+
+https://conceptroulette.fdnd.nl/#
+
+en de volgende stappen nemen: 
+
+1. Maak een branch voor jouw experiment en kies daarvoor een goede naam (dus niet: branch-elliot-alderson)
+2. Maak een tijdsinschatting en schiet issues in voor je taken (lees even verder)
+3. Doe vooronderzoek en bepaal de elementen van jouw stijl. Gebruik screenshots of Pinterest om een verzameling te maken. Neem een collage op in de betreffende issue.
+4. Schets een wireflow voor jouw concept, gebruik eventueel de morphologische kaart. Bedenk welke interacties, animaties en geluidsondersteuning je nodig hebt. Neem jouw schetsen op in 5. de betreffende issue.
+6. Maak een breakdown schets waarin je onderzoekt hoe je jouw concept met HTML, CSS en Javascript kunt implementeren.
+7. Bespreek jouw schets met teamgenoten of docenten. Neem ook jouw breakdown schets op in de betreffende issue.
+8. Implementeer jouw concept in HTML/CSS/JS en Sveltekit. Beschrijf in de betreffende issue hoe je de belangrijkste dingen voor elkaar krijgt.
+9. Test uitvoerig en beschrijf verschillen in performance in de betreffende issue.
+10. Voer een pull-request uit waarin je de belangrijkste zaken uit bovenstaande issues opneemt. (nb. voer het PR nog niet door!)
+11. Publiceer jouw project via Vercel of Netlify naast de bestaande site (je selecteert dan jouw aparte branch).
+12. Laat je concept testen door de tribe bij een user-test tijdens de Design & Code review! Neem opmerkingen op in het pull-request. Voer opgedane inzichten door en voeg die als commits toe aan het pull-request.
+
+Mijn nummer 1:
+
+<img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/f8f7c1b5-f1d9-492c-8b04-87fd9d19e247" />
+
+<img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/b086411f-c46a-4412-bdb6-03470adf0957" />
+
+<img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/c62d5607-3633-4e38-8850-6d90f5ea0846" />
+
+
+
+
 
 
