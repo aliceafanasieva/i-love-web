@@ -1148,6 +1148,16 @@ https://github.com/orgs/fdnd-agency/projects/76/views/9?layout=board&pane=issue&
 Mijn nummer 2 (?):
 <img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/c62d5607-3633-4e38-8850-6d90f5ea0846" />
 
+# 17-12-2025
+
+## Talk van Merlin over WebGL
+
+## Check up : Creative Coding spike
+
+Ik ga 
+
+## WRAP-UP sprint 17 
+
 
 
 
