@@ -1110,10 +1110,10 @@ GSAP/Framer motion, een plek hebt waar je jouw experimenten kan laten zien.
 Deze sprint 3 keer in vorm van coding spike verschillende dingen uitproberen met GSAP en trelte om gebruiker te verrassen met bijzondere interacties. 
 
 ### To do list:
-- [ ] Bepalen wat je aankomende sprint gaat leren
-- [ ] Bepalen wat dit sprint moet gebeuren
-- [ ] Wat ga je leren in GSAP?
-- [ ] Een branch maken voor creative coding sprike
+- [x] Bepalen wat je aankomende sprint gaat leren
+- [x] Bepalen wat dit sprint moet gebeuren
+- [x] Wat ga je leren in GSAP?
+- [x] Een branch maken voor creative coding sprike
 
 Leren GSAP zo ver je kan:
 
@@ -1145,8 +1145,187 @@ Ik ga mijn coding sprike in volgende issue (en bijbehorende subissues uitwerken:
 
 https://github.com/orgs/fdnd-agency/projects/76/views/9?layout=board&pane=issue&itemId=142351247&issue=fdnd-agency%7Cembassyofthefreemind%7C188
 
-Mijn nummer 2 (?):
-<img width="1108" height="206" alt="image" src="https://github.com/user-attachments/assets/c62d5607-3633-4e38-8850-6d90f5ea0846" />
+# 3-12-2025
+
+## Design CCS Week 1
+
+Ik heb verschillende design variaties gemaakt in Figma: 
+<img width="1141" height="728" alt="image" src="https://github.com/user-attachments/assets/2819585f-c79a-4f6d-888d-7e0ce6c096bc" />
+
+Verwerkt in issue:
+https://github.com/fdnd-agency/embassyofthefreemind/issues/196#issuecomment-3606681003. 
+
+This is the design I've decided to keep and animate: 
+
+<img width="1431" height="657" alt="Image" src="https://github.com/user-attachments/assets/267fb957-bcff-4b22-a716-7e40e8985cf7" />
+
+# 4-12-2025
+
+Ik heb vandaag gewerkt aan GSAP animatie. Daar heb ik een branch voor aangemaakt en issues in mijn projectboard. 
+
+## GSAP animatie 
+
+Voor animatie heb ik GSAP set fromTo en timeline gerbuikt. 
+
+### Bronnen:
+
+Ik heb deze bronnen gerbuikt bij het maken van mijn GSAP animatie:
+[GSAP fromTo](https://gsap.com/docs/v3/GSAP/gsap.fromTo()/)
+[GSAP Timeline](https://gsap.com/resources/getting-started/timelines/)
+
+### fromTo
+
+Maak een schommelende animatie voor kruisje detail.
+
+commit https://github.com/fdnd-agency/embassyofthefreemind/pull/203/commits/fb88978157e96b99fc5c50bad41b23ee0f1f94b6
+
+```
+onMount(() => {
+    if (!leftCross) return;
+		gsap.set(leftCross, {
+			transformOrigin: '50% 0%',
+			rotation: -20
+		});
+  });
+  $: if (isSidepanelOpen && leftCross) {
+    if (!crossTl) {
+      crossTl = gsap.fromTo(leftCross,
+			{ rotation: -20 },
+      {
+        rotation: 20,
+        duration: 0.8,
+        ease: 'sine.inOut',
+        yoyo: true,
+        repeat: -1,
+        transformOrigin: '50% 0%'
+      }
+    );
+    }  else {
+    crossTl.restart(); 
+		}
+	} else if (crossTl && leftCross) {
+		crossTl.pause();
+		gsap.set(leftCross, { rotation: 0 });
+	}
+```
+
+### Timeline
+
+Commit https://github.com/fdnd-agency/embassyofthefreemind/pull/202/commits/1a6b357d7f94c759478f3dd24fd7ff556f5154b3
+
+```
+	$: if (isSidepanelOpen && leftTop && leftCross && rightBottom && frameEl && bottomDecor && topBow && ladyLeft && ladyRight && navEl && footerEl) {
+    if (!ornamentsTl) {
+      ornamentsTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+      ornamentsTl.from([leftTop, leftCross], {
+        y: -80,           
+        opacity: 0,
+        duration: 0.8,
+        stagger: 0.05,
+        delay: 0.5,       
+      });
+      ornamentsTl.from(
+        rightBottom,
+        {
+          y: 80,          
+          opacity: 0,
+          duration: 0.8
+        },
+        '-=0.5'         
+      );
+			
+			ornamentsTl.from(
+      frameEl,
+      {
+        y: 60,
+        scale: 0.7,
+        opacity: 0,
+        duration: 0.8,
+        ease: 'power3.out'
+      },
+      '-=0.47'
+    	);
+			ornamentsTl.from(
+      topBow,
+      {
+        y: -40,
+        opacity: 0,
+        duration: 0.6,
+        ease: 'power2.out'
+      },
+      '-=0.3' 
+    );
+    
+    ornamentsTl.from(
+      bottomDecor,
+      {
+        scaleX: 0,
+        opacity: 0,
+        duration: 0.6,
+        transformOrigin: '50% 50%', 
+        ease: 'power2.out'
+      },
+      '-=0.5'
+    );
+		ornamentsTl.from(
+			ladyLeft,
+			{
+				x: 40,      
+				opacity: 0,   
+				duration: 0.8,
+				ease: 'power2.out'
+			},
+			'-=0.2'
+		);
+		ornamentsTl.from(
+			ladyRight,
+			{
+				x: -40,       
+				opacity: 0,
+				duration: 0.8,
+				ease: 'power2.out'
+			},
+			'-=0.75'        
+		);
+		ornamentsTl.from(
+      navEl,
+      {
+        y: 20,
+        opacity: 0,
+        duration: 0.6,
+        ease: 'power2.out'
+      },
+      '-=0.1' 
+    );
+    ornamentsTl.from(
+      footerEl,
+      {
+        y: 20,
+        opacity: 0,
+        duration: 0.7,
+        ease: 'power2.out'
+      },
+      '>-0.1' 
+    );
+    } else {
+      ornamentsTl.restart();
+    }
+  } else if (ornamentsTl) {
+    ornamentsTl.pause(0);
+  }
+```
+
+https://github.com/user-attachments/assets/01995532-e271-4885-a021-f05e4c51c609
+
+
+# 5-12-2025
+
+## Code-design review
+
+Ik heb vandaag code-design review gedaan van mijn creative coding spike week 1. Ik moest mijn CCS laten zien en uitleggen wat ik heb gedaan, en de CCS's van mijn klasgenoten bekijken en iedereen moest drie beste uitkiezen.
+
+
+Mijn CCS was een van het vaakst gekozen spikes, en daar ben ik best trots op.
 
 # 17-12-2025
 
@@ -1157,6 +1336,9 @@ Mijn nummer 2 (?):
 Ik ga 
 
 ## WRAP-UP sprint 17 
+
+
+# 24-12-2025
 
 
 
