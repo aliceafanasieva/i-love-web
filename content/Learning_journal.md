@@ -1377,6 +1377,20 @@ import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
     });
 ```
 
+## Feedback verwerken
+
+Ik heb ook zelf feedback gekregen voor mijn CCS:
+
+#### 1. Werkt niet responsive (voor mobile)
+
+<img width="846" height="75" alt="image" src="https://github.com/user-attachments/assets/4a3e4f28-403b-4d67-91c0-8a64da0cbe29" />
+
+#### 2. De menu button een accessible naam geven
+
+<img width="846" height="176" alt="image" src="https://github.com/user-attachments/assets/bc5b02f3-2647-4409-977e-bcc6f86bd047" />
+
+Bijbehorende issues aangemaakt in projectboard: 
+
 # 17-12-2025
 
 ## Talk van Merlin over WebGL
