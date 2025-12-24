@@ -1327,6 +1327,56 @@ Ik heb vandaag code-design review gedaan van mijn creative coding spike week 1. 
 
 Mijn CCS was een van het vaakst gekozen spikes, en daar ben ik best trots op.
 
+Ik heb ook samen met mijn klasgenoot Amber een review geschreven voor Creative coding spike 1 van Anouk en haar methode proberen te recreeren in Codepen:
+
+[Link naar de CodePen](https://codepen.io/ambersr/pen/jEqQWpK?editors=1100)
+
+### Drawing SVG animation van Anouk
+ 
+Het is ons opgevallen dat Anouk voor de animatie 2 GSAP plugins gebruikt: DrawSVGPlugin en MotionPathPlugin.
+Ook gebruikt ze erg weinig GSAP en CSS om de SVG te animeren. We hebben zelf ook geprobeerd om haar code recreëren in CodePen.
+ 
+#### Hoe toepassen op je eigen project?
+
+1. Plugins installeren
+
+```
+import gsap from "gsap";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+```
+
+2. SVG met paths implementeren in de HTML (bijvoorbeeld uit Figma of Illustrator) *let erop dat je letters goed op volgorde implementeerd.
+
+3. Voeg aan elke path een class met 'draw-me' toe geef die class een fill: none; mee.
+ 
+``` 
+.draw-me {
+   fill: none;
+}
+```
+ 
+4. Voeg een GSAP toe. Selecteer de class 'draw-me' en maak gebruik van de timeline.
+ 
+ ```
+// Voer deze code uit zodra de component in de DOM staat / bijgewerkt is
+    $effect(() => {
+        // Weten welke plugins je binnenhaalt
+        gsap.registerPlugin(MotionPathPlugin, DrawSVGPlugin);
+        // Alle paths ophalen met de class ".draw-me"
+        let paths = document.querySelectorAll(".draw-me");
+        // GSAP timeline maken
+        const tl = gsap.timeline();
+        // Animeer de paths met class="draw-me"
+        tl.from(".draw-me", {
+            duration: 1.5,
+            drawSVG: 0,
+            stagger: .2, 
+            ease: "power3"
+        });
+    });
+```
+
 # 17-12-2025
 
 ## Talk van Merlin over WebGL
