@@ -1379,7 +1379,7 @@ import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
 ## Feedback verwerken
 
-Ik heb ook zelf feedback gekregen voor mijn CCS:
+Ik heb ook zelf feedback gekregen voor mijn CCS van week 1:
 
 #### 1. Werkt niet responsive (voor mobile)
 
@@ -1389,7 +1389,55 @@ Ik heb ook zelf feedback gekregen voor mijn CCS:
 
 <img width="846" height="176" alt="image" src="https://github.com/user-attachments/assets/bc5b02f3-2647-4409-977e-bcc6f86bd047" />
 
+#### 3. Niet mooi op mobile en tablet
+
+<img width="1015" height="765" alt="image" src="https://github.com/user-attachments/assets/f4a9524c-42ac-4c08-92d6-61ac05a92e3b" />
+
 Bijbehorende issues aangemaakt in projectboard: 
+
+# 7-12-2025
+
+## CSS min(), max() en clamp() - wanneer en wat?
+
+### min(a, b)
+
+Kiest een **minimale** waarde uit a of b, bijvoorbeeld:
+
+Je hebt een container binnen scherm. Je heeft container `width = min(50em, 95%);`
+
+Wat betekent dit?
+
+Als breedte van container bij 50em kleiner is dan als die 95% van schermbreedte neemt, dan wordt container 50em breed. Maar stel, het scherm wordt kleiner, dat is 95% van het scherm ook op een bepaald moment kleiner dan 50em, 
+en daarom neemt container kleinste waarde - 95% als breedte.
+
+Dit is ook heel handig voor **padding**, bijvoorbeeld met min(3em, 6%) wordt padding op grotere scherm 3em en op kleinere scherm 6%. 
+
+Bron: https://www.youtube.com/watch?v=pYW3O0AxpI8
+
+### max(a,b)
+
+Kiest een **maximale** waarde uit a of b, bijvoorbeeld: 
+
+Als breedte van sidebar max(250px, 25vw) is, dan is de sidebar bij kleine scherm 250px, en bij grote scherm - 25vw, omdat 25vw bij grote scherm is groot maar bij kleine scherm is het lager dan 250px - 
+
+**grote scherm: 25vw > 250px; kleine scherm: 250px > 25vw**
+
+### clamp(min, preferred, max) 
+
+Tussen min() en max() is clamp() - het strengste functie 
+Functie clamp(min, preferred, max) houdt in dat de uiteindelijke waarde:
+
+- Is nooit lager dan `min`
+- Is nooit hoger dan `max`
+- En blijft op `preferred` als het past tussen die twee waardes
+
+Dit werkt het beste met font sizes. Hier zijn alle fonts goed resposive, maar het wordt aangeraden om ipv px voor font-size rem te gebruiken - "The root element's font-size"
+
+Wat betekent dit op echte voorbeeld: 
+
+Voor h1 font-size=clamp(1.8rem, 10vw, 5rem); wordt dus font size nooit groter dan 5rem, kleiner dan 1.8rem, en blijft op 10vw. 
+
+
 
 # 17-12-2025
 
@@ -1402,7 +1450,9 @@ Ik ga
 ## WRAP-UP sprint 17 
 
 
+
 # 24-12-2025
+
 
 
 
