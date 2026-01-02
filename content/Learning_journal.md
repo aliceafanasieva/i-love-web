@@ -1395,6 +1395,11 @@ Ik heb ook zelf feedback gekregen voor mijn CCS van week 1:
 
 Bijbehorende issues aangemaakt in projectboard: 
 
+https://github.com/fdnd-agency/embassyofthefreemind/issues/221
+
+https://github.com/fdnd-agency/embassyofthefreemind/issues/222
+
+
 # 7-12-2025
 
 ## CSS min(), max() en clamp() - wanneer en wat?
@@ -1436,7 +1441,6 @@ Dit werkt het beste met font sizes. Hier zijn alle fonts goed resposive, maar he
 Wat betekent dit op echte voorbeeld: 
 
 Voor h1 font-size=clamp(1.8rem, 10vw, 5rem); wordt dus font size nooit groter dan 5rem, kleiner dan 1.8rem, en blijft op 10vw. 
-
 
 
 # 17-12-2025
