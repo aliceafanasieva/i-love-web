@@ -1488,6 +1488,51 @@ Also I've used media queries to hide some ornaments on viewport width less then 
 
 <img width="1470" height="831" alt="Image" src="https://github.com/user-attachments/assets/00d43d03-9f66-4b8b-861b-b1598f686304" />
 
+# 14-12-2025
+
+## Slideshow hero
+
+Ik heb een geautomatiseerde slideshow toegevoegd in hero van landingspagina van Embassy of the free mind. 
+
+```
+  function nextSlide() {
+    current = (current + 1) % total;
+  }
+
+  function goToSlide(index) {
+    current = index;
+    resetInterval();
+  }
+
+	function goNext() {
+  current = (current + 1) % total;
+  resetInterval();
+}
+
+	function goPrev() {
+		current = (current - 1 + total) % total;
+		resetInterval();
+	}
+
+  function resetInterval() {
+    clearInterval(intervalId);
+    intervalId = setInterval(nextSlide, SLIDE_DURATION);
+  }
+```
+
+1. Slide 1
+<img width="1470" height="892" alt="image" src="https://github.com/user-attachments/assets/6b3933c6-44df-48cf-b5b3-5fa2ab52c2bd" />
+
+2. Slide 2
+<img width="1470" height="892" alt="image" src="https://github.com/user-attachments/assets/1979d1ce-e242-4df1-8ac3-df4cc86cfc19" />
+
+3. Slide 3
+<img width="1470" height="892" alt="image" src="https://github.com/user-attachments/assets/aa3bfcfe-55bf-473b-9f2d-307a21f5df70" />
+
+4. Navigation Bar
+<img width="1470" height="892" alt="image" src="https://github.com/user-attachments/assets/8a41c4e2-36f9-4841-b415-3bae6295afac" />
+
+
 # 17-12-2025
 
 ## Talk van Merlin over WebGL
