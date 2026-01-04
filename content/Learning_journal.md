@@ -1470,6 +1470,10 @@ Also I've used media queries to hide some ornaments on viewport width less then 
 
 #### Mobile
 
+- Bow detail smaller on mobile, scaling up on desktop viewport.
+- Bottom detail also scaling smaller.
+- Details on left upper corner and right bottom corner, together with symmetrical ladies profiles dissepear at viewport < 800px.
+
 <img width="499" height="831" alt="Image" src="https://github.com/user-attachments/assets/e2a60b31-bb37-4c6c-b6ea-ff4e5ffa91e2" />
 
 #### Tablet < 800px
