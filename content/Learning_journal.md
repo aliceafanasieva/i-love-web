@@ -1442,6 +1442,47 @@ Wat betekent dit op echte voorbeeld:
 
 Voor h1 font-size=clamp(1.8rem, 10vw, 5rem); wordt dus font size nooit groter dan 5rem, kleiner dan 1.8rem, en blijft op 10vw. 
 
+# 9-12-2025
+
+## Made menu mobile responsive
+
+By using clamp( ) and min( ) I've made the fullscreen menu very smoothly responsive for mobile and tablet devices. Closing issues https://github.com/fdnd-agency/embassyofthefreemind/issues/221 en https://github.com/fdnd-agency/embassyofthefreemind/issues/222.
+
+Also I've used media queries to hide some ornaments on viewport width less then 800px, for better visual hierarchy. 
+
+<img width="701" height="136" alt="Image" src="https://github.com/user-attachments/assets/64448642-5e49-4741-9611-a1dc2cf0730f" />
+
+## Screenshots
+
+### Before
+
+#### Mobile
+<img width="498" height="828" alt="Image" src="https://github.com/user-attachments/assets/9975fd97-8e14-4d94-bf92-5a2bf6caa456" />
+
+#### Tablet
+<img width="716" height="828" alt="Image" src="https://github.com/user-attachments/assets/4558ef4e-3a10-482d-8bc6-02aa0c323562" />
+
+#### Browser
+<img width="1470" height="828" alt="Image" src="https://github.com/user-attachments/assets/4256835a-a3f6-4e87-bfb9-3284a215f85a" />
+
+<br><br>
+### After 
+
+#### Mobile
+
+<img width="499" height="831" alt="Image" src="https://github.com/user-attachments/assets/e2a60b31-bb37-4c6c-b6ea-ff4e5ffa91e2" />
+
+#### Tablet < 800px
+
+<img width="788" height="831" alt="Image" src="https://github.com/user-attachments/assets/d50a7aaa-ed45-4de1-bf98-3eff3acaea3f" />
+
+#### Tablet > 800px
+
+<img width="828" height="831" alt="Image" src="https://github.com/user-attachments/assets/025931b6-e21e-45cf-b34f-b6418ff71e4d" />
+
+#### Browser 
+
+<img width="1470" height="831" alt="Image" src="https://github.com/user-attachments/assets/00d43d03-9f66-4b8b-861b-b1598f686304" />
 
 # 17-12-2025
 
