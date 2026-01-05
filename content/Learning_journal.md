@@ -1755,4 +1755,25 @@ Stappen voor Hosten op Netlify:
 <img width="745" height="470" alt="image" src="https://github.com/user-attachments/assets/2b8559c3-03cc-404b-895c-30a9a499473d" />
 
 
+## Release Candidate Sprint planning
+
+Wat moeten we nog doen?
+
+Kijken naar CONTRIBUTING.md - 
+
+Ik stel voor: wij gaan deze week alle laatste dingen afmaken aan onze componenten;
+
+Ik wil global css bestand samenstellen. 
+
+We maken voor einde van de week allemaal pull requests met laatste fixes. 
+
+Daar testen wij elkaars componenten allemaal aan **code conventies, a11y, PE, performance en responsiveness**. 
+
+We gaan vrijdag alles laten zien tot nu toe
+
+De resterende weken besteden wij aan testen, documentatie, readme etc klaar hebben staan.
+
+
+
+Waar willen wij feedback op?
 
