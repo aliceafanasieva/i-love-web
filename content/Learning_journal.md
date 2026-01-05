@@ -1549,5 +1549,210 @@ Ik ga
 
 
 
+# 5-01-2026
+
+## Workshop hosting, DNS en databases door Justus
+
+Tijdens de worshop gaan we bezig met verschillende hostingoplossingen, het koppelen van een domeinnaam aan jouw hosting provider en het linken naar een database.
+
+Hosting, Postgrs gerelateerd systeem. 
+
+### Domein naam 
+
+Domein naam - unieke zinnetje gekoppeld aan IP address (111.222.333.444)
+
+Domein naam koppeld door middel aan korte zinnetje (example.com) je aan IP address op internet. 
+
+Op **transip.nl** website kan je een domeinnaam registreren - sterk aangeraden als je een frontend developer bent!
+
+DMS - domain name system - website die je kan gebruiken om een domeinnaam te registreren (dus transip is er één van).
+
+Je kan ook een hostingdomain aan github koppelen. 
+
+### Webhosting manieren 
+
+**Raspberry pie** - mini computer die je kan gebruiken als een webserver bij jou thuis.
+
+<img width="599" height="567" alt="image" src="https://github.com/user-attachments/assets/7d690893-6a56-421d-b9da-44085f71762f" />
+
+Github of Netlify kan je bijvoorbeeld als gratis hosting gebruiken.
+
+#### Koppellen van domein aan Github
+
+Jouw account op Github -> Settings -> Pages -> Add verified domain - zo kan je een domein toevoegen bij Github. 
+
+Je moet ook verifieeren van DMS
+
+<img width="599" height="567" alt="image" src="https://github.com/user-attachments/assets/3cf6cbe8-cf77-4830-8cfe-824a3291ce00" />
+
+
+### Svelte
+
+Je kan ook svelte gebruiken als static site generator - die op Github pages hosten. Netlify kan wel naast hosting ook zelf deployment maken.
+
+
+<img width="599" height="567" alt="image" src="https://github.com/user-attachments/assets/e74b3ddc-630e-4106-991f-f559bda605c8" />
+
+`npm install adapter static`
+
+<img width="892" height="567" alt="image" src="https://github.com/user-attachments/assets/60650993-3025-46df-80b5-8fb610197304" />
+
+'npm run build'
+
+<img width="892" height="567" alt="image" src="https://github.com/user-attachments/assets/3f61f84b-faec-4f1c-a020-c7afbdec32fd" />
+
+**CDN** - content delivery network. Dus dan mensen wereldwijd krijgen veel sneller geladen, omdat het wordt aangepast aan time to live en de website wordt gecashed tot 1 dag update, in het geval dat internet traag is. 
+
+Opdracht workshop: **maak niew repo, download op locaal, doe sveltekit installatie en instaleer adapter static.**
+
+Opdracht uitgevoerd en gepushed naar main repository commit a1157d0bc794bc38c3091aea30e85678d88f79b6
+
+'''
+alisa@Mac sveltekit-opdracht-hosting % npx sv create .
+Need to install the following packages:
+sv@0.11.2
+Ok to proceed? (y) y
+
+
+┌  Welcome to the Svelte CLI! (v0.11.2)
+│
+◇  Directory not empty. Continue?
+│  Yes
+│
+◇  Which template would you like?
+│  SvelteKit minimal
+│
+◇  Add type checking with TypeScript?
+│  Yes, using JavaScript with JSDoc comments
+│
+◇  What would you like to add to your project? (use arrow keys / space
+bar)
+│  none
+│
+◆  Project created
+│
+◇  Which package manager do you want to install dependencies with?
+│  npm
+│
+│  npx sv create --template minimal --types jsdoc --install npm .
+│
+│
+◆  Successfully installed dependencies with npm
+│
+◇  What's next? ───────────────────────────────╮
+│                                              │
+│  📁 Project steps                            │
+│                                              │
+│    1: npm run dev -- --open                  │
+│                                              │
+│  To close the dev server, hit Ctrl-C         │
+│                                              │
+│  Stuck? Visit us at https://svelte.dev/chat  │
+│                                              │
+├──────────────────────────────────────────────╯
+│
+└  You're all set!
+
+alisa@Mac sveltekit-opdracht-hosting % npm run dev -- --open
+
+alisa@Mac sveltekit-opdracht-hosting % npm i -D @sveltejs/adapter-static
+
+alisa@Mac sveltekit-opdracht-hosting % npm run build
+
+alisa@Mac sveltekit-opdracht-hosting % npm run preview
+
+> sveltekit-opdracht-hosting@0.0.1 preview
+> vite preview
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+ç^C
+alisa@Mac sveltekit-opdracht-hosting % npm run dev -- --open            
+
+> sveltekit-opdracht-hosting@0.0.1 dev
+> vite dev --open
+
+2:20:02 PM [vite] (client) Forced re-optimization of dependencies
+Port 5173 is in use, trying another one...
+
+  VITE v7.3.0  ready in 631 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+'''
+
+Dit moet zitten in svelte.config.js :
+
+'''
+import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+
+const config = {
+	preprocess: vitePreprocess(),
+	kit: {
+		adapter: adapter()
+	}
+};
+
+export default config;
+
+''' 
+<img width="1454" height="898" alt="image" src="https://github.com/user-attachments/assets/67c854c0-66d9-4614-8d55-1a0fc5cacca0" />
+
+
+### Supabase
+
+In Supabase kan jij een database aanmaken met articles. 
+
+demo -> table editor -> create table -> 
+
+<img width="415" height="550" alt="image" src="https://github.com/user-attachments/assets/e32630cc-5706-4fb9-bf8f-73a7ba99dd29" />
+
+-> save -> Insert -> Row ->
+
+<img width="415" height="550" alt="image" src="https://github.com/user-attachments/assets/8bfe25b6-0e14-475c-bf8b-5e8eb425895d" />
+
+<img width="415" height="550" alt="image" src="https://github.com/user-attachments/assets/1af9f505-28d6-4b03-8ccb-11b9e8efa990" />
+
+#### Connectie maken met Supabase en Sveltekit
+
+Tutorial: https://supabase.com/docs/guides/getting-started/quickstarts/sveltekit
+
+.env file aanmaken, importeren van public key. 
+
+<img width="874" height="550" alt="image" src="https://github.com/user-attachments/assets/08f2d7e2-4a8d-45ac-b7b3-11c6251a3775" />
+
+<img width="874" height="550" alt="image" src="https://github.com/user-attachments/assets/300554f3-7e04-4a02-b9eb-357c5d79ce8a" />
+
+Import supabase package uit lib haal je supabaseClient, en maak je load functie. 
+
+<img width="874" height="550" alt="image" src="https://github.com/user-attachments/assets/9f14012a-cda1-4a6b-9cae-f1b3226c700f" />
+
+Opdracht workshop: **aanmaken van supabase account en aanmaken van database** 
+
+https://supabase.com/dashboard/project/xdsxbwbkeqhdinsrldfp
+
+<img width="702" height="833" alt="image" src="https://github.com/user-attachments/assets/3114d106-86f9-4b1f-a2ae-2ecf14c16287" />
+
+<img width="702" height="833" alt="image" src="https://github.com/user-attachments/assets/ea290a32-5433-4475-975d-faf643409924" />
+
+
+In VS Code bash:
+
+'npm install @supabase/supabase-js'
+
+Stappen voor Hosten op Netlify:
+
+<img width="745" height="470" alt="image" src="https://github.com/user-attachments/assets/b93619b9-9f77-480d-a62e-38b7f41918cc" />
+
+<img width="745" height="470" alt="image" src="https://github.com/user-attachments/assets/d5bf9b9c-49a9-4a25-908c-74a587b2d2fc" />
+
+<img width="745" height="470" alt="image" src="https://github.com/user-attachments/assets/62ed93ab-b62c-4dcd-b981-f27d2bb6bf34" />
+
+<img width="745" height="470" alt="image" src="https://github.com/user-attachments/assets/2b8559c3-03cc-404b-895c-30a9a499473d" />
+
 
 
