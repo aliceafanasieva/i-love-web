@@ -2101,4 +2101,17 @@ Ik bestudeer chaining binnen het onderwerp Objects. Leg uit hoe chaining samenha
 
 
 
+<img width="884" height="397" alt="image" src="https://github.com/user-attachments/assets/7942d5dd-bd7d-43f4-828c-09dc10aedb8f" />
+
+bijvoorbeeld:
+
+<img width="1023" height="593" alt="image" src="https://github.com/user-attachments/assets/420be073-d795-4fc7-a9e1-5d5a6448c33b" />
+
+<img width="1023" height="593" alt="image" src="https://github.com/user-attachments/assets/590da225-ce32-4a45-870a-3f1923482cfa" />
+
+<img width="1023" height="493" alt="image" src="https://github.com/user-attachments/assets/f3ce4e64-2c37-4d0c-ad41-29a3f939275a" />
+
+
+
+
 
