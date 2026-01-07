@@ -1,4 +1,4 @@
-<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/0a7758c0-0069-4aaa-a8c6-427a57b24076" /># 1-09-2025
+# 1-09-2025
 
 ## _Opdracht: Formuleer twee of drie leervragen als uitgangspunt voor deze sprint_
 
