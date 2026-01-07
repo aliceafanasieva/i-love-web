@@ -1,4 +1,4 @@
-# 1-09-2025
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/0a7758c0-0069-4aaa-a8c6-427a57b24076" /># 1-09-2025
 
 ## _Opdracht: Formuleer twee of drie leervragen als uitgangspunt voor deze sprint_
 
@@ -1773,7 +1773,75 @@ We gaan vrijdag alles laten zien tot nu toe
 
 De resterende weken besteden wij aan testen, documentatie, readme etc klaar hebben staan.
 
-
-
 Waar willen wij feedback op?
+
+
+# 7-01-2026
+
+## Controlling animations with GSAP timelines - tutorial door Joost
+
+<img width="909" height="499" alt="image" src="https://github.com/user-attachments/assets/0c4d1a4d-9c36-4719-8fa6-c6071f649b53" />
+
+<img width="909" height="499" alt="image" src="https://github.com/user-attachments/assets/8fb90fb0-041e-4f69-b098-da19ad699a2c" />
+
+<img width="909" height="499" alt="image" src="https://github.com/user-attachments/assets/7713e2ff-9ea6-47f6-afb3-bb20a1a66c82" />
+
+### GSAP tween
+roteer body element in 1 seconde op 5 graden:
+
+1. <img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/97b4fcba-45cd-4bbc-b18e-90b2d6a358cc" />
+
+2. <img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/f093a5c3-551f-4faa-ad12-4c855c3edee3" />
+
+3. <img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/e38adc98-281a-49a8-b7ff-b48a8070f9ad" />
+
+4. <img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/6cc4a137-768f-4de3-88c5-7afd77597fab" />
+
+### GSAP Timeline
+Verschillende tweens achter elkaar worden uitgevoerd in animatie. 
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/91a0ce00-2f8e-4c05-9922-ecbea1bf65e1" />
+
+1. <img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/8d45254d-001a-473a-a7d2-de5975ce6e30" />
+
+### GSAP Demo ingewikkeld
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/2a357125-a21b-4e51-8ed2-4ef1e9e22993" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/41c9da01-30de-4eb1-b2f0-8822b865d059" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/5787c6ad-367e-4f19-b0e4-6b5449c5f035" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/b0a15f43-cd15-43de-82b5-317a55b8f913" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/ee3b1a03-f166-4743-b7f2-71e7ed77deff" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/a14d0592-943f-463f-bec0-12995478cc41" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/a1d1fb52-4fe5-469f-8118-bf38d2fa9962" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/2bdec33d-dc7a-497f-bf1f-c36c7f4ef7a1" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/ec64b792-b252-4b0e-99b2-1305a36c1d36" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/40921363-1ebf-429d-992a-a08ed09711ce" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/a336d3d4-4b1f-44a3-a5b9-b0a713a316e8" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/159799fd-f152-4449-a977-9614f8489cad" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/ce0cf541-9227-4f6a-b1be-fdb11fb9a2ef" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/d3eca4e6-4c3f-4aaf-9fc4-6b106363edc3" />
+
+<img width="909" height="507" alt="image" src="https://github.com/user-attachments/assets/5b7b9dde-df57-420d-80c7-7c8e78401d70" />
+
+<img width="909" height="40" alt="image" src="https://github.com/user-attachments/assets/b3165303-c6ec-48ce-b069-b3cb07051035" />
+
+<img width="909" height="502" alt="image" src="https://github.com/user-attachments/assets/6223587c-3539-47f5-87a9-3dd768f13649" />
+
+`$ is querySelector`
+
+`$$ is querySelectorAll`
+
 
