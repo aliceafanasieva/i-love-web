@@ -2040,3 +2040,65 @@ els.ch3Trigger.addEventListener("click", () => { ch3.restart() })
 Voorbeeld code refactor Luuk
 
 -->
+
+
+### 1. Prompt 
+
+Ik ben een beginnende frontend developer. Leg uit wat **chaining** is in JavaScript aan de hand van deze code. Wijs exact aan welk deel chaining is en beschrijf stap-voor-stap wat er gebeurt bij elke .add(...). 
+
+#### Antwoord: 
+
+Chaining (ook wel “method chaining”) betekent dat je meerdere methodes achter elkaar kunt aanroepen op hetzelfde object, in één “ketting”.
+
+Met chaining:
+
+```
+tlChapterOne
+  .add(tlIntro(), .25)
+  .add(tlPlanet(), .25)
+  .add(tlRocket(), .5)
+```
+
+Zonder chaining:
+
+```
+tlChapterOne.add(tlIntro(), 0.25);
+tlChapterOne.add(tlPlanet(), 0.25);
+tlChapterOne.add(tlRocket(), 0.5);
+```
+
+<img width="846" height="322" alt="Screenshot 2026-01-07 at 15 25 21" src="https://github.com/user-attachments/assets/6ce675ae-f1ce-4f38-8b5a-b13f636c64a8" />
+
+<img width="808" height="304" alt="Screenshot 2026-01-07 at 15 25 46" src="https://github.com/user-attachments/assets/3cb82a32-baff-4ecd-a5df-6dd954bd4c14" />
+
+<img width="791" height="180" alt="Screenshot 2026-01-07 at 15 31 32" src="https://github.com/user-attachments/assets/b92dca5f-e37e-432b-b939-f50473e12b6f" />
+
+<img width="791" height="180" alt="Screenshot 2026-01-07 at 15 31 43" src="https://github.com/user-attachments/assets/464f144e-f5fd-45e5-9eab-cdfef5d56fd0" />
+
+<img width="791" height="247" alt="Screenshot 2026-01-07 at 15 32 13" src="https://github.com/user-attachments/assets/5e2c5285-6160-4c19-a997-ee1841a8677a" />
+
+### Mini-samenvatting 
+
+* Chaining = meerdere method-calls achter elkaar op dezelfde object: obj.method().method().method().
+
+* En elke method in de ketting iets teruggeeft waar je weer een method (.add()) op kunt aanroepen.
+
+* En vaak geeft zo’n method hetzelfde object terug (return this;), zodat je door kunt blijven gaan.
+
+In onze code is tlChapterOne een object (timeline), en .add() is chainable, waardoor je een sequence “aan elkaar kunt stappelen”.
+
+Chaining is dat .add() na elke call weer een timeline teruggeeft, waardoor je op dezelfde regel door kunt gaan met .add().add().add() om stap voor stap een sequence op te bouwen.
+
+### 2. Prompt
+
+Ik bestudeer chaining binnen het onderwerp Objects. Leg uit hoe chaining samenhangt met: (1) objecten, (2) dot notation, en (3) context (wat is this hier, als dat relevant is). Gebruik de voorbeeldcode en blijf bij dit ene stukje.
+
+<img width="791" height="323" alt="image" src="https://github.com/user-attachments/assets/020385c2-1e42-4e65-9ed3-5e0859b895e4" />
+
+<img width="791" height="390" alt="image" src="https://github.com/user-attachments/assets/890fb60c-6d49-40b4-bad7-e49c1bf2dcae" />
+
+<img width="791" height="524" alt="image" src="https://github.com/user-attachments/assets/ced6b74c-97b7-4dd8-8151-2264f8735ae2" />
+
+
+
+
