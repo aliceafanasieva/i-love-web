@@ -1845,3 +1845,16 @@ Verschillende tweens achter elkaar worden uitgevoerd in animatie.
 `$$ is querySelectorAll`
 
 
+<img width="846" height="571" alt="image" src="https://github.com/user-attachments/assets/fed90e76-970c-4580-92ab-e259ab20808d" />
+
+
+## Learning Fundamental Javascript
+
+<img width="846" height="571" alt="image" src="https://github.com/user-attachments/assets/66ced3c9-0179-4f4c-a07a-53808511053b" />
+
+<img width="846" height="571" alt="image" src="https://github.com/user-attachments/assets/9d68d39c-14d0-49c6-b479-1270f872cbf9" />
+
+Dit moet ik Leren!!!! Jad course doen.
+Maak een aparte titel in Learning Journal. 
+
+
