@@ -1858,3 +1858,5 @@ Dit moet ik Leren!!!! Jad course doen.
 Maak een aparte titel in Learning Journal. 
 
 
+<img width="846" height="571" alt="image" src="https://github.com/user-attachments/assets/717643fa-b8f1-4802-a2f1-be041de5c9fc" />
+
