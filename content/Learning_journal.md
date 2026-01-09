@@ -2111,6 +2111,11 @@ bijvoorbeeld:
 
 <img width="1023" height="493" alt="image" src="https://github.com/user-attachments/assets/f3ce4e64-2c37-4d0c-ad41-29a3f939275a" />
 
+# 9-01-2025
+
+Code review geschreven:
+
+https://github.com/fdnd-agency/herstelkompas/issues/157#issuecomment-3729010011
 
 
 
