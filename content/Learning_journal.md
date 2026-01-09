@@ -2117,6 +2117,8 @@ Code review geschreven:
 
 https://github.com/fdnd-agency/herstelkompas/issues/157#issuecomment-3729010011
 
+https://github.com/fdnd-agency/herstelkompas/issues/96#issuecomment-3728922483
+
 
 
 
