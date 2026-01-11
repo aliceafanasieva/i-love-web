@@ -2119,6 +2119,89 @@ https://github.com/fdnd-agency/herstelkompas/issues/157#issuecomment-3729010011
 
 https://github.com/fdnd-agency/herstelkompas/issues/96#issuecomment-3728922483
 
+# 10-01-2025
+
+## Gewerkt aan volgende issues:
+
+- #228 https://github.com/fdnd-agency/embassyofthefreemind/issues/228
+- #216 https://github.com/fdnd-agency/embassyofthefreemind/issues/216
+- #229 https://github.com/fdnd-agency/embassyofthefreemind/issues/229
+
+### Hover gradient animatie op button icon (styleguide design)
+
+
+<img width="753" height="295" alt="image" src="https://github.com/user-attachments/assets/a9c029ab-9022-4718-99a3-c99a85020f53" />
+
+
+Om de button-icons hetzelfde “levende” gevoel te geven als in de styleguide, heb ik een geanimeerde gradient toegevoegd die bij hover **diagonaal beweegt** (van linksonder naar rechtsboven). Dit doe ik door:
+
+1. **Gradient-tokens** als CSS variables te definiëren (zodat kleuren consistent blijven met de styleguide).
+2. Een **@keyframes** animatie te maken die `background-position` verplaatst.
+3. Op hover een `background-image`, `background-size` en `animation` toe te passen op `.btn_icon`.
+
+#### 1) CSS variables voor gradients
+
+```css
+:root {
+  --gradient-gold-anim: linear-gradient(
+    50deg,
+    #e4c070, #e7c272, #d8b66a, #d8b66a, #d8b66a,
+    #b99b5a, #9f854d, #917946, #ab8f52, #f2cb78,
+    #d8b66a, #d8b66a, #d8b66a
+  );
+
+  --gradient-blue-anim: linear-gradient(
+    50deg,
+    #002646, #002646, #002646, #002646,
+    #004279, #005dac, #0074d9,
+    #005dac, #004279,
+    #002646, #002646, #002646, #002646
+  );
+}
+```
+
+#### 2) Keyframes: background-position animeren (diagonaal)
+
+```css
+@keyframes btn-gradient-diagonal {
+  from { background-position: 0% 200%; }
+  to   { background-position: 200% 0%; }
+}
+```
+
+#### Animatie toepassen op de icon-circle bij hover
+
+```css
+.btn_icon {
+  width: var(--btn-t1-icon-size);
+  height: var(--btn-t1-icon-size);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+
+  /* nodig om de gradient te kunnen "schuiven" */
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Gradient animation on hover */
+.btn--blue:hover .btn_icon {
+  background-size: 200%;
+  background-image: var(--gradient-blue-anim);
+  animation: btn-gradient-diagonal 1.5s linear infinite;
+}
+
+.btn--gold:hover .btn_icon {
+  background-size: 200%;
+  background-image: var(--gradient-gold-anim);
+  animation: btn-gradient-diagonal 1.3s linear infinite;
+}
+
+
+
 
 
 
