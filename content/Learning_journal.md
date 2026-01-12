@@ -2235,5 +2235,6 @@ Page Speed Insights - website.
 Web performance Guide - speed curve. 
 
 
+Met "modules" kan jij Javascript optimaliseren. 
 
 
