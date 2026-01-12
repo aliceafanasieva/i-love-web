@@ -2225,6 +2225,9 @@ Answer engine optimization
 
 Aria labels **niet** gebruiken - gebruik alt attributen. Aria labels worden niet meer gebruikt voor blinde mensen.
 
+### SEO en Performance
+
+Google search console - je kan jouw eigen domeinnaam koppelen. Google search console ziet vanuit Google zien de statistiek van gebruiker interactie van jouw website. 
 
 
 
