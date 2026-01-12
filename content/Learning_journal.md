@@ -2232,6 +2232,8 @@ Google search console - je kan jouw eigen domeinnaam koppelen. Google search con
 
 Page Speed Insights - website. 
 
+Web performance Guide - speed curve. 
+
 
 
 
