@@ -2206,9 +2206,13 @@ developers google
 structured data
 rich snippets
 bv. event 
-JSON of microdata meegeven. - itemscope, itemprop, itemtype.
+JSON of microdata meegeven. - `itemscope`, `itemprop`, `itemtype`.
 
-Dat zijn standarden van html, dus passen bij elk browser - Google is daar dus gewoon een regelgever, afgestemde standarden. 
+Dat zijn standarden van html, dus passen bij elk browser - Google is daar dus gewoon een regelgever, afgestemde standarden.
+
+#### Toevoegen aan mijn site: `robots.txt`
+
+
 
 
 
