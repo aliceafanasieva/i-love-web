@@ -2223,6 +2223,8 @@ Dat zijn standarden van html, dus passen bij elk browser - Google is daar dus ge
 ### AEO 
 Answer engine optimization
 
+Aria labels **niet** gebruiken - gebruik alt attributen. Aria labels worden niet meer gebruikt voor blinde mensen.
+
 
 
 
