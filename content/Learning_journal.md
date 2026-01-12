@@ -2204,6 +2204,11 @@ Om de button-icons hetzelfde “levende” gevoel te geven als in de styleguide,
 
 # 12-01-2025
 
+## Talk door Krijn
+
+### SEO
+
+### Rich snippets
 developers google
 structured data
 rich snippets
