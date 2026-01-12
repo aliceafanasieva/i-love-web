@@ -2230,7 +2230,7 @@ Aria labels **niet** gebruiken - gebruik alt attributen. Aria labels worden niet
 Google search console - je kan jouw eigen domeinnaam koppelen. Google search console ziet vanuit Google zien de statistiek van gebruiker interactie van jouw website. 
 
 
-
+Page Speed Insights - website. 
 
 
 
