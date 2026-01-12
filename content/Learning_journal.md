@@ -2200,6 +2200,8 @@ Om de button-icons hetzelfde “levende” gevoel te geven als in de styleguide,
   animation: btn-gradient-diagonal 1.3s linear infinite;
 }
 
+```
+
 # 12-01-2025
 
 developers google
