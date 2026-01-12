@@ -2204,7 +2204,7 @@ Om de button-icons hetzelfde “levende” gevoel te geven als in de styleguide,
 
 # 12-01-2025
 
-## Talk door Krijn
+## Talk door Krijn over GEO, SEO, AEO etc. 
 
 ### SEO
 
@@ -2218,6 +2218,11 @@ JSON of microdata meegeven. - `itemscope`, `itemprop`, `itemtype`.
 Dat zijn standarden van html, dus passen bij elk browser - Google is daar dus gewoon een regelgever, afgestemde standarden.
 
 #### Toevoegen aan mijn site: `robots.txt`
+
+
+### AEO 
+Answer engine optimization
+
 
 
 
