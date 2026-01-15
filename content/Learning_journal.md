@@ -2237,4 +2237,16 @@ Web performance Guide - speed curve.
 
 Met "modules" kan jij Javascript optimaliseren. 
 
+# 14-01-2025
+
+## Van offerte tot introductie door Dorien
+
+### Opdracht feature request
+
+
+
+
+
+
+
 
