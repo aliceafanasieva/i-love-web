@@ -123,3 +123,63 @@ Image grid dat een knop naar meet plaatjes, geen carousel. Omdat als een gebruik
 
 # We ♥ web 16-01-2026 
 ## Spreker: Marcel Fleuren, van het 101 coding collective, geeft super power tips voor de toekomstige pro
+
+### Wie ben ik?
+
+Freelance Typescript developer, full stack development voor Startups en scale-ups, coach agile development teams, fractional CTO voor early-stage founders (idee voor mooie app, en hij helpt met eerste stappen leggen). Hij is afgestudeerd CMD. Hij praat graag met andere founders en developers over producten bouwen. Hij gaat later in presentatie meer cases laten zien. 
+
+#### Technieken
+
+Typescript, html, css, express, react, nodejs, nextjs, java, python, fastapi, agile, scrum, azure, design thinking... 
+
+### Wat ga ik vertellen
+
+"De beste code is code die je misschien  nooit hoeft te schrijven."
+
+### Een case: Unive zakelijke app
+
+- In de markt zetten van een nieuwe propositie voor de zakelijke markt.
+- Ze vonden het belangrijk dat applicatie focus heeft op zakelijke gebruiker specefieke behoeftes, dan van de particuliere gebruiker.
+
+Er was veel uitdaging. Ze hebben begonnen met het over "North star" te hebben - einddoel waar je weg naartoe bouwd. Je moet goed bepalen wat stip op de horizon is, analyseren wat haalbaar is in bepaalde tijd. Een helder en meetbare stip aan de horizon. 
+
+Ze waren eerst bezig dus met bepalen welke features ze willen, wat wilt de klant etc.
+
+Als resultaat - een zakelijk app die aansloot op de product vision.
+
+#### Mijn code moet waarde toevoegen
+Jouw code moet iets toevoegen om het product dichter bij de "North Star" te brengen.
+
+### Case: Utilitarian
+
+- Voor early-stage startup founders organiseerden wij Hackatons.
+Ze deden dat voor Utilitarian: app als digitale oplossingen in het domein van circulaire economie - het verbinden van consumenten aan recyclers.
+
+Doelen:
+- Integratie met bestaand AWS systeem
+- Native mobile app
+- getrained AI model dat schoenenmerken herkent
+- Gebruikersdata verzamelers
+
+### Complexity and uncertainty
+
+Ze wisten niet wat ze in 1 dag konden vertellen aan de opdrachtgever. Toen hebben een nieuwe model gebouwd
+
+Uncertainty - onzekerheid: zo diep mogelijk doorzoeken wat je nog niet weet. Je gaat tot dat uncertainty meetbaar is - aan het beneden zit jouw doen die je wilt bereiken met eindproduct. 
+Compexity - je wilt op de top van driehoek blijven - het is beter om het zo simper mogelijk te maken. 
+
+Hoe het simpel bij snelle prototypes: Waarom complexiteit toevoegen als je nog geen duidelijke product beeld hebt?
+
+### Complexity
+Wat hij heel vaak ziet, een overmatig gebruik van Frontend Frameworks. Soms is er heel weinig nut in packages en frameworks. Dit is heet makkelijk om het snel te moeilijik te maken met frameworks en packages. 
+Vaak voorkomende fouten:
+- overgebruik van packages en frameworks
+- gebrek aan product verantwoordelijkheid
+- te veel complexiteit
+
+### Goede vragen
+- welk probleem is het waard om op te lossen?
+- wat is het minimale dat waarde levert?
+- hoe maken we de uitkomsten van onze keuzes meetbaar?
+
+
