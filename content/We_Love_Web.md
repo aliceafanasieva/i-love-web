@@ -119,3 +119,7 @@ Link naar website met experimenten van Martijn: [martijnnieuwehuizen.nl/experime
 The hardest working font in Manhattan - een artikel met onzerzoek hoe vaak dit gegeven font wordt gebruikt.
 Jij moet als ontwerper meedenken hoe jij een beter oplossing doet.
 Image grid dat een knop naar meet plaatjes, geen carousel. Omdat als een gebruiker wil je misschien niet klikken op carousel - daarom maken we een link naar meer plaatjes ipv. heel moeilijk een carousel bouwen.
+
+
+# We ♥ web 16-01-2026 
+## Spreker: Marcel Fleuren, van het 101 coding collective, geeft super power tips voor de toekomstige pro
