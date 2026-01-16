@@ -1776,7 +1776,7 @@ De resterende weken besteden wij aan testen, documentatie, readme etc klaar hebb
 Waar willen wij feedback op?
 
 
-# 6-01-2025
+# 6-01-2026
 
 ## Wat heb ik vandaag gedaan?
 
@@ -2119,7 +2119,7 @@ https://github.com/fdnd-agency/herstelkompas/issues/157#issuecomment-3729010011
 
 https://github.com/fdnd-agency/herstelkompas/issues/96#issuecomment-3728922483
 
-# 10-01-2025
+# 10-01-2026
 
 ## Gewerkt aan volgende issues:
 
@@ -2202,7 +2202,7 @@ Om de button-icons hetzelfde “levende” gevoel te geven als in de styleguide,
 
 ```
 
-# 12-01-2025
+# 12-01-2026
 
 ## Talk door Krijn over GEO, SEO, AEO etc. 
 
@@ -2237,11 +2237,20 @@ Web performance Guide - speed curve.
 
 Met "modules" kan jij Javascript optimaliseren. 
 
-# 14-01-2025
+# 14-01-2026
 
 ## Van offerte tot introductie door Dorien
 
 ### Opdracht feature request
+
+# 16-01-2026
+
+## We-love-web door Marcel Fleuren, van het 101 coding collective, geeft super power tips voor de toekomstige pro
+
+## Gast frontenders
+
+Wij hebben feedback gekregen van gast frontenders:
+https://github.com/fdnd-agency/embassyofthefreemind/issues/240
 
 
 
