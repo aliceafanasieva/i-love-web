@@ -1065,8 +1065,13 @@ export const client = createClient({
 
 In de sprint Don't Repeat Yourself ligt de focus op het hergebruik van code en ontwerpelementen door middel van een component library. Je leert hoe je herbruikbare stukken code op een systematische manier ontsluit zodat jij en jouw mede frontenders ze kunnen gebruiken in andere projecten.
 
-### Component library
+### Component as a Building Block
 
+Workshop over component maken door Koop. 
+
+#### Morphological chart gemaakt:
+
+<img width="1208" height="888" alt="image" src="https://github.com/user-attachments/assets/3fd7e1e9-169e-404f-95ab-f29e3d2d1e35" />
 
 
 ### Portfolio sessies met Cyd 3/4
