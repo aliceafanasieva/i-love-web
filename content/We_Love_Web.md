@@ -1,9 +1,3 @@
----
-title: We Love Web
-date: 2025-09-12
-description: Gastcollege over frontend bij Funda
----
-
 # We ♥ Web 12-09-2025
 
 ## Spreker: Tolga Doğaner, frontend developer bij Funda
