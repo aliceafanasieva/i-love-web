@@ -1158,6 +1158,14 @@ Deze sprint 3 keer in vorm van coding spike verschillende dingen uitproberen met
 - [x] Wat ga je leren in GSAP?
 - [x] Een branch maken voor creative coding sprike
 
+### Sprintplanning 
+
+Wij hebben met teamgenoten een sprintplanning bepaald voor sprint 17, waar onze focuspunten liggen en doelen:
+
+
+
+### GSAP Animatie
+
 Leren GSAP zo ver je kan:
 
 https://gsap.com/
