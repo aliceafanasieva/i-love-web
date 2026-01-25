@@ -1107,7 +1107,45 @@ GSAP/Framer motion, een plek hebt waar je jouw experimenten kan laten zien.
 - Handig om in het Engels te schrijven:
   - Video/screenshot van je werk
   - Een artikel dat je hebt geschreven (docenten lezen met liefde je artikel voordat je het deelt)
+ 
+# 11-11-2025
 
+Variaties Navigatie component uitgewerkt in Figma schetsen: https://www.figma.com/design/vYyn0VA1gtPuTUCGNuyqEG/Embassy-of-the-Free-Mind?node-id=983-66&t=cXRGv09KHHXoEQIY-1
+
+#### 1.
+<img width="1795" height="738" alt="image" src="https://github.com/user-attachments/assets/b59081f9-3413-434e-8498-e556765d8326" />
+
+#### 2.
+<img width="1517" height="1181" alt="image" src="https://github.com/user-attachments/assets/0e541fcf-6967-4392-8456-6a191a4404fe" />
+
+#### 3. 
+<img width="1226" height="1220" alt="image" src="https://github.com/user-attachments/assets/6e4ed7bd-755e-4c74-84e0-248e6f95e1a0" />
+
+# 12-11-2025
+
+## Container queries en user-preference queries
+
+Link naar tutorial over container queries: https://web.dev/articles/new-responsive#responsive_to_the_container.
+
+In mijn hero heb ik user preference queries gerbuikt (prefers-reduced-motion):
+
+```
+	@media (prefers-reduced-motion: reduce) {
+  .hero-slides img {
+    transition: none;
+  }
+
+  .hero-title {
+    animation: none;
+    transition: none;
+    opacity: 1; 
+  }
+
+  .arrow-btn {
+    transition: none;
+  }
+}
+```
 
 # 1-12-2025
 
