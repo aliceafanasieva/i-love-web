@@ -1,4 +1,4 @@
-# 1-09-2025
+<img width="1124" height="1014" alt="image" src="https://github.com/user-attachments/assets/f6bed328-5ae9-4f8b-84a8-f05f567c8164" /># 1-09-2025
 
 ## _Opdracht: Formuleer twee of drie leervragen als uitgangspunt voor deze sprint_
 
@@ -1160,9 +1160,9 @@ Deze sprint 3 keer in vorm van coding spike verschillende dingen uitproberen met
 
 ### Sprintplanning 
 
-Wij hebben met teamgenoten een sprintplanning bepaald voor sprint 17, waar onze focuspunten liggen en doelen:
+Wij hebben met teamgenoten een sprintplanning bepaald voor sprint 17, waar onze focuspunten liggen en doelen zijn, wanneer wij zelfstandig aan de slag mee gaan en waar als team moeten werken aan opdrachtgever project:
 
-
+<img width="1124" height="1014" alt="image" src="https://github.com/user-attachments/assets/1d8bafaf-ea03-4dc0-b570-b68586e2aae0" />
 
 ### GSAP Animatie
 
