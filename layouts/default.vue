@@ -10,12 +10,15 @@
       }
     ]
   })
+  onMounted(() => {
+    document.documentElement.classList.add('is-preload')
+  })
 </script>
 
 
 <template>
   <div class="container">
-    <header>
+    <header class="site-header">
       <div class="logo">
         <NuxtLink to="/">
           <img src="/cross.svg" alt="Logo" class="logo-img" />
@@ -55,6 +58,11 @@
     align-items: center;
     padding: 1rem 2rem;
     border-bottom: 1px solid #000000;
+  }
+
+  .site-header {
+    transform: translateY(-0.75rem);
+    will-change: transform, opacity;
   }
 
   .logo-img {
