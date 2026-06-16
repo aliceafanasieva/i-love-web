@@ -37,4 +37,11 @@ import Accordion from '@/components/Accordion.vue'
     padding-left: 4rem;
     margin-bottom: 3rem;
   }
+
+  @media (min-width: 1700px) {
+    .heading-container h1 {
+      padding-left: 0;
+      padding-inline: clamp(8rem, 10vw, 14rem);
+    }
+  }
 </style>

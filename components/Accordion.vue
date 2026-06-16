@@ -74,7 +74,11 @@ header {
   text-transform: uppercase;
   padding: 0rem 4rem;
   cursor: pointer;
+}
 
+.accordion-header h2 {
+	min-width: 0;
+	margin: 0;
 }
 
 .icon {
@@ -88,6 +92,34 @@ header {
 .accordion-content {
   padding: 0rem 4rem;
   animation: fadeIn 0.3s ease;
+}
+
+@media (max-width: 700px) {
+	.accordion-header {
+		padding-inline: 1.5rem;
+		gap: 1rem;
+	}
+
+	.accordion-header h2 {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.icon {
+		flex-shrink: 0;
+	}
+	.accordion-content {
+		padding-inline: 1.5rem;
+	}
+}
+
+@media (min-width: 1700px) {
+  .accordion-header,
+  .accordion-content {
+    padding: 0;
+    padding-inline: clamp(8rem, 10vw, 14rem);
+  }
 }
 
 @keyframes fadeIn {
