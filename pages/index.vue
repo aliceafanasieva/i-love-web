@@ -26,7 +26,7 @@
 			<div class="about-grid">
 				<h1 class="about-title">About Me</h1>
 
-				<div class="about-content">
+				<article class="about-content">
 					<p>
 						Hi! My name is Alisa. I am a multidisciplinary designer based in the Netherlands, working between graphic design, web design, frontend development, UX/UI design and motion design.
 						<br><br>
@@ -36,9 +36,15 @@
 						<br><br>
 						As a detail-oriented designer, I always try to create digital experiences that are not only functional, but also pleasant, expressive and visually memorable.
 					</p>
-				</div>
+				</article>
 
-				<div class="photo-box">* my picture *</div>
+				<div class="photo-box">
+					<img
+						src="/images/my-picture.png"
+						alt="my picture"
+						class="about-photo"
+					>
+				</div>
 			</div>
 		</section>
 
