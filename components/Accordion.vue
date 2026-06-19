@@ -72,7 +72,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  padding: 0rem 4rem;
+  padding: 1.5rem 4rem;
   cursor: pointer;
 }
 
@@ -94,9 +94,9 @@ header {
   animation: fadeIn 0.3s ease;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 	.accordion-header {
-		padding-inline: 1.5rem;
+		padding-inline: 2rem;
 		gap: 1rem;
 	}
 
@@ -109,15 +109,15 @@ header {
 	.icon {
 		flex-shrink: 0;
 	}
+  
 	.accordion-content {
-		padding-inline: 1.5rem;
+		padding-inline: 2rem;
 	}
 }
 
 @media (min-width: 1700px) {
   .accordion-header,
   .accordion-content {
-    padding: 0;
     padding-inline: clamp(8rem, 10vw, 14rem);
   }
 }

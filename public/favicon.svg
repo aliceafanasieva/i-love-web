@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<linearGradient id="pink-gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#ffdbef" />
+			<stop offset="45%" stop-color="#ff8dc4" />
+			<stop offset="100%" stop-color="#de569f" />
+		</linearGradient>
+	</defs>
+
+	<path
+		d="M23 6H41V23H58V41H41V58H23V41H6V23H23V6Z"
+		fill="url(#pink-gradient)"
+	/>
+</svg>

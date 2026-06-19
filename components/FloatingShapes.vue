@@ -1,5 +1,10 @@
 <template>
-  <div ref="layerEl" class="floating-layer" aria-hidden="true"></div>
+  <div
+    v-if="!shouldReduceMotion"
+    ref="layerEl"
+    class="floating-layer"
+    aria-hidden="true"
+  ></div>
 </template>
 
 <script setup>
@@ -9,6 +14,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const layerEl = ref(null)
+const shouldReduceMotion = ref(false)
 
 const svgMarkup = [
   `<svg viewBox="0 0 900 900" overflow="visible">
@@ -183,6 +189,14 @@ function rebuildFloatingShapes() {
 
 onMounted(function () {
   if (import.meta.server) return
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  shouldReduceMotion.value = reduced
+
+  if (reduced) {
+    return
+  }
+
   if (!layerEl.value) return
 
   previousScrollY = window.scrollY
@@ -237,3 +251,14 @@ onBeforeUnmount(function () {
   floatingShapes.length = 0
 })
 </script>
+
+<style scoped>
+@media (prefers-reduced-motion: reduce) {
+  .floating-layer,
+  .floating-shape {
+    display: none;
+    animation: none;
+    transform: none;
+  }
+}
+</style>

@@ -72,6 +72,16 @@ let ctx
 onMounted(async () => {
 	if (import.meta.server) return
 
+	if ('scrollRestoration' in window.history) {
+		window.history.scrollRestoration = 'manual'
+	}
+
+	window.scrollTo(0, 0)
+
+	requestAnimationFrame(function () {
+		window.scrollTo(0, 0)
+	})
+
 	const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 	if (reduced) {
@@ -152,13 +162,13 @@ p {
 
 	display: grid;
 	grid-template-columns:
-		minmax(2rem, 1fr)
-		minmax(0, clamp(48rem, 78cqi, 78rem))
-		minmax(2rem, 1fr);
+		1.25rem
+		minmax(0, 1fr)
+		1.25rem;
 	grid-template-areas:
 		". intro .";
 
-	min-height: 90vh;
+	min-height: 85svh;
 	overflow: hidden;
 }
 
@@ -172,13 +182,14 @@ p {
 	grid-template-areas:
 		"title"
 		"text";
-	justify-items: center;
 	align-content: center;
+	justify-items: start;
 
 	width: 100%;
-	min-height: 90vh;
+	min-height: 85svh;
+	padding: 5rem 0 4rem;
 
-	text-align: center;
+	text-align: left;
 }
 
 .cross-parallax {
@@ -187,7 +198,7 @@ p {
 	align-self: center;
 
 	z-index: 0;
-	width: clamp(16rem, 22cqi, 19rem);
+	width: clamp(18rem, 70cqi, 24rem);
 	pointer-events: none;
 
 	will-change: translate;
@@ -201,39 +212,56 @@ p {
 
 .intro h1 {
 	grid-area: title;
-	justify-self: center;
+	justify-self: start;
 	align-self: center;
 
 	z-index: 1;
+	width: 100%;
+	max-width: 32rem;
 	margin: 0;
-	max-width: 100%;
+
+	display: grid;
+	grid-template-rows: auto auto;
+	row-gap: 3.5rem;
 
 	text-transform: uppercase;
-	text-align: center;
-	font-size: clamp(4.5rem, 7cqi, 5.6rem);
-	line-height: 0.95;
+	text-align: left;
+	font-size: clamp(2.5rem, 11cqi, 4rem);
+	line-height: 1.05;
+	white-space: normal;
+}
+
+.name-row {
+	display: block;
 	white-space: nowrap;
+}
+
+.name-row-first,
+.name-row-second {
+	justify-self: start;
+	transform: none;
 }
 
 .decorative {
 	font-family: "Stezhok", serif;
-	font-size: clamp(5.5rem, 14cqi, 12rem);
+	font-size: clamp(7rem, 16cqi, 8.5rem);
 	margin: 0;
 	line-height: 1rem;
 }
 
 .intro p {
 	grid-area: text;
-	justify-self: center;
+	justify-self: start;
 
 	z-index: 1;
-	max-width: 62rem;
-	margin: clamp(2rem, 4cqi, 3rem) 0 0;
+	width: 100%;
+	max-width: 26rem;
+	margin: clamp(7rem, 20cqi, 10rem) 0 0;
 
-	text-align: center;
+	text-align: left;
 }
 
-@container intro (max-width: 900px) {
+@media (min-width: 601px) {
 	.intro-container {
 		grid-template-columns:
 			minmax(2rem, 1fr)
@@ -245,11 +273,7 @@ p {
 
 	.intro {
 		min-height: 90svh;
-
-		display: grid;
-		grid-template-areas:
-			"title"
-			"text";
+		padding: 0;
 
 		align-content: center;
 		justify-items: center;
@@ -258,21 +282,15 @@ p {
 	}
 
 	.intro h1 {
+		justify-self: center;
 		width: 100%;
 		max-width: 44rem;
 
-		display: grid;
-		grid-template-rows: auto auto;
 		row-gap: 4rem;
 
 		font-size: clamp(4rem, 8.5cqi, 5.3rem);
 		line-height: 1;
-		white-space: normal;
-	}
-
-	.name-row {
-		display: block;
-		white-space: nowrap;
+		text-align: center;
 	}
 
 	.name-row-first {
@@ -303,71 +321,58 @@ p {
 	}
 }
 
-@container intro (max-width: 600px) {
+@media (min-width: 901px) {
 	.intro-container {
 		grid-template-columns:
-			1.25rem
-			minmax(0, 1fr)
-			1.25rem;
+			minmax(2rem, 1fr)
+			minmax(0, clamp(48rem, 78cqi, 78rem))
+			minmax(2rem, 1fr);
 
-		min-height: 85svh;
+		min-height: 90vh;
 	}
 
 	.intro {
-		min-height: 85svh;
+		min-height: 85vh;
+		justify-items: center;
 
-		display: grid;
-		grid-template-areas:
-			"title"
-			"text";
-
-		align-content: center;
-		justify-items: start;
-
-		padding: 5rem 0 4rem;
-		text-align: left;
+		text-align: center;
 	}
 
 	.intro h1 {
-		width: 100%;
-		max-width: 32rem;
+		max-width: 100%;
 
-		display: grid;
-		grid-template-rows: auto auto;
-		row-gap: 3.5rem;
+		display: block;
 
-		font-size: clamp(2.5rem, 11cqi, 4rem);
-		line-height: 1.05;
-		white-space: normal;
-		text-align: left;
+		font-size: clamp(4.5rem, 7cqi, 5.6rem);
+		line-height: 0.95;
+		white-space: nowrap;
 	}
 
 	.name-row {
-		display: block;
-		white-space: nowrap;
+		display: inline;
+		white-space: normal;
 	}
 
 	.name-row-first,
 	.name-row-second {
-		justify-self: start;
+		justify-self: auto;
 		transform: none;
 	}
 
 	.decorative {
-		font-size: clamp(7rem, 16cqi, 8.5rem);
-		line-height: 1rem;
+		font-size: clamp(5.5rem, 14cqi, 12rem);
 	}
 
 	.intro p {
-		width: 100%;
-		max-width: 26rem;
-		margin: clamp(7rem, 20cqi, 10rem) 0 0;
+		justify-self: center;
+		max-width: 62rem;
+		margin: clamp(2rem, 4cqi, 3rem) 0 0;
 
-		text-align: left;
+		text-align: center;
 	}
 
 	.cross-parallax {
-		width: clamp(18rem, 70cqi, 24rem);
+		width: clamp(16rem, 22cqi, 19rem);
 	}
 }
 
@@ -419,8 +424,8 @@ p {
 	container: about / inline-size;
 	position: relative;
 	z-index: 1;
+
 	width: 100%;
-	min-height: 100vh;
 	background-color: var(--dark-pink-background);
 }
 
@@ -430,34 +435,32 @@ p {
 	--_photo-max: 48rem;
 
 	display: grid;
-	grid-template-columns:
-		minmax(0, var(--_text-column))
-		minmax(var(--_photo-min), 1fr);
+	grid-template-columns: 1fr;
 	grid-template-areas:
-		"title title"
-		"text photo";
-
-	column-gap: clamp(3rem, 8cqi, 8rem);
-	row-gap: clamp(3rem, 6cqi, 5rem);
+		"title"
+		"photo"
+		"text";
 
 	width: 100%;
-	min-height: 100vh;
-	padding: clamp(4rem, 8cqi, 7rem) clamp(3rem, 7cqi, 6rem);
+	min-height: auto;
+	padding-block: 3rem 4rem;
+	padding-inline: var(--section-padding-inline);
 
-	align-items: center;
+	row-gap: 2.5rem;
+	align-items: start;
 }
 
 .about-title {
 	grid-area: title;
 	margin: 0;
-	font-size: clamp(4rem, 8cqi, 6rem);
+
+	font-size: clamp(3.2rem, 13cqi, 4.2rem);
 	line-height: 1;
 	font-weight: 400;
 }
 
 .about-content {
 	grid-area: text;
-	align-self: center;
 }
 
 .about-content p {
@@ -467,11 +470,9 @@ p {
 
 .photo-box {
 	grid-area: photo;
-	align-self: start;
-	justify-self: end;
 
 	width: 100%;
-	max-width: var(--_photo-max);
+	max-width: none;
 	aspect-ratio: 1 / 0.92;
 
 	background-color: white;
@@ -481,73 +482,10 @@ p {
 	font-size: clamp(1rem, 1.6cqi, 1.25rem);
 }
 
-/* Experimental CSS if() enhancement, normal @container rules are used as fallback */
-@supports (grid-template-columns: if(media(width > 900px): 1fr 1fr; else: 1fr)) {
+@media (min-width: 521px) {
 	.about-grid {
-    grid-template-columns: if(
-      media(width > 900px): minmax(0, var(--_text-column)) minmax(var(--_photo-min), 1fr);
-      else: 1fr;
-    );
-
-		grid-template-areas: if(
-			media(width > 900px): "title title" "text photo";
-			else: "title" "photo" "text";
-		);
-
-		column-gap: if(
-			media(width > 900px): clamp(3rem, 8cqi, 8rem);
-			else: 0;
-		);
-
-		row-gap: if(
-			media(width > 900px): clamp(3rem, 6cqi, 5rem);
-			else: clamp(2rem, 6cqi, 4rem);
-		);
-
-		min-height: if(
-			media(width > 900px): 100vh;
-			else: auto;
-		);
-
-		padding: if(
-			media(width > 900px): clamp(4rem, 8cqi, 7rem) clamp(3rem, 7cqi, 6rem);
-			else: clamp(3rem, 8cqi, 5rem) clamp(2rem, 6cqi, 3rem);
-		);
-
-		align-items: if(
-			media(width > 900px): center;
-			else: start;
-		);
-	}
-
-  .photo-box {
-    width: 100%;
-
-    max-width: if(
-      media(width > 900px): var(--_photo-max);
-      else: 35rem;
-    );
-  }
-}
-
-@container about (min-width: 1700px) {
-	.about-grid {
-		padding-inline: clamp(8rem, 10cqi, 14rem);
-	}
-}
-
-@container about (max-width: 900px) {
-	.about-grid {
-		grid-template-columns: 1fr;
-		grid-template-areas:
-			"title"
-			"photo"
-			"text";
-
-		min-height: auto;
-		padding: clamp(3rem, 8cqi, 5rem) clamp(2rem, 6cqi, 3rem);
+		padding-block: clamp(3rem, 8cqi, 5rem);
 		row-gap: clamp(2rem, 6cqi, 4rem);
-		align-items: start;
 	}
 
 	.about-title {
@@ -557,57 +495,75 @@ p {
 	.photo-box {
 		width: 100%;
 		max-width: 35rem;
-		aspect-ratio: 1 / 0.92;
-    justify-self: stretch;
-	}
-
-	.about-content p {
-		max-width: 42rem;
-		margin: 0;
+		justify-self: stretch;
 	}
 }
 
-@container about (max-width: 520px) {
+@media (min-width: 901px) {
+	.about-container {
+		min-height: 100vh;
+	}
+
 	.about-grid {
-		padding: 3rem 2rem 4rem;
-		row-gap: 2.5rem;
+		grid-template-columns:
+			minmax(0, var(--_text-column))
+			minmax(var(--_photo-min), 1fr);
+		grid-template-areas:
+			"title title"
+			"text photo";
+
+		column-gap: clamp(3rem, 8cqi, 8rem);
+		row-gap: clamp(3rem, 6cqi, 5rem);
+
+		min-height: 100vh;
+		padding-block: clamp(4rem, 8cqi, 7rem);
+
+		align-items: center;
 	}
 
 	.about-title {
-		font-size: clamp(3.2rem, 13cqi, 4.2rem);
+		font-size: clamp(4rem, 8cqi, 6rem);
+	}
+
+	.about-content {
+		align-self: center;
 	}
 
 	.photo-box {
-		max-width: none;
-		width: 100%;
+		align-self: start;
+		justify-self: end;
+
+		max-width: var(--_photo-max);
 	}
 }
 
 /* ---------------- ABOUT PARALLAX ---------------- */
 
-.about-title,
-.about-content,
-.photo-box {
-	will-change: translate;
-}
-
-@supports (animation-timeline: view()) {
-	.about-container {
-		view-timeline-name: --about-scroll;
-		view-timeline-axis: block;
-	}
-
+@media (min-width: 901px) {
 	.about-title,
-	.about-content {
-		animation: aboutTextParallax linear both;
-		animation-timeline: --about-scroll;
-		animation-range: entry 0% exit 100%;
+	.about-content,
+	.photo-box {
+		will-change: translate;
 	}
 
-	.photo-box {
-		animation: aboutPhotoParallax linear both;
-		animation-timeline: --about-scroll;
-		animation-range: entry 0% exit 100%;
+	@supports (animation-timeline: view()) {
+		.about-container {
+			view-timeline-name: --about-scroll;
+			view-timeline-axis: block;
+		}
+
+		.about-title,
+		.about-content {
+			animation: aboutTextParallax linear both;
+			animation-timeline: --about-scroll;
+			animation-range: entry 0% exit 100%;
+		}
+
+		.photo-box {
+			animation: aboutPhotoParallax linear both;
+			animation-timeline: --about-scroll;
+			animation-range: entry 0% exit 100%;
+		}
 	}
 }
 
@@ -643,10 +599,13 @@ p {
 
 .contact {
 	container: contact / inline-size;
-	min-height: 60vh;
+
+	min-height: auto;
+	padding-block: 3rem;
+	padding-inline: var(--section-padding-inline);
+
 	background-color: #212121;
 	color: white;
-	padding: clamp(3rem, 7cqi, 5rem);
 }
 
 .contact-content {
@@ -659,40 +618,43 @@ p {
 .contact h1 {
 	margin-top: 0;
 	margin-bottom: clamp(2rem, 5cqi, 3rem);
-	font-size: clamp(2.5rem, 8cqi, 5.6rem);
+
+	font-size: clamp(2.4rem, 15cqi, 3.5rem);
 }
 
 .contact ul {
 	list-style: none;
 	margin-top: 1rem;
 	padding: 0;
-	line-height: 3rem;
+
+	line-height: 2rem;
 }
 
 .contact li {
 	display: grid;
-	grid-template-columns: 8rem 1fr;
-	gap: 1rem;
+	grid-template-columns: 1fr;
+	gap: 0.25rem;
+	margin-bottom: 1rem;
 }
 
-@container contact (max-width: 600px) {
+@media (min-width: 601px) {
 	.contact {
-		min-height: auto;
-		padding: 3rem 1rem;
+		min-height: 60vh;
+		padding-block: clamp(3rem, 7cqi, 5rem);
 	}
 
 	.contact h1 {
-		font-size: clamp(2.4rem, 15cqi, 3.5rem);
+		font-size: clamp(2.5rem, 8cqi, 5.6rem);
 	}
 
 	.contact ul {
-		line-height: 2rem;
+		line-height: 3rem;
 	}
 
 	.contact li {
-		grid-template-columns: 1fr;
-		gap: 0.25rem;
-		margin-bottom: 1rem;
+		grid-template-columns: 8rem 1fr;
+		gap: 1rem;
+		margin-bottom: 0;
 	}
 }
 

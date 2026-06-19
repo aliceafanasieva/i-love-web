@@ -33,6 +33,16 @@
   --font-size-xxl: clamp(6rem, 18vw, 12rem);
 
   --line-height-body: 1.8;
+
+  --section-padding-inline: 4rem;
+
+  @media (max-width: 900px) {
+    --section-padding-inline: 2rem;
+  }
+
+  @media (min-width: 1700px) {
+    --section-padding-inline: clamp(8rem, 10vw, 14rem);
+  }
 }
 
 *,

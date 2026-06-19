@@ -57,112 +57,134 @@ onBeforeUnmount(function () {
 
 <style scoped>
 .container {
-  font-family: var(--font-body), sans-serif;
-  color: var(--dark-text-color);
-  background-color: var(--light-background-color);
+	font-family: var(--font-body), sans-serif;
+	color: var(--dark-text-color);
+	background-color: var(--light-background-color);
 }
 
 .site-header,
 main {
-  position: relative;
-  z-index: 1;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #000000;
+	position: relative;
+	z-index: 1;
 }
 
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-  min-height: 3rem;
-  padding: 1.5rem 3rem;
-  border-bottom: 1px solid #000000;
+	min-height: 3rem;
+	padding: 1rem;
+	border-bottom: 1px solid #000000;
 
-  background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
+	background-color: rgba(255, 255, 255, 0);
+	backdrop-filter: blur(0px);
+	-webkit-backdrop-filter: blur(0px);
 
-  transition:
-    min-height 0.35s ease,
-    padding 0.35s ease,
-    background-color 0.35s ease,
-    backdrop-filter 0.35s ease,
-    -webkit-backdrop-filter 0.35s ease,
+	transition:
+		min-height 0.35s ease,
+		padding 0.35s ease,
+		background-color 0.35s ease,
+		backdrop-filter 0.35s ease,
+		-webkit-backdrop-filter 0.35s ease;
 }
 
 .site-header.is-scrolled {
-  min-height: 4.5rem;
-  padding: 0.75rem 3rem;
+	min-height: 4rem;
+	padding: 0.75rem 1rem;
 
-  background-color: rgba(255, 255, 255, 0.45);
-  backdrop-filter: blur(18px) saturate(170%);
-  -webkit-backdrop-filter: blur(18px) saturate(170%);
-  border-bottom: none;
+	background-color: rgba(255, 255, 255, 0.45);
+	backdrop-filter: blur(18px) saturate(170%);
+	-webkit-backdrop-filter: blur(18px) saturate(170%);
+	border-bottom: none;
 
-  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 1px 24px rgba(0, 0, 0, 0.08);
 }
 
 .logo-img {
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-  transition: transform 0.2s ease, width 0.35s ease, height 0.35s ease;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+
+	transition:
+		transform 0.2s ease,
+		width 0.35s ease,
+		height 0.35s ease;
 }
 
 .site-header.is-scrolled .logo-img {
-  width: 2rem;
-  height: 2rem;
+	width: 2rem;
+	height: 2rem;
 }
 
 .logo-img:hover {
-  transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 .nav-links {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 1rem;
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: var(--dark-text-color);
-  transition: color 0.2s ease, font-size 0.35s ease;
+	font-size: 0.95rem;
+	text-decoration: none;
+	color: var(--dark-text-color);
+
+	transition:
+		color 0.2s ease,
+		font-size 0.35s ease;
 }
 
 .nav-links a:hover {
-  color: var(--accent-color);
+	color: var(--accent-color);
 }
 
-@media (max-width: 768px) {
-  header {
-    padding: 1rem;
-  }
+@media (min-width: 769px) {
+	.site-header {
+		min-height: 3rem;
+		padding: 1.5rem 3rem;
+	}
 
-  .nav-links {
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
+	.site-header.is-scrolled {
+		min-height: 4.5rem;
+		padding: 0.75rem 3rem;
+	}
 
-  .nav-links a {
-    font-size: 0.95rem;
-  }
+	.logo-img {
+		width: 32px;
+		height: 32px;
+	}
 
-  .logo-img {
-    width: 28px;
-    height: 28px;
-  }
+	.nav-links {
+		flex-wrap: nowrap;
+		gap: 1.5rem;
+	}
+
+	.nav-links a {
+		font-size: 1rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.site-header,
+	.logo-img,
+	.nav-links a {
+		transition: none;
+	}
+
+	.logo-img:hover {
+		transform: none;
+	}
 }
 </style>
